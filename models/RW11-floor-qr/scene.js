@@ -34,7 +34,7 @@ RP.run(function (tl, RP) {
   const bh = box.offsetHeight;
   tl.fromTo(beam, { y: u * 2, opacity: 0 }, { y: bh - u * 6, opacity: 1, duration: 1.1, ease: "sine.inOut", yoyo: true, repeat: Math.floor((D - 2.4) / 1.1) - 1 }, 2.3);
   const fw = RP.words(RP.$("#floor")), sw = RP.words(RP.$("#sub"));
-  tl.fromTo(".badge", { opacity: 0, letterSpacing: "1em" }, { opacity: 1, letterSpacing: "0.4em", duration: 0.7 }, 0.3);
+  tl.fromTo(".badge", { opacity: 0, scaleX: 1.4 }, { opacity: 1, scaleX: 1, duration: 0.7 }, 0.3);
   tl.fromTo(fw, { yPercent: 120 }, { yPercent: 0, duration: 0.7, ease: "power4.out", stagger: 0.1 }, 0.45);
   tl.fromTo(sw, { yPercent: 120 }, { yPercent: 0, duration: 0.6, ease: "power4.out", stagger: 0.08 }, 0.8);
   tl.fromTo("#scan", { scale: 0.5, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2.2)" }, 1.2);

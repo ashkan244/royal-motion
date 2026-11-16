@@ -64,7 +64,7 @@ RP.run(function (tl, RP) {
   tl.fromTo(faWords, { yPercent: 115 }, { yPercent: 0, duration: 0.85, ease: "power4.out", stagger: 0.09 }, tName);
   tl.fromTo(rule, { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power3.out", transformOrigin: (i) => (i ? "0% 50%" : "100% 50%") }, tName + 0.35);
   tl.fromTo(dia, { scale: 0, rotation: -135 }, { scale: 1, rotation: 45, duration: 0.6, ease: "back.out(2)" }, tName + 0.3);
-  tl.fromTo("#enName", { opacity: 0, letterSpacing: "0.9em" }, { opacity: 1, letterSpacing: "0.3em", duration: 1.1, ease: "power3.out" }, tName + 0.45);
+  tl.fromTo("#enName", { opacity: 0, scaleX: 1.5 }, { opacity: 1, scaleX: 1, duration: 1.1, ease: "power3.out" }, tName + 0.45);
 
   motes.forEach((m) => {
     const d = m._d;
