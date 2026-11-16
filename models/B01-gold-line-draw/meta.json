@@ -1,0 +1,12 @@
+{
+  "id": "B01",
+  "slug": "gold-line-draw",
+  "title": "خط طلایی — ترسیم لوگو",
+  "group": "brand",
+  "theme": "brand",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["lux_pad", 0.5], "cues": [["riser_soft", 0.0, 0.45], ["shimmer", 2.15, 0.7], ["impact_soft", 2.3, 0.7], ["whoosh_soft", 2.45, 0.35]] },
+    "outro": { "bed": ["lux_pad", 0.5], "cues": [["riser_soft", 0.0, 0.35], ["shimmer", 1.35, 0.6], ["impact_soft", 1.45, 0.55], ["whoosh_soft", 2.6, 0.4], ["pop_soft", 3.3, 0.4], ["pop_soft", 3.6, 0.35], ["pop_soft", 3.9, 0.3]] }
+  }
+}

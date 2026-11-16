@@ -1,0 +1,10 @@
+#stage { background: radial-gradient(ellipse at 50% 55%, #FFE36B 0%, var(--y) 40%, #E0A800 100%); }
+.beam { position: absolute; top: -10%; width: 60%; height: 130%; background: linear-gradient(180deg, rgba(255,255,255,.55), rgba(255,255,255,0) 85%);
+  clip-path: polygon(46% 0, 54% 0, 100% 100%, 0 100%); opacity: .35; z-index: 5; }
+#curtain { z-index: 80; background:
+  linear-gradient(180deg, rgba(0,0,0,0) 80%, rgba(0,0,0,.6) 100%),
+  repeating-linear-gradient(90deg, #070707 0, #1d1d1d calc(var(--u) * 3), #2a2a2a calc(var(--u) * 4), #0a0a0a calc(var(--u) * 7)); }
+#curtain .trim { position: absolute; left: 0; right: 0; bottom: calc(var(--u) * -1.6); height: calc(var(--u) * 5);
+  background: linear-gradient(var(--y), var(--y)) top / 100% 60% no-repeat, radial-gradient(circle at 50% 0, var(--y) calc(var(--u) * 1.5), transparent calc(var(--u) * 1.6)) 0 60% / calc(var(--u) * 4) 40% repeat-x; }
+#curtain .msg { position: absolute; left: 0; right: 0; top: 50%; text-align: center; color: var(--y); font-size: calc(var(--u) * 7); transform: translateY(-50%); }
+#spot { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(255,235,150,.35) 0%, rgba(255,235,150,0) 70%); z-index: 81; }

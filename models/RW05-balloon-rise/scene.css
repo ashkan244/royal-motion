@@ -1,0 +1,7 @@
+#bg { background: radial-gradient(ellipse at 50% 40%, #fffbe9 0%, var(--paper) 50%, #f3e4b0 100%); }
+#wipe { position: absolute; left: 50%; top: 50%; border-radius: 50%; background: var(--y); }
+.bal { position: absolute; z-index: 70; }
+.bal .b { position: relative; border-radius: 50% 50% 48% 48% / 56% 56% 44% 44%; }
+.bal .b::after { content: ""; position: absolute; left: 22%; top: 14%; width: 24%; height: 18%; border-radius: 50%; background: rgba(255,255,255,.6); transform: rotate(-25deg); }
+.bal .k { width: 0; height: 0; margin: -2px auto 0; border-left: calc(var(--u)*.9) solid transparent; border-right: calc(var(--u)*.9) solid transparent; }
+.bal svg { display: block; margin: 0 auto; }

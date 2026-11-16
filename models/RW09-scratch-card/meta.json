@@ -1,0 +1,6 @@
+{ "id": "RW09", "slug": "scratch-card", "title": "کارت خراش رویالی", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5.5, "outro": 7.5 },
+  "params": { "prize": "۵۰٪", "prizeLabel": "تخفیف رویالی" },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.45], "cues": [["whoosh",0.0,0.6],["scratch",0.6,0.8],["scratch",1.15,0.8],["scratch",1.7,0.7],["cash",2.0,0.7],["whoosh",2.4,0.7],["impact",2.6,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.45], "cues": [["whoosh",0.0,0.6],["scratch",0.6,0.8],["scratch",1.15,0.8],["scratch",1.7,0.7],["cash",2.0,0.7],["whoosh",2.7,0.7],["impact",2.9,0.8]] } } }

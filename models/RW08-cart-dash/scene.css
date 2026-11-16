@@ -1,0 +1,8 @@
+#bg { background: var(--y); }
+.spd { position: absolute; height: calc(var(--u) * .7); background: var(--k); border-radius: 99px; }
+#cartWrap { position: absolute; left: 50%; top: 50%; z-index: 40; }
+#cartWrap svg { width: calc(var(--u) * 46); height: calc(var(--u) * 38); }
+.bagx { position: absolute; font-family: var(--fa); font-weight: 700; color: var(--y); background: var(--k); border-radius: calc(var(--u) * 1); padding: 0 calc(var(--u) * 1.4) calc(var(--u) * .4);
+  font-size: calc(var(--u) * 4.2); white-space: nowrap; z-index: 39; }
+#sheet { background: var(--k); z-index: 45; }
+#sheet::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: calc(var(--u) * 3); background: var(--y); }

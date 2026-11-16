@@ -1,0 +1,5 @@
+{ "id": "RW13", "slug": "motorbike-prize", "title": "جایزه موتورسیکلت", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 6, "outro": 8 },
+  "audio": {
+    "intro": { "bed": ["tension", 0.4], "cues": [["engine",0.2,0.9],["whoosh",1.2,0.8],["impact",1.75,0.9],["shimmer",1.8,0.5],["whoosh",3.0,0.6],["impact",3.25,0.8],["rw_beat",3.25,0.6]] },
+    "outro": { "bed": ["tension", 0.4], "cues": [["engine",0.2,0.9],["whoosh",1.2,0.8],["impact",1.75,0.9],["shimmer",1.8,0.5],["whoosh",3.3,0.6],["impact",3.55,0.8],["rw_beat",3.55,0.6]] } } }

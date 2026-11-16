@@ -1,0 +1,6 @@
+{ "id": "RW03", "slug": "hanging-tags", "title": "برچسب‌های آویزان", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "params": { "tags": ["۲۰٪", "۳۰٪", "۵۰٪", "۴۰٪", "۱۵٪", "۲۵٪", "۳۵٪"] },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.55], "cues": [["whoosh_rev",0.0,0.5],["thump",0.45,0.5],["thump",0.55,0.4],["thump",0.65,0.4],["swish",1.85,0.6],["impact",2.15,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.55], "cues": [["whoosh_rev",0.0,0.5],["thump",0.45,0.5],["thump",0.55,0.4],["thump",0.65,0.4],["swish",2.25,0.6],["impact",2.55,0.8]] } } }

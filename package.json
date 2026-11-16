@@ -1,0 +1,15 @@
+{
+  "name": "royal-motion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Royal Pars Shopping Center — intro/outro motion graphics rendered with HyperFrames in GitHub Actions",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "render": "node scripts/render.mjs"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": {
+    "hyperframes": "0.9.56"
+  }
+}

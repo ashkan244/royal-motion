@@ -1,0 +1,12 @@
+{ "id": "RW11", "slug": "floor-qr", "title": "QR هر طبقه", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 8 },
+  "aspects": ["9x16", "16x9"],
+  "scripts": ["qrcode.js"],
+  "variants": [
+    { "tag": "g", "texts": { "floorName": "همکف", "floorUrl": "https://royalweek.ir/f/g", "floorShort": "royalweek.ir/f/g" } },
+    { "tag": "1", "texts": { "floorName": "طبقه ۱", "floorUrl": "https://royalweek.ir/f/1", "floorShort": "royalweek.ir/f/1" } },
+    { "tag": "2", "texts": { "floorName": "طبقه ۲", "floorUrl": "https://royalweek.ir/f/2", "floorShort": "royalweek.ir/f/2" } },
+    { "tag": "3", "texts": { "floorName": "طبقه ۳", "floorUrl": "https://royalweek.ir/f/3", "floorShort": "royalweek.ir/f/3" } },
+    { "tag": "4", "texts": { "floorName": "طبقه ۴", "floorUrl": "https://royalweek.ir/f/4", "floorShort": "royalweek.ir/f/4" } }
+  ],
+  "audio": { "intro": { "bed": ["rw_beat", 0.4], "cues": [["whoosh",0.1,0.6],["reel",0.9,0.4],["beep_hi",2.3,0.4],["shimmer",2.4,0.4]] } } }

@@ -1,0 +1,13 @@
+#bg { background: radial-gradient(ellipse at 50% 62%, #1e1a08 0%, #050505 60%); }
+#floor { position: absolute; left: -10%; right: -10%; height: 40%; bottom: 0;
+  background: linear-gradient(180deg, rgba(255,210,31,.0), rgba(255,210,31,.08)), repeating-linear-gradient(90deg, rgba(255,210,31,.14) 0 2px, transparent 2px calc(var(--u) * 8));
+  transform: perspective(calc(var(--u) * 40)) rotateX(60deg); transform-origin: 50% 100%; }
+#beam { position: absolute; left: 50%; top: 50%; width: 220%; height: 70%; transform-origin: 0% 50%;
+  background: radial-gradient(ellipse at 0% 50%, rgba(255,246,200,.75) 0%, rgba(255,210,31,.25) 25%, rgba(255,210,31,0) 60%); clip-path: polygon(0 45%, 100% 0, 100% 100%, 0 55%); }
+#bike { position: absolute; left: 50%; top: 50%; z-index: 20; }
+#bike svg { width: calc(var(--u) * 70); height: calc(var(--u) * 42); }
+#t1, #t2 { position: absolute; left: 0; right: 0; text-align: center; white-space: nowrap; z-index: 25; }
+#t1 { color: var(--y); font-size: calc(var(--u) * 11); }
+#t2 { color: #fff; font-size: calc(var(--u) * 4.6); font-family: var(--fa); font-weight: 700; direction: rtl; }
+#glare { position: absolute; width: calc(var(--u) * 16); height: calc(var(--u) * 16); border-radius: 50%; z-index: 22;
+  background: radial-gradient(circle, #fff 0%, rgba(255,240,180,.8) 20%, rgba(255,210,31,0) 70%); }

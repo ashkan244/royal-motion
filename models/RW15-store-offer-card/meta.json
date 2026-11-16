@@ -1,0 +1,6 @@
+{ "id": "RW15", "slug": "store-offer-card", "title": "کارت تخفیف هر فروشگاه (داده‌محور)", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 6 },
+  "aspects": ["9x16", "4x5"],
+  "variantsFrom": "data/offers.json",
+  "variants": [ { "tag": "sample", "texts": { "store": "نام فروشگاه", "offer": "۳۰٪", "offerNote": "روی همه محصولات", "floor": "طبقه ۲" } } ],
+  "audio": { "intro": { "bed": ["rw_beat", 0.5], "cues": [["whoosh",0.05,0.6],["impact",0.95,0.7],["cash",1.3,0.5],["pop",1.8,0.4],["whoosh",3.6,0.5],["impact",3.85,0.6]] } } }

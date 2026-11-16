@@ -1,0 +1,40 @@
+{
+  "colors": {
+    "navy": "#1B2250",
+    "navyDeep": "#0E1330",
+    "navyInk": "#090C22",
+    "gold": "#C9A45C",
+    "goldLight": "#ECCF92",
+    "goldDeep": "#9A7838",
+    "ivory": "#F6F0E3",
+    "wine": "#6E1F2E",
+    "rwYellow": "#FFD21F",
+    "rwAmber": "#FFB300",
+    "rwBlack": "#0A0A0A",
+    "rwInk": "#151515",
+    "rwPaper": "#FFF7DC"
+  },
+  "texts": {
+    "faName": "مرکز خرید رویال پارس",
+    "faShort": "رویال پارس",
+    "enName": "ROYAL PARS SHOPPING CENTER",
+    "enShort": "ROYAL PARS",
+    "ig": "@royalparsahvaz",
+    "igCta": "ما را دنبال کنید",
+    "address": "اهواز، کیانپارس، نبش خیابان ۹ شرقی",
+    "city": "اهواز",
+    "slogan": "یک خانواده، یک خانه",
+    "rwName": "رویال ویک",
+    "rwAlt": "هفته رویالی",
+    "rwEn": "ROYAL WEEK",
+    "rwS1": "این هفته رویالیه",
+    "rwS2": "این جمعه رویالیه",
+    "rwSite": "royalweek.ir",
+    "rwStart": "از ۲ آذر",
+    "rwFriday": "جمعه ۶ آذر",
+    "rwOff": "تخفیف",
+    "rwUpTo": "تا ۵۰٪ تخفیف",
+    "rwGame": "بازی رویالی",
+    "rwPrize": "جایزه بزرگ: موتورسیکلت"
+  }
+}

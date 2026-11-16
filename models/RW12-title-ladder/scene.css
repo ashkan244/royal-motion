@@ -1,0 +1,7 @@
+#bg { background: linear-gradient(160deg, #1a1606 0%, #050505 70%); }
+#head { position: absolute; left: 0; right: 0; text-align: center; color: #fff; font-size: calc(var(--u) * 5.4); white-space: nowrap; }
+#head b { color: var(--y); }
+.step { position: absolute; display: flex; align-items: center; justify-content: center; border-radius: calc(var(--u) * 1.6);
+  background: #1d1d1d; border: 2px solid rgba(255,210,31,.35); color: rgba(255,255,255,.55); font-family: var(--fa); font-weight: 700; direction: rtl; white-space: nowrap; }
+.step .lv { position: absolute; top: calc(var(--u) * -3.4); right: calc(var(--u) * 1.2); font-family: var(--en); font-size: calc(var(--u) * 1.6); letter-spacing: .3em; color: var(--y); }
+#crown { position: absolute; z-index: 30; width: calc(var(--u) * 11); height: calc(var(--u) * 8); }

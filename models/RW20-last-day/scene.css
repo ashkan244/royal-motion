@@ -1,0 +1,6 @@
+#bg { background: radial-gradient(ellipse at 50% 45%, #241d05 0%, #050505 60%); }
+#frame { position: absolute; inset: calc(var(--u) * 2.4); border: calc(var(--u) * 1.6) solid transparent; border-image: repeating-linear-gradient(-45deg, var(--y) 0 calc(var(--u) * 2), var(--k) calc(var(--u) * 2) calc(var(--u) * 4)) 20; }
+#clock { position: absolute; left: 50%; top: 50%; width: calc(var(--u) * 44); height: calc(var(--u) * 44); }
+#big { position: absolute; left: 0; right: 0; text-align: center; color: var(--y); font-size: calc(var(--u) * 15); white-space: nowrap; }
+#small { position: absolute; left: 0; right: 0; text-align: center; color: #fff; font-size: calc(var(--u) * 5.4); white-space: nowrap; }
+#small b { background: var(--y); color: var(--k); padding: 0 calc(var(--u) * 1.6) calc(var(--u) * .4); border-radius: calc(var(--u) * 1); }

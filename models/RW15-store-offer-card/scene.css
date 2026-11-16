@@ -1,0 +1,11 @@
+#bg { background: var(--y); }
+#bg::after { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(-45deg, rgba(0,0,0,.05) 0 calc(var(--u) * 3), transparent calc(var(--u) * 3) calc(var(--u) * 6)); }
+#card { position: absolute; left: 50%; top: 50%; width: calc(var(--u) * 80); background: var(--k); color: #fff; border-radius: calc(var(--u) * 4);
+  padding: calc(var(--u) * 6) calc(var(--u) * 5) calc(var(--u) * 5); text-align: center; direction: rtl; box-shadow: 0 calc(var(--u) * 3) 0 rgba(0,0,0,.25); }
+#card .top { display: flex; justify-content: space-between; align-items: center; font-family: var(--en); font-size: calc(var(--u) * 1.9); letter-spacing: .35em; color: var(--y); }
+#card .top .fl { font-family: var(--fa-body); font-weight: 700; letter-spacing: 0; font-size: calc(var(--u) * 3); background: var(--y); color: var(--k); padding: 0 calc(var(--u) * 1.6) calc(var(--u) * .3); border-radius: calc(var(--u) * 1); }
+#store { font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 9); margin: calc(var(--u) * 5) 0 calc(var(--u) * 2); line-height: 1.2; }
+#offer { display: inline-flex; align-items: center; justify-content: center; width: calc(var(--u) * 34); height: calc(var(--u) * 34); border-radius: 50%;
+  background: var(--y); color: var(--k); font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 13); direction: rtl; box-shadow: 0 0 0 calc(var(--u) * 1.4) var(--k), 0 0 0 calc(var(--u) * 2) var(--y); }
+#note { font-family: var(--fa-body); font-weight: 700; font-size: calc(var(--u) * 3.6); margin-top: calc(var(--u) * 3.4); color: rgba(255,255,255,.9); }
+#only { font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 3.8); margin-top: calc(var(--u) * 2.2); color: var(--y); }

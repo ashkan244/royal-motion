@@ -1,0 +1,6 @@
+{ "id": "RW14", "slug": "drum-beat", "title": "ضرب طبل", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 6, "outro": 8 },
+  "params": { "bpm": 100 },
+  "audio": {
+    "intro": { "bed": ["rw_drums", 0.8], "cues": [["boom",3.6,0.6]] },
+    "outro": { "bed": ["rw_drums", 0.8], "cues": [["boom",3.6,0.6]] } } }

@@ -1,0 +1,5 @@
+{ "id": "RW16", "slug": "neon-night", "title": "نئون شب‌های رویالی", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5.5, "outro": 7.5 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.45], "cues": [["neon",0.3,0.7],["neon",0.75,0.6],["neon",1.1,0.8],["shimmer_low",1.3,0.4],["whoosh",2.55,0.6],["impact",2.8,0.7]] },
+    "outro": { "bed": ["rw_beat", 0.45], "cues": [["neon",0.3,0.7],["neon",0.75,0.6],["neon",1.1,0.8],["shimmer_low",1.3,0.4],["whoosh",2.85,0.6],["impact",3.1,0.7]] } } }

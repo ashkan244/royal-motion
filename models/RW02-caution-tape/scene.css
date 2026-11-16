@@ -1,0 +1,10 @@
+#bg { background: radial-gradient(ellipse at 50% 50%, #241e06 0%, #0b0a06 55%, #000 100%); }
+.tape { position: absolute; left: 50%; top: 50%; height: calc(var(--u) * 9); display: flex; align-items: center; white-space: nowrap; overflow: hidden;
+  background: var(--y); box-shadow: 0 calc(var(--u)*1) calc(var(--u)*3) rgba(0,0,0,.6); z-index: 60; }
+.tape::before, .tape::after { content: ""; position: absolute; left: 0; right: 0; height: calc(var(--u) * 1.1);
+  background: repeating-linear-gradient(-45deg, var(--k) 0 calc(var(--u) * .8), var(--y) calc(var(--u) * .8) calc(var(--u) * 1.6)); }
+.tape::before { top: 0; } .tape::after { bottom: 0; }
+.tape .run { display: flex; align-items: center; gap: calc(var(--u) * 3); padding: 0 calc(var(--u) * 2); }
+.tape .fa { font-size: calc(var(--u) * 4.4); color: var(--k); }
+.tape .en { font-size: calc(var(--u) * 3); color: var(--k); letter-spacing: .2em; }
+.tape i { width: calc(var(--u) * 1.4); height: calc(var(--u) * 1.4); background: var(--k); transform: rotate(45deg); display: block; flex: none; }

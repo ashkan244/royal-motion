@@ -1,0 +1,6 @@
+{ "id": "RW12", "slug": "title-ladder", "title": "نردبان عنوان‌ها", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 6, "outro": 8 },
+  "params": { "titles": ["مهمان", "شوالیه", "شاهزاده", "پادشاه هفته"] },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.45], "cues": [["swish",0.2,0.5],["pop",0.9,0.5],["pop",1.45,0.55],["pop",2.0,0.6],["impact",2.55,0.7],["shimmer",2.6,0.6],["whoosh",3.1,0.6],["impact",3.35,0.7]] },
+    "outro": { "bed": ["rw_beat", 0.45], "cues": [["swish",0.2,0.5],["pop",0.9,0.5],["pop",1.45,0.55],["pop",2.0,0.6],["impact",2.55,0.7],["shimmer",2.6,0.6],["whoosh",3.4,0.6],["impact",3.65,0.7]] } } }

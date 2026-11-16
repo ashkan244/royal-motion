@@ -1,0 +1,7 @@
+#bg { background: #070707; }
+.ring { position: absolute; left: 50%; top: 50%; border-radius: 50%; border: calc(var(--u) * .8) solid var(--y); }
+.word { position: absolute; left: 0; right: 0; top: 50%; text-align: center; font-family: var(--fa); font-weight: 700; white-space: nowrap; direction: rtl; z-index: 10; }
+#bars { position: absolute; left: 8%; right: 8%; display: flex; align-items: flex-end; gap: calc(var(--u) * .7); height: calc(var(--u) * 12); }
+#bars i { flex: 1; background: var(--y); border-radius: 3px 3px 0 0; transform-origin: 50% 100%; }
+#live { position: absolute; left: 0; right: 0; text-align: center; font-family: var(--fa); font-weight: 700; color: #fff; font-size: calc(var(--u) * 4.4); white-space: nowrap; }
+#live b { color: var(--k); background: var(--y); padding: 0 calc(var(--u) * 1.4) calc(var(--u) * .3); border-radius: calc(var(--u) * 1); margin-left: calc(var(--u) * 1); }

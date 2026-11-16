@@ -1,0 +1,6 @@
+{ "id": "RW07", "slug": "receipt-print", "title": "فاکتور رویالی", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5.5, "outro": 7.5 },
+  "params": { "items": [["مد و پوشاک", "۳۰٪"], ["کیف و کفش", "۲۵٪"], ["عطر و آرایشی", "۲۰٪"], ["اسباب‌بازی", "۴۰٪"]] },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.4], "cues": [["printer",0.1,0.8],["printer",1.0,0.6],["thump",2.0,0.8],["paper",2.25,0.8],["impact",2.65,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.4], "cues": [["printer",0.1,0.8],["printer",1.0,0.6],["thump",2.0,0.8],["paper",2.6,0.8],["impact",3.0,0.8],["cash",4.3,0.5]] } } }

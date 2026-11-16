@@ -1,0 +1,5 @@
+{ "id": "RW17", "slug": "split-flap", "title": "تابلوی فرودگاهی", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5.5, "outro": 7.5 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.4], "cues": [["flap",0.2,0.8],["flap",1.0,0.7],["flap",1.7,0.7],["thump",2.3,0.6],["whoosh",2.6,0.6],["impact",2.85,0.7]] },
+    "outro": { "bed": ["rw_beat", 0.4], "cues": [["flap",0.2,0.8],["flap",1.0,0.7],["flap",1.7,0.7],["thump",2.3,0.6],["whoosh",2.9,0.6],["impact",3.15,0.7]] } } }

@@ -1,0 +1,9 @@
+node_modules/
+dist/
+out/
+site/
+stills/
+assets/private/
+assets/audio/
+.fonts_key
+*.log

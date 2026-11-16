@@ -1,0 +1,5 @@
+{ "id": "RW02", "slug": "caution-tape", "title": "نوار هشدار", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.6], "cues": [["swish",0.05,0.7],["swish",0.2,0.6],["swish",0.35,0.6],["whoosh",1.65,0.8],["impact",2.05,0.9]] },
+    "outro": { "bed": ["rw_beat", 0.6], "cues": [["swish",0.05,0.7],["swish",0.2,0.6],["swish",0.35,0.6],["whoosh",2.05,0.8],["impact",2.45,0.9],["pop",3.7,0.5],["pop",3.85,0.5]] } } }

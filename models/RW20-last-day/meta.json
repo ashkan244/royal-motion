@@ -1,0 +1,5 @@
+{ "id": "RW20", "slug": "last-day", "title": "آخرین روز", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5.5, "outro": 7.5 },
+  "audio": {
+    "intro": { "bed": ["tension", 0.5], "cues": [["tick",0.5,0.8],["tock",1.0,0.8],["tick",1.5,0.8],["tock",2.0,0.8],["beep_hi",2.4,0.6],["whoosh",2.6,0.6],["boom",2.85,0.8],["rw_beat",2.85,0.6]] },
+    "outro": { "bed": ["tension", 0.5], "cues": [["tick",0.5,0.8],["tock",1.0,0.8],["tick",1.5,0.8],["tock",2.0,0.8],["tick",2.5,0.8],["beep_hi",2.7,0.6],["whoosh",2.9,0.6],["boom",3.15,0.8],["rw_beat",3.15,0.6]] } } }

@@ -1,0 +1,9 @@
+{
+  "id": "RW01", "slug": "launch-countdown", "title": "شمارش معکوس افتتاحیه", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 14, "outro": 7 },
+  "params": { "from": 10 },
+  "audio": {
+    "intro": { "bed": ["tension", 0.55], "cues": [["tick",1,0.8],["tick",2,0.8],["tick",3,0.8],["tick",4,0.8],["tick",5,0.8],["tick",6,0.8],["tick",7,0.8],["beep",8,0.8],["beep",9,0.8],["beep",10,0.9],["riser",8.6,0.6],["boom",11.0,1.0],["shimmer",11.05,0.6],["rw_beat",11.0,0.75]] },
+    "outro": { "bed": ["tension", 0.4], "cues": [["beep",0.5,0.8],["beep",1.5,0.8],["beep",2.5,0.9],["boom",3.5,0.9],["rw_beat",3.5,0.7]] }
+  }
+}

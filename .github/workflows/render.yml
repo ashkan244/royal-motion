@@ -1,0 +1,139 @@
+name: render
+
+on:
+  workflow_dispatch:
+    inputs:
+      models:
+        description: 'Model IDs (e.g. "RW01,RW02", "RW*", "all")'
+        default: "all"
+      aspects:
+        description: 'Aspect ratios (comma list of 9x16,4x5,16x9)'
+        default: "9x16,4x5,16x9"
+      quality:
+        description: "HyperFrames quality preset"
+        type: choice
+        default: standard
+        options: [draft, standard, high, delivery]
+      release:
+        description: "Publish a GitHub Release + gallery when done"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths: ["models/**", "lib/**", "brand/**", "scripts/**"]
+
+concurrency:
+  group: render-${{ github.ref }}-${{ github.event_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  HYPERFRAMES_NO_UPDATE_CHECK: "1"
+  HYPERFRAMES_SKIP_SKILLS: "1"
+  HYPERFRAMES_RENDER_LOCK: "off"
+
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      models: ${{ steps.p.outputs.models }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - id: p
+        run: node scripts/plan.mjs "${{ github.event_name == 'push' && 'changed' || inputs.models }}" | tee -a "$GITHUB_OUTPUT"
+
+  render:
+    needs: plan
+    if: needs.plan.outputs.models != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        model: ${{ fromJson(needs.plan.outputs.models) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: System packages (ffmpeg, numpy)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg python3-numpy fonts-noto-color-emoji >/dev/null
+          ffmpeg -version | head -1
+      - name: Cache npm + browser
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/hyperframes
+            ~/.cache/puppeteer
+          key: hf-${{ runner.os }}-${{ hashFiles('package.json') }}
+      - name: Install HyperFrames
+        run: |
+          npm install --no-audit --no-fund
+          npx hyperframes browser ensure
+          npx hyperframes doctor || true
+      - name: Decrypt private fonts
+        env:
+          FONTS_KEY: ${{ secrets.FONTS_KEY }}
+        run: |
+          if [ -z "$FONTS_KEY" ]; then echo "::warning::FONTS_KEY missing — falling back to Vazirmatn"; exit 0; fi
+          printf '%s' "$FONTS_KEY" > /tmp/k
+          gpg --batch --quiet --pinentry-mode loopback --passphrase-file /tmp/k -d assets/fonts-private.tgz.gpg | tar -xzf - -C assets
+          rm -f /tmp/k
+          ls -la assets/private
+      - name: Synthesise sound kit
+        run: python3 scripts/synth.py assets/audio
+      - name: Build compositions
+        run: node scripts/build.mjs --only "${{ matrix.model }}" --aspects "${{ inputs.aspects || '9x16,4x5,16x9' }}"
+      - name: Render
+        run: node scripts/render.mjs --quality "${{ inputs.quality || 'standard' }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: r-${{ matrix.model }}
+          path: out/
+          retention-days: 30
+          if-no-files-found: warn
+
+  publish:
+    needs: [plan, render]
+    if: always() && github.event_name == 'workflow_dispatch' && inputs.release && needs.plan.outputs.models != '[]'
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - uses: actions/download-artifact@v4
+        with: { pattern: r-*, path: out, merge-multiple: true }
+      - name: Create release
+        id: rel
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="render-$(date -u +%Y%m%d)-${{ github.run_number }}"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          find out -name '*.mp4' -o -name '*.mov' -o -name '*.webm' | sort > files.txt
+          wc -l files.txt
+          gh release create "$TAG" --title "Royal Motion — $TAG" --notes "Rendered by run ${{ github.run_id }} (${{ inputs.models }}, ${{ inputs.quality }})."
+          xargs -a files.txt -n 20 gh release upload "$TAG" --clobber
+      - name: Build gallery
+        run: node scripts/gallery.mjs out site "${{ github.repository }}" "${{ steps.rel.outputs.tag }}"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - id: deploy
+        uses: actions/deploy-pages@v4

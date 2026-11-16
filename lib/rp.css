@@ -1,0 +1,72 @@
+/* ---------- fonts (private ones are decrypted in CI; Vazirmatn is OFL) ---------- */
+@font-face { font-family: "Fanavari"; src: url("../assets/private/Fanavari-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Fanavari"; src: url("../assets/private/Fanavari-Bold.ttf") format("truetype"); font-weight: 700; }
+@font-face { font-family: "Vazirmatn"; src: url("../assets/fonts/Vazirmatn-Regular.ttf") format("truetype"); font-weight: 400; }
+@font-face { font-family: "Vazirmatn"; src: url("../assets/fonts/Vazirmatn-Bold.ttf") format("truetype"); font-weight: 700; }
+/* Fanavari's ٪ glyph is blank: take ٪ (and ZWNJ handling) from Vazirmatn */
+@font-face { font-family: "RPfix"; src: url("../assets/fonts/Vazirmatn-Bold.ttf") format("truetype"); font-weight: 700; unicode-range: U+066A, U+0025, U+200C, U+200D; }
+@font-face { font-family: "RPfix"; src: url("../assets/fonts/Vazirmatn-Regular.ttf") format("truetype"); font-weight: 400; unicode-range: U+066A, U+0025, U+200C, U+200D; }
+@font-face { font-family: "Horizon"; src: url("../assets/private/Horizon.woff2") format("woff2"); font-weight: 400 900; }
+@font-face { font-family: "HorizonOutline"; src: url("../assets/private/Horizon-Outlined.woff2") format("woff2"); font-weight: 400 900; }
+
+:root {
+  --navy: #1B2250; --navy-deep: #0E1330; --navy-ink: #090C22;
+  --gold: #C9A45C; --gold-light: #ECCF92; --gold-deep: #9A7838;
+  --ivory: #F6F0E3; --wine: #6E1F2E;
+  --y: #FFD21F; --amber: #FFB300; --k: #0A0A0A; --ink: #151515; --paper: #FFF7DC;
+  --fa: "RPfix", "Fanavari", "Vazirmatn", sans-serif;
+  --fa-body: "Vazirmatn", "Fanavari", sans-serif;
+  --en: "Horizon", "Vazirmatn", sans-serif;
+  --en-o: "HorizonOutline", "Horizon", sans-serif;
+}
+
+html, body { margin: 0; padding: 0; background: #000; }
+#root { position: relative; width: var(--W); height: var(--H); overflow: hidden; isolation: isolate; }
+#scene { position: absolute; inset: 0; }
+* { box-sizing: border-box; }
+
+.full { position: absolute; inset: 0; }
+.center { display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.abs { position: absolute; }
+.fa { font-family: var(--fa); direction: rtl; font-weight: 700; line-height: 1.25; }
+.fa-body { font-family: var(--fa-body); direction: rtl; line-height: 1.5; }
+.en { font-family: var(--en); direction: ltr; letter-spacing: .06em; line-height: 1; }
+.en-o { font-family: var(--en-o); direction: ltr; letter-spacing: .06em; line-height: 1; }
+.nowrap { white-space: nowrap; }
+
+/* word reveal: Persian words are never split into letters (joining would break) */
+.w { display: inline-block; overflow: hidden; vertical-align: bottom; padding: .14em .04em .24em; margin: -.14em 0 -.24em; }
+.wi { display: inline-block; will-change: transform; }
+.ch { display: inline-block; will-change: transform; }
+
+svg { overflow: visible; }
+.grain { position: absolute; inset: -10%; opacity: .06; mix-blend-mode: overlay; pointer-events: none; }
+
+/* ---------- Royal Week shared end card ---------- */
+.rwc { position: absolute; left: 0; right: 0; top: 50%; display: flex; flex-direction: column; align-items: center; text-align: center; z-index: 50; }
+.rwc-badge { display: flex; align-items: center; gap: calc(var(--u) * 1.4); margin-bottom: calc(var(--u) * 2.4); }
+.rwc-badge svg { height: calc(var(--u) * 8); width: calc(var(--u) * 8 * .6); }
+.rwc-badge span { font-family: var(--en); font-size: calc(var(--u) * 1.9); letter-spacing: .32em; }
+.rwc-title { font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 17); line-height: 1.05; white-space: nowrap; direction: rtl; }
+.rwc-en { font-family: var(--en); font-size: calc(var(--u) * 3); letter-spacing: .5em; margin-top: calc(var(--u) * .6); padding-left: .5em; }
+.rwc-slogan { margin-top: calc(var(--u) * 3.2); font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 6.2); padding: calc(var(--u) * .4) calc(var(--u) * 3.2) calc(var(--u) * 1.2); white-space: nowrap; direction: rtl; }
+.rwc-date { margin-top: calc(var(--u) * 2.6); font-family: var(--fa-body); font-weight: 700; font-size: calc(var(--u) * 3.1); direction: rtl; white-space: nowrap; }
+.rwc-links { display: flex; gap: calc(var(--u) * 2.2); margin-top: calc(var(--u) * 3.4); direction: ltr; }
+.rwc-chip { display: flex; align-items: center; gap: calc(var(--u) * 1.1); font-family: var(--fa-body); font-weight: 700; font-size: calc(var(--u) * 3.1);
+  padding: calc(var(--u) * .9) calc(var(--u) * 2.4); border-radius: calc(var(--u) * 1.2); white-space: nowrap; }
+.rwc-chip svg { width: calc(var(--u) * 3.2); height: calc(var(--u) * 3.2); }
+.rwc.dark { color: #fff; }
+.rwc.dark .rwc-title { color: var(--y); }
+.rwc.dark .rwc-badge span { color: var(--y); }
+.rwc.dark .rwc-slogan { background: var(--y); color: var(--k); }
+.rwc.dark .rwc-date { color: rgba(255,255,255,.88); }
+.rwc.dark .rwc-chip.site { background: var(--y); color: var(--k); }
+.rwc.dark .rwc-chip.ig { border: 2px solid var(--y); color: #fff; }
+.rwc.yellow { color: var(--k); }
+.rwc.yellow .rwc-title { color: var(--k); }
+.rwc.yellow .rwc-badge span { color: var(--k); }
+.rwc.yellow .rwc-slogan { background: var(--k); color: var(--y); }
+.rwc.yellow .rwc-chip.site { background: var(--k); color: var(--y); }
+.rwc.yellow .rwc-chip.ig { border: 2px solid var(--k); color: var(--k); }
+.stripes { background: repeating-linear-gradient(-45deg, var(--y) 0 calc(var(--u) * 2.2), var(--k) calc(var(--u) * 2.2) calc(var(--u) * 4.4)); }
+.halftone { background-image: radial-gradient(circle, rgba(0,0,0,.22) 28%, transparent 30%); background-size: calc(var(--u) * 2.2) calc(var(--u) * 2.2); }

@@ -1,0 +1,21 @@
+#bg { background: radial-gradient(ellipse at 50% 30%, #2b2507 0%, #0d0c08 50%, #000 100%); }
+#printer { position: absolute; left: 50%; height: calc(var(--u) * 9); width: calc(var(--u) * 62); margin-left: calc(var(--u) * -31); z-index: 30;
+  background: linear-gradient(180deg, #2a2a2a, #0b0b0b); border-radius: calc(var(--u) * 1.6); box-shadow: 0 calc(var(--u)*1) calc(var(--u)*3) rgba(0,0,0,.7); }
+#printer::after { content: ""; position: absolute; left: 6%; right: 6%; bottom: calc(var(--u) * 1.6); height: calc(var(--u) * .8); background: #000; border-radius: 4px; }
+#printer .led { position: absolute; right: 4%; top: 30%; width: calc(var(--u) * 1.2); height: calc(var(--u) * 1.2); border-radius: 50%; background: var(--y); box-shadow: 0 0 calc(var(--u) * 1.5) var(--y); }
+#slot { position: absolute; left: 50%; width: calc(var(--u) * 54); margin-left: calc(var(--u) * -27); overflow: hidden; z-index: 20; }
+#receipt { position: relative; width: 100%; background: var(--paper); color: #111; padding: calc(var(--u) * 3) calc(var(--u) * 3.6) calc(var(--u) * 5);
+  font-family: var(--fa-body); direction: rtl; box-shadow: 0 calc(var(--u) * 2) calc(var(--u) * 4) rgba(0,0,0,.5);
+  -webkit-mask: linear-gradient(#000, #000) top / 100% calc(100% - var(--u) * 1.5) no-repeat, radial-gradient(circle at 50% 100%, transparent calc(var(--u) * .8), #000 calc(var(--u) * .85)) bottom / calc(var(--u) * 2.4) calc(var(--u) * 1.5) repeat-x; }
+#receipt h2 { margin: 0; text-align: center; font-family: var(--fa); font-size: calc(var(--u) * 4.6); }
+#receipt .sub { text-align: center; font-size: calc(var(--u) * 2.2); color: #555; margin-top: calc(var(--u) * .4); }
+#receipt hr { border: 0; border-top: 2px dashed #999; margin: calc(var(--u) * 2) 0; }
+#receipt .row { display: flex; align-items: baseline; gap: calc(var(--u) * 1); font-size: calc(var(--u) * 3.4); font-weight: 700; margin: calc(var(--u) * 1.4) 0; }
+#receipt .row .dots { flex: 1; border-bottom: 2px dotted #aaa; transform: translateY(-.3em); }
+#receipt .row .off { color: #111; background: var(--y); padding: 0 calc(var(--u) * 1); border-radius: 4px; }
+#receipt .tot { display: flex; justify-content: space-between; align-items: center; font-family: var(--fa); font-size: calc(var(--u) * 4.4); }
+#receipt .bar { height: calc(var(--u) * 6); margin-top: calc(var(--u) * 2.4);
+  background: repeating-linear-gradient(90deg, #111 0 3px, transparent 3px 5px, #111 5px 9px, transparent 9px 11px, #111 11px 12px, transparent 12px 16px); }
+#stamp { position: absolute; z-index: 40; left: 50%; top: 50%; direction: rtl; font-family: var(--fa); font-weight: 700; color: var(--y); white-space: nowrap;
+  font-size: calc(var(--u) * 9); padding: calc(var(--u) * .4) calc(var(--u) * 3) calc(var(--u) * 1.4); border: calc(var(--u) * .9) solid var(--y); border-radius: calc(var(--u) * 2);
+  background: rgba(0,0,0,.85); }

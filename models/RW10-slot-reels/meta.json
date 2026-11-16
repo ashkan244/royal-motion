@@ -1,0 +1,5 @@
+{ "id": "RW10", "slug": "slot-reels", "title": "ماشین شانس رویالی", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.45], "cues": [["reel",0.2,0.8],["thump",1.05,0.6],["thump",1.35,0.6],["thump",1.65,0.7],["cash",1.75,0.8],["shimmer",1.8,0.5],["whoosh",2.2,0.6],["impact",2.45,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.45], "cues": [["reel",0.2,0.8],["thump",1.05,0.6],["thump",1.35,0.6],["thump",1.65,0.7],["cash",1.75,0.8],["shimmer",1.8,0.5],["whoosh",2.5,0.6],["impact",2.75,0.8]] } } }

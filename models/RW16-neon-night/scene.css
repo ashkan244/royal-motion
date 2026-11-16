@@ -1,0 +1,12 @@
+#wall { background-color: #141210;
+  background-image: linear-gradient(#0a0908 2px, transparent 2px), linear-gradient(90deg, #0a0908 2px, transparent 2px), linear-gradient(90deg, #0a0908 2px, transparent 2px);
+  background-size: calc(var(--u) * 12) calc(var(--u) * 5), calc(var(--u) * 12) calc(var(--u) * 10), calc(var(--u) * 12) calc(var(--u) * 10);
+  background-position: 0 0, 0 0, calc(var(--u) * 6) calc(var(--u) * 5); }
+#shade { background: radial-gradient(ellipse at 50% 50%, rgba(0,0,0,0) 20%, rgba(0,0,0,.85) 85%); }
+#glowWall { background: radial-gradient(ellipse at 50% 50%, rgba(255,210,31,.28) 0%, rgba(255,210,31,0) 55%); opacity: 0; }
+#sign { position: absolute; left: 0; right: 0; top: 50%; display: flex; flex-direction: column; align-items: center; z-index: 10; }
+#hex { width: calc(var(--u) * 26); height: calc(var(--u) * 30); margin-bottom: calc(var(--u) * 2); }
+#neonFa { font-family: var(--fa); font-weight: 700; font-size: calc(var(--u) * 13); color: #FFF4B8; white-space: nowrap; direction: rtl; line-height: 1.15;
+  text-shadow: 0 0 calc(var(--u) * .4) #fff, 0 0 calc(var(--u) * 1.4) var(--y), 0 0 calc(var(--u) * 3.5) var(--y), 0 0 calc(var(--u) * 8) #ff9d00; }
+#neonEn { font-family: var(--en-o); font-size: calc(var(--u) * 4.4); letter-spacing: .3em; color: #fff; margin-top: calc(var(--u) * 1.4); padding-left: .3em;
+  text-shadow: 0 0 calc(var(--u) * 1) #fff, 0 0 calc(var(--u) * 3) #fff6; }

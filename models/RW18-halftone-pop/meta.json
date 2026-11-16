@@ -1,0 +1,5 @@
+{ "id": "RW18", "slug": "halftone-pop", "title": "پاپ‌آرت کمیک", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.5], "cues": [["boom",0.15,0.8],["glitch",0.2,0.3],["pop",0.7,0.6],["pop",0.85,0.5],["swish",1.6,0.6],["whoosh",2.05,0.6],["impact",2.3,0.7]] },
+    "outro": { "bed": ["rw_beat", 0.5], "cues": [["boom",0.15,0.8],["glitch",0.2,0.3],["pop",0.7,0.6],["pop",0.85,0.5],["swish",1.6,0.6],["whoosh",2.35,0.6],["impact",2.6,0.7]] } } }

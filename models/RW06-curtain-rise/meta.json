@@ -1,0 +1,5 @@
+{ "id": "RW06", "slug": "curtain-rise", "title": "پرده افتتاحیه", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.45], "cues": [["riser_soft",0.0,0.6],["whoosh_rev",0.75,0.7],["impact",1.6,0.8],["shimmer",1.65,0.6]] },
+    "outro": { "bed": ["rw_beat", 0.45], "cues": [["riser_soft",0.0,0.6],["whoosh_rev",1.05,0.7],["impact",1.9,0.8],["shimmer",1.95,0.6],["pop",3.2,0.4]] } } }

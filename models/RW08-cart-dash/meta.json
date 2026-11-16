@@ -1,0 +1,5 @@
+{ "id": "RW08", "slug": "cart-dash", "title": "چرخ خرید پرسرعت", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.55], "cues": [["whoosh",0.05,0.8],["thump",0.62,0.6],["pop_soft",0.95,0.5],["pop_soft",1.1,0.5],["whoosh",1.55,0.9],["impact",2.0,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.55], "cues": [["whoosh",0.05,0.8],["thump",0.62,0.6],["pop_soft",0.95,0.5],["pop_soft",1.1,0.5],["whoosh",1.85,0.9],["impact",2.3,0.8]] } } }

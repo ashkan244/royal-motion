@@ -1,0 +1,6 @@
+{ "id": "RW19", "slug": "marquee-strips", "title": "نوارهای روان", "group": "royalweek", "theme": "rw",
+  "modes": { "intro": 5, "outro": 7, "loop": 12 },
+  "audio": {
+    "intro": { "bed": ["rw_beat", 0.6], "cues": [["whoosh",0.05,0.6],["whoosh_rev",1.7,0.7],["impact",2.1,0.8]] },
+    "outro": { "bed": ["rw_beat", 0.6], "cues": [["whoosh",0.05,0.6],["whoosh_rev",2.0,0.7],["impact",2.4,0.8]] },
+    "loop": { "bed": ["rw_beat", 0.55], "cues": [] } } }
