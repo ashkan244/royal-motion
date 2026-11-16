@@ -21,6 +21,8 @@ const run = (cmd, a, opts = {}) => {
   return r.status === 0;
 };
 const report = [];
+// show the full lint report once per job (render continues on lint issues)
+run("npx", ["hyperframes", "lint"], { cwd: DIST });
 for (const v of manifest) {
   const t0 = Date.now();
   const dir = path.join(OUT, v.group, `${v.model}-${v.slug}`);
