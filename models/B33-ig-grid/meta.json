@@ -1,0 +1,14 @@
+{
+ "id": "B33",
+ "slug": "ig-grid",
+ "title": "شبکه اینستاگرام",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "outro": 7
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 1.3
+ }
+}

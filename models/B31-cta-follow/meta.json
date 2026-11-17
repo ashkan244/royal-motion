@@ -1,0 +1,14 @@
+{
+ "id": "B31",
+ "slug": "cta-follow",
+ "title": "دکمه دنبال کردن",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "outro": 7
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 0.6
+ }
+}

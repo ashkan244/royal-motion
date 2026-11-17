@@ -1,0 +1,19 @@
+{
+ "id": "B39",
+ "slug": "corner-bug",
+ "title": "لوگوی گوشه",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "overlay": 8
+ },
+ "alpha": true,
+ "aspects": [
+  "16x9",
+  "9x16"
+ ],
+ "params": {
+  "name": "نام و نام خانوادگی",
+  "role": "سمت / عنوان"
+ }
+}

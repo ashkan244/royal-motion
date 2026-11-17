@@ -1,0 +1,15 @@
+{
+ "id": "B34",
+ "slug": "family-slogan",
+ "title": "یک خانواده، یک خانه",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5,
+  "outro": 7
+ },
+ "audio": {
+  "preset": "lux",
+  "hit": 1.4
+ }
+}

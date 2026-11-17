@@ -36,7 +36,8 @@ for (const v of manifest) {
   let ok = run("npx", renderArgs, { cwd: DIST });
   if (ok) ok = run("python3", [path.resolve("scripts/mix.py"), silent, final, String(v.duration), JSON.stringify(v.audio || null), AUDIO]);
   if (ok && v.alpha) {
-    run("npx", ["hyperframes", "render", "--composition", `v/${v.name}.html`, "--format", "mov", "--output", final.replace(/\.mp4$/, ".mov"), "--fps", "30"], { cwd: DIST });
+    // transparent WebM (VP9 alpha). ProRes 4444 MOV is ~40 MB/s, so it is opt-in: ALPHA_MOV=1
+    if (process.env.ALPHA_MOV === "1") run("npx", ["hyperframes", "render", "--composition", `v/${v.name}.html`, "--format", "mov", "--output", final.replace(/\.mp4$/, ".mov"), "--fps", "30"], { cwd: DIST });
     run("npx", ["hyperframes", "render", "--composition", `v/${v.name}.html`, "--format", "webm", "--output", final.replace(/\.mp4$/, ".webm"), "--fps", "30"], { cwd: DIST });
   }
   if (ok) {

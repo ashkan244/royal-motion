@@ -1,0 +1,39 @@
+{
+ "id": "B37",
+ "slug": "lower-third",
+ "title": "زیرنویس نام و سمت",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "overlay": 6
+ },
+ "alpha": true,
+ "aspects": [
+  "16x9",
+  "9x16"
+ ],
+ "params": {
+  "name": "نام و نام خانوادگی",
+  "role": "سمت / عنوان"
+ },
+ "variants": [
+  {
+   "tag": "gold",
+   "params": {
+    "style": "gold"
+   }
+  },
+  {
+   "tag": "plate",
+   "params": {
+    "style": "plate"
+   }
+  },
+  {
+   "tag": "line",
+   "params": {
+    "style": "line"
+   }
+  }
+ ]
+}

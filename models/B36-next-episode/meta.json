@@ -1,0 +1,14 @@
+{
+ "id": "B36",
+ "slug": "next-episode",
+ "title": "کارت قسمت بعد",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "outro": 7
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 0.5
+ }
+}

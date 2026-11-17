@@ -1,0 +1,55 @@
+{
+ "id": "B40",
+ "slug": "brand-countdown",
+ "title": "شمارش معکوس برند",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 7
+ },
+ "audio": {
+  "intro": {
+   "bed": [
+    "lux_pad",
+    0.45
+   ],
+   "cues": [
+    [
+     "tick",
+     0.5,
+     0.7
+    ],
+    [
+     "tick",
+     1.5,
+     0.7
+    ],
+    [
+     "tick",
+     2.5,
+     0.7
+    ],
+    [
+     "tick",
+     3.5,
+     0.7
+    ],
+    [
+     "beep",
+     4.5,
+     0.7
+    ],
+    [
+     "impact_soft",
+     5.0,
+     0.8
+    ],
+    [
+     "shimmer",
+     5.05,
+     0.6
+    ]
+   ]
+  }
+ }
+}

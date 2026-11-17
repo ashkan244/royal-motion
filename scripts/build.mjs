@@ -91,6 +91,7 @@ ${extraScripts}
 :root { --W: ${W}px; --H: ${H}px; --u: ${u}px; --L: ${L}px; }
 ${LIB_CSS}
 ${css}
+${meta.alpha ? "html, body, #root { background: transparent !important; }" : ""}
 </style>
 </head>
 <body>

@@ -1,0 +1,17 @@
+{
+ "id": "B32",
+ "slug": "contact-card",
+ "title": "کارت تماس و QR",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "outro": 7
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 0.5
+ },
+ "scripts": [
+  "qrcode.js"
+ ]
+}
