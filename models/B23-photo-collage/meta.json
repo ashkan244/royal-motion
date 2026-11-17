@@ -1,0 +1,15 @@
+{
+ "id": "B23",
+ "slug": "photo-collage",
+ "title": "کلاژ فروشگاه‌ها",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 1.5
+ }
+}

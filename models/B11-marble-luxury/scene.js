@@ -12,8 +12,8 @@ RP.run(function (tl, RP) {
   for (let j = 0; j < ch; j++) for (let i = 0; i < cw; i++) {
     let f = 0, amp = 1, fr = 0.012;
     for (let o = 0; o < 5; o++) { f += vn(i * fr * 10, j * fr * 10) * amp; amp *= 0.5; fr *= 2; }
-    const v = Math.abs(Math.sin((i * 0.018 + j * 0.011 + f * 3.2) * Math.PI));
-    const vein = Math.pow(1 - v, 9), k = (j * cw + i) * 4;
+    const v = Math.abs(Math.sin((i * 0.007 + j * 0.0045 + f * 2.4) * Math.PI));
+    const vein = Math.pow(1 - v, 3.2) * 0.85, k = (j * cw + i) * 4;
     img.data[k] = 246 - vein * 70; img.data[k + 1] = 240 - vein * 74; img.data[k + 2] = 227 - vein * 90; img.data[k + 3] = 255;
   }
   x.putImageData(img, 0, 0);

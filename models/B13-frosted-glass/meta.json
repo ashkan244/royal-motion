@@ -1,0 +1,15 @@
+{
+ "id": "B13",
+ "slug": "frosted-glass",
+ "title": "شیشه مات",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 1.0
+ }
+}

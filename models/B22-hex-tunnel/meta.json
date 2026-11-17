@@ -1,0 +1,15 @@
+{
+ "id": "B22",
+ "slug": "hex-tunnel",
+ "title": "تونل شش‌ضلعی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "punch",
+  "hit": 1.6
+ }
+}

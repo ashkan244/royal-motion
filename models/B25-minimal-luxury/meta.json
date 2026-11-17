@@ -1,0 +1,15 @@
+{
+ "id": "B25",
+ "slug": "minimal-luxury",
+ "title": "مینیمال لوکس",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 0.8
+ }
+}

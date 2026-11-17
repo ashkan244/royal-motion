@@ -1,0 +1,41 @@
+{
+ "id": "B27",
+ "slug": "gold-confetti",
+ "title": "کانفتی طلایی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "punch",
+  "hit": 0.35,
+  "extra": {
+   "intro": [
+    [
+     "pop",
+     0.3,
+     0.7
+    ],
+    [
+     "pop",
+     0.38,
+     0.6
+    ]
+   ],
+   "outro": [
+    [
+     "pop",
+     0.3,
+     0.7
+    ],
+    [
+     "pop",
+     0.38,
+     0.6
+    ]
+   ]
+  }
+ }
+}

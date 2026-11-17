@@ -1,0 +1,41 @@
+{
+ "id": "B28",
+ "slug": "seasons",
+ "title": "چهار فصل",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 0.6
+ },
+ "variants": [
+  {
+   "tag": "spring",
+   "params": {
+    "season": "spring"
+   }
+  },
+  {
+   "tag": "summer",
+   "params": {
+    "season": "summer"
+   }
+  },
+  {
+   "tag": "autumn",
+   "params": {
+    "season": "autumn"
+   }
+  },
+  {
+   "tag": "winter",
+   "params": {
+    "season": "winter"
+   }
+  }
+ ]
+}

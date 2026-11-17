@@ -1,0 +1,15 @@
+{
+ "id": "B15",
+ "slug": "shopping-bag",
+ "title": "ساک خرید",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 1.2
+ }
+}

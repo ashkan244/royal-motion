@@ -1,0 +1,61 @@
+{
+ "id": "B26",
+ "slug": "rgb-glitch",
+ "title": "گلیچ مدرن",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "punch",
+  "hit": 1.1,
+  "extra": {
+   "intro": [
+    [
+     "glitch",
+     0.1,
+     0.5
+    ],
+    [
+     "glitch",
+     0.55,
+     0.45
+    ],
+    [
+     "glitch",
+     0.9,
+     0.4
+    ],
+    [
+     "glitch",
+     2.6,
+     0.3
+    ],
+    [
+     "glitch",
+     3.9,
+     0.25
+    ]
+   ],
+   "outro": [
+    [
+     "glitch",
+     0.1,
+     0.5
+    ],
+    [
+     "glitch",
+     0.55,
+     0.45
+    ],
+    [
+     "glitch",
+     0.9,
+     0.4
+    ]
+   ]
+  }
+ }
+}

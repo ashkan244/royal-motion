@@ -1,0 +1,15 @@
+{
+ "id": "B21",
+ "slug": "satin-ribbon",
+ "title": "روبان کادو",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 1.2
+ }
+}
