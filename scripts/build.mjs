@@ -15,8 +15,30 @@ const FPS = 30;
 
 const read = (p) => fs.readFileSync(path.join(ROOT, p), "utf8");
 const brand = JSON.parse(read("brand/brand.json"));
-const LIB_CSS = read("lib/rp.css");
-const LIB_JS = read("lib/rp.js");
+const LIB_CSS = read("lib/rp.css") + "\n" + read("lib/brand.css");
+const LIB_JS = read("lib/rp.js") + "\n" + read("lib/brand.js");
+
+// audio presets: meta.audio = {preset, hit:[introHit, outroHit], cta, extra:{intro:[], outro:[]}}
+const PRESETS = {
+  lux: { bed: ["lux_pad", 0.5], hit: [["riser_soft", -1.8, 0.4], ["shimmer", 0, 0.6], ["impact_soft", 0.05, 0.65], ["whoosh_soft", 0.3, 0.3]] },
+  bright: { bed: ["bright_pad", 0.55], hit: [["whoosh", -0.45, 0.45], ["impact_soft", 0, 0.6], ["shimmer", 0.05, 0.45]] },
+  soft: { bed: ["lux_pad", 0.55], hit: [["whoosh_soft", -0.6, 0.35], ["shimmer_low", 0, 0.5]] },
+  punch: { bed: ["bright_pad", 0.5], hit: [["whoosh", -0.4, 0.55], ["impact", 0, 0.7], ["shimmer", 0.05, 0.4]] },
+};
+const CTA_CUES = [["whoosh_soft", 0, 0.4], ["pop_soft", 0.85, 0.35], ["pop_soft", 1.2, 0.3]];
+function expandAudio(a, mode, duration) {
+  if (!a || !a.preset) return (a && (a[mode] || a.all)) || null;
+  const p = PRESETS[a.preset];
+  const hit = Array.isArray(a.hit) ? a.hit[mode === "outro" ? 1 : 0] ?? a.hit[0] : a.hit;
+  const cues = [];
+  if (hit != null) for (const [n, dt, g] of p.hit) if (hit + dt >= 0) cues.push([n, +(hit + dt).toFixed(2), g]);
+  if (mode === "outro") {
+    const cta = a.cta ?? Math.min(Math.max((hit ?? 2) + 1.2, 2.2), duration - 4.2);
+    for (const [n, dt, g] of CTA_CUES) cues.push([n, +(cta + dt).toFixed(2), g]);
+  }
+  for (const c of (a.extra && a.extra[mode]) || []) cues.push(c);
+  return { bed: a.bed || p.bed, cues };
+}
 
 fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(path.join(OUT, "v"), { recursive: true });
@@ -90,7 +112,7 @@ ${js}
         fs.writeFileSync(path.join(OUT, "v", `${name}.html`), doc);
         manifest.push({
           name, model: meta.id, slug: meta.slug, title: meta.title, group: meta.group, mode, aspect, W, H, duration,
-          alpha: !!meta.alpha, audio: (meta.audio && (meta.audio[mode] || meta.audio.all)) || null,
+          alpha: !!meta.alpha, audio: expandAudio(meta.audio, mode, duration),
         });
       }
     }

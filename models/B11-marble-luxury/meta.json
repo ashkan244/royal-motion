@@ -1,0 +1,15 @@
+{
+ "id": "B11",
+ "slug": "marble-luxury",
+ "title": "مرمر و طلا",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 1.8
+ }
+}

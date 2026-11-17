@@ -1,0 +1,15 @@
+{
+ "id": "B06",
+ "slug": "liquid-gold",
+ "title": "طلای مذاب",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "lux",
+  "hit": 1.9
+ }
+}

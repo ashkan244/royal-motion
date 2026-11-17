@@ -1,0 +1,15 @@
+{
+ "id": "B04",
+ "slug": "gold-foil-sweep",
+ "title": "درخشش فویل طلا",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 1.0
+ }
+}

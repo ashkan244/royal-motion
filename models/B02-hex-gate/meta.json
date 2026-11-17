@@ -1,0 +1,15 @@
+{
+ "id": "B02",
+ "slug": "hex-gate",
+ "title": "درِ شش‌ضلعی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "lux",
+  "hit": 1.25
+ }
+}

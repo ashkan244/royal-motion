@@ -1,0 +1,15 @@
+{
+ "id": "B07",
+ "slug": "ink-bleed",
+ "title": "جوهر روی کاغذ",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "soft",
+  "hit": 1.5
+ }
+}

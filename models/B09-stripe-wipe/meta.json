@@ -1,0 +1,15 @@
+{
+ "id": "B09",
+ "slug": "stripe-wipe",
+ "title": "نوارهای مورب",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "punch",
+  "hit": 1.1
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "id": "B05",
+ "slug": "medallion-3d",
+ "title": "مدال سه‌بعدی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "lux",
+  "hit": 1.7
+ }
+}

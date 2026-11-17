@@ -1,0 +1,15 @@
+{
+ "id": "B08",
+ "slug": "particle-converge",
+ "title": "ذرات طلا",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "lux",
+  "hit": 1.65
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "id": "B03",
+ "slug": "honeycomb-assemble",
+ "title": "کندوی طلایی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "bright",
+  "hit": 1.75
+ }
+}

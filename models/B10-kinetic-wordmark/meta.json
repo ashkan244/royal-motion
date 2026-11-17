@@ -1,0 +1,15 @@
+{
+ "id": "B10",
+ "slug": "kinetic-wordmark",
+ "title": "تایپوگرافی جنبشی",
+ "group": "brand",
+ "theme": "brand",
+ "modes": {
+  "intro": 5.0,
+  "outro": 7.0
+ },
+ "audio": {
+  "preset": "punch",
+  "hit": 1.4
+ }
+}
