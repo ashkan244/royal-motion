@@ -12,7 +12,8 @@ RP.run(function (tl, RP) {
      <path d="M396 34 C330 12 250 18 170 26 C110 32 50 30 4 44 C60 46 120 56 190 58 C270 60 340 56 398 46 Z" fill="url(#br)"/>
      <path d="M380 38 C300 28 200 34 120 40" fill="none" stroke="#fff6dc" stroke-opacity=".5" stroke-width="2"/></svg>`);
   tl.fromTo(brush, { clipPath: "inset(0 0 0 100%)" }, { clipPath: "inset(0 0 0 0%)", duration: 0.6, ease: "power3.inOut" }, 1.0);
-  tl.fromTo(brush, { opacity: 1 }, { opacity: 0.85, duration: 1.5 }, 1.6);
+  // settles into a soft highlighter behind the name so the navy text stays crisp
+  tl.fromTo(brush, { opacity: 1 }, { opacity: 0.32, duration: 1.4 }, 1.6);
   const tLock = RP.brandIn(tl, r, 0.2, "fade");
   if (RP.mode === "outro") tl.to(brush, { opacity: 0, duration: 0.4 }, Math.max(tLock, 2.2));
   RP.brandEnd(tl, r, tLock);

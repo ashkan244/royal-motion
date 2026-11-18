@@ -15,7 +15,7 @@ RP.run(function (tl, RP) {
   const line = (icon, txt, ltr) => RP.el("div", { style: { display: "flex", alignItems: "center", gap: u * 1.4 + "px", fontFamily: "var(--fa-body)", fontWeight: 700, fontSize: u * 3.2 + "px", color: K.navy } }, info,
     `<span style="width:${u * 3.6}px;height:${u * 3.6}px;display:inline-flex">${icon}</span><span style="direction:${ltr ? "ltr" : "rtl"}">${txt}</span>`);
   const l1 = line(RP.ICON_PIN(K.goldDeep), T.address), l2 = line(RP.ICON_IG(K.goldDeep), T.ig, true);
-  RP.$$("svg", info).forEach((s) => { s.style.width = "100%"; s.style.height = "100%"; });
+  [l1, l2].forEach((l) => RP.$$("svg", l).forEach((s) => { s.style.width = "100%"; s.style.height = "100%"; }));
   // QR
   const qbox = RP.el("div", { style: { background: "#fff", padding: u * 1.6 + "px", borderRadius: u * 1.6 + "px", border: `2px solid ${K.gold}`, textAlign: "center" } }, card);
   const qr = qrcode(0, "M"); qr.addData("https://instagram.com/" + T.ig.replace("@", "")); qr.make();

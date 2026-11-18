@@ -5,7 +5,7 @@ RP.run(function (tl, RP) {
   // the invitation arch: drawn in gold, then light pours out of it
   const r = RP.brandLockup({});
   const lb = RP.box(r.c);
-  const aw = Math.min(W * 0.86, lb.w > 0 ? Math.max(u * 62, u * 70) : u * 70), ah = Math.min(H * 0.86, lb.h + u * 30);
+  const aw = Math.min(W * 0.92, Math.max(u * 70, lb.w + u * 14)), ah = Math.min(H * 0.86, lb.h + u * 30);
   const ax = W / 2 - aw / 2, ay = H / 2 - ah / 2 + u * 2, rad = aw / 2;
   const sv = RP.svgEl("svg", { viewBox: `0 0 ${W} ${H}`, style: "position:absolute;inset:0;width:100%;height:100%;z-index:20" }, sc);
   const arch = (inset, w, c) => RP.svgEl("path", { d: `M${ax + inset} ${ay + ah}V${ay + rad}A${rad - inset} ${rad - inset} 0 0 1 ${ax + aw - inset} ${ay + rad}V${ay + ah}`,
