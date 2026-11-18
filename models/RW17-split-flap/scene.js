@@ -30,7 +30,7 @@ RP.run(function (tl, RP) {
   const p2 = RP.el("div", { class: "panel" }, board);
   flipSeq(p2, ["تخفیف", "هدیه", "جایزه", "بازی", T.rwS2], 0.9, 0.22);
   const p3 = RP.el("div", { class: "panel y" }, board);
-  flipSeq(p3, ["۰۰ ۰۰ ۰۰", "۲ آذر", "۴ آذر", T.rwFriday], 1.4, 0.2);
+  flipSeq(p3, ["۰۰ ۰۰ ۰۰", "۳ آذر", "۵ آذر", T.rwFriday], 1.4, 0.2);
   tl.fromTo(board, { opacity: 0, y: u * 6 }, { opacity: 1, y: 0, duration: 0.4 }, 0);
   tl.fromTo(board, { boxShadow: "0 0 0 rgba(255,210,31,0)" }, { boxShadow: `0 0 ${u * 6}px rgba(255,210,31,.5)`, duration: 0.3, immediateRender: false }, 2.3);
   tl.to(board, { rotationX: 80, opacity: 0, duration: 0.4, ease: "power3.in" }, tc - 0.35);

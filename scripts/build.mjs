@@ -15,8 +15,9 @@ const FPS = 30;
 
 const read = (p) => fs.readFileSync(path.join(ROOT, p), "utf8");
 const brand = JSON.parse(read("brand/brand.json"));
-const LIB_CSS = read("lib/rp.css") + "\n" + read("lib/brand.css");
-const LIB_JS = read("lib/rp.js") + "\n" + read("lib/brand.js");
+const opt = (p) => (fs.existsSync(path.join(ROOT, p)) ? "\n" + read(p) : "");
+const LIB_CSS = read("lib/rp.css") + "\n" + read("lib/brand.css") + opt("lib/layout.css");
+const LIB_JS = read("lib/rp.js") + "\n" + read("lib/brand.js") + opt("lib/layout.js");
 
 // audio presets: meta.audio = {preset, hit:[introHit, outroHit], cta, extra:{intro:[], outro:[]}}
 const PRESETS = {

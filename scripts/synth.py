@@ -395,7 +395,55 @@ def bright_pad(d=12.0):
     return norm(reverb(buf, 1.5, 0.2)[: N(d)], 0.8)
 
 
-BEDS = {"lux_pad": lux_pad, "rw_beat": rw_beat, "rw_drums": rw_drums, "tension": tension, "bright_pad": bright_pad}
+def teaser15(d=15.0, bpm=128):
+    """arranged 8-bar track for the 15 s teaser (V2A2): drop at 0, groove, drum break
+    (bar 5), snare-roll build (bar 6), gap, big drop on bar 7, ring-out on the last beat"""
+    b = 60 / bpm; buf = np.zeros(N(d) + SR); K, S, C, Hh, Ho = kick(), snare(), clap(), hat(), hat(open_=True)
+    T1, T2 = tom(190), tom(100)
+    bass_notes = [45, 45, 48, 43, 45, 45, 41, 43]
+    chords = [[57, 60, 64], [57, 60, 64], [60, 64, 67], [55, 59, 62], [57, 60, 64], [57, 60, 64], [53, 57, 60], [55, 59, 62]]
+    def bassline(i, bar, g=0.5):
+        f = NOTE(bass_notes[bar])
+        for s in (0, 0.5, 0.75):
+            L = b * 0.4
+            bs = lp(saw(f, L) + 0.6 * np.sin(2 * np.pi * f / 2 * t_(L)), 650) * env(N(L), 0.004, True, 3)
+            place(buf, bs, i * b + s * b, g)
+    def stab(i, bar, g=0.38):
+        st = chord_pad([NOTE(n) for n in chords[bar]], b * 0.32, 3000, 0.006) * env(N(b * 0.32), 0.003, True, 4)
+        place(buf, st, i * b + b * 0.5, g)
+    for i in range(32):
+        bar = i // 4; beat = i % 4; t = i * b
+        if bar in (0, 1, 2, 3):            # main groove
+            place(buf, K, t, 0.95)
+            if beat in (1, 3): place(buf, C, t, 0.55)
+            place(buf, Hh, t + b / 2, 0.35)
+            if bar >= 2: place(buf, Hh, t + b / 4, 0.15); place(buf, Hh, t + 3 * b / 4, 0.15)
+            if beat == 3: place(buf, Ho, t + b / 2, 0.25)
+            bassline(i, bar); stab(i, bar)
+        elif bar == 4:                     # live-drum break (drummer nights)
+            place(buf, K, t, 0.9); place(buf, T2, t + b * 0.5, 0.7); place(buf, T1, t + b * 0.75, 0.6)
+            if beat in (1, 3): place(buf, S, t, 0.6)
+            place(buf, T1, t + b * 0.25, 0.35)
+        elif bar == 5:                     # build: kick then snare roll accelerating, gap before the drop
+            if beat < 2: place(buf, K, t, 0.8)
+            steps = [2, 4, 8, 8][beat]
+            for k in range(steps):
+                tt = t + k * b / steps
+                if tt > 6 * 4 * b - b * 0.5: break      # last half beat: silence
+                place(buf, S, tt, 0.25 + 0.5 * (i - 20 + k / steps) / 4)
+        else:                              # bars 7–8: drop
+            place(buf, K, t, 1.0)
+            if beat in (1, 3): place(buf, C, t, 0.6); place(buf, S, t, 0.3)
+            place(buf, Hh, t + b / 2, 0.38); place(buf, Hh, t + b / 4, 0.16); place(buf, Hh, t + 3 * b / 4, 0.16)
+            if beat == 3: place(buf, Ho, t + b / 2, 0.28)
+            if i < 31: bassline(i, bar, 0.55); stab(i, bar, 0.45)
+            else:
+                ring = chord_pad([NOTE(n) for n in [45, 57, 60, 64, 69]], 1.2, 2200, 0.006) * env(N(1.2), 0.003, True, 3)
+                place(buf, ring, t, 0.6)
+    return norm(np.tanh(buf[: N(d)] * 1.3), 0.86)
+
+
+BEDS = {"lux_pad": lux_pad, "rw_beat": rw_beat, "rw_drums": rw_drums, "tension": tension, "bright_pad": bright_pad, "teaser15": teaser15}
 
 if __name__ == "__main__":
     for k, f in SHOTS.items():

@@ -1,0 +1,14 @@
+/* ---------- v2 layout helpers ---------- */
+.scn { position: absolute; inset: 0; }
+.shutter { position: absolute; top: -10%; bottom: -10%; left: -20%; width: 140%; z-index: 90; will-change: transform; }
+.rtape { position: absolute; left: -30%; width: 160%; height: calc(var(--u) * 9); background: var(--y); overflow: hidden;
+  display: flex; align-items: center; box-shadow: 0 calc(var(--u) * 1.2) calc(var(--u) * 3) rgba(0,0,0,.5);
+  background-image: linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,0) 40%, rgba(0,0,0,.12)); }
+.rtape::before, .rtape::after { content: ""; position: absolute; left: 0; right: 0; height: calc(var(--u) * 1.1);
+  background: repeating-linear-gradient(-45deg, var(--k) 0 calc(var(--u) * 1.6), transparent calc(var(--u) * 1.6) calc(var(--u) * 3.2)); }
+.rtape::before { top: 0; } .rtape::after { bottom: 0; }
+.rtape-in { display: flex; white-space: nowrap; will-change: transform; }
+.rtape-in span { font-family: var(--fa); font-weight: 700; color: var(--k); font-size: calc(var(--u) * 4.4); padding: 0 calc(var(--u) * 2.4); direction: rtl; }
+.rtape.dark { background-color: var(--k); }
+.rtape.dark .rtape-in span { color: var(--y); }
+.rtape.dark::before, .rtape.dark::after { background: repeating-linear-gradient(-45deg, var(--y) 0 calc(var(--u) * 1.6), transparent calc(var(--u) * 1.6) calc(var(--u) * 3.2)); }
