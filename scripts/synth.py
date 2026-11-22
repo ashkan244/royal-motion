@@ -445,6 +445,38 @@ def teaser15(d=15.0, bpm=128):
 
 BEDS = {"lux_pad": lux_pad, "rw_beat": rw_beat, "rw_drums": rw_drums, "tension": tension, "bright_pad": bright_pad, "teaser15": teaser15}
 
+# ---------------------------------------------------------------- 8-bit chiptune kit (pixel stories)
+def sq(f, d, duty=0.5):
+    t = t_(d); ph = (np.cumsum(np.broadcast_to(f, t.shape)) / SR) % 1
+    return np.where(ph < duty, 1.0, -1.0)
+def tri(f, d):
+    t = t_(d); ph = (np.cumsum(np.broadcast_to(f, t.shape)) / SR) % 1
+    return 4 * np.abs(ph - 0.5) - 1
+def chip_env(x, a=0.002, rel=6):
+    n = len(x); e = np.exp(-np.linspace(0, rel, n)); e[:max(1, int(a * SR))] *= np.linspace(0, 1, max(1, int(a * SR))); return x * e
+def nz8(d):
+    n = N(d); r = np.random.default_rng(88); steps = np.repeat(r.choice([-1.0, 1.0], n // 40 + 1), 40)[:n]; return steps
+SHOTS.update({
+    "chip_coin": lambda: norm(np.concatenate([chip_env(sq(988, .07), rel=1), chip_env(sq(1319, .28), rel=5)]) * .6, .7),
+    "chip_jump": lambda: norm(chip_env(sq(np.linspace(300, 900, N(.18)), .18, .25), rel=3), .6),
+    "chip_power": lambda: norm(np.concatenate([chip_env(sq(f, .07, .25), rel=1.5) for f in [523, 659, 784, 1047, 784, 1047, 1319]]), .65),
+    "chip_explode": lambda: norm(chip_env(nz8(.45), rel=5) * .9, .7),
+    "chip_blip": lambda: norm(chip_env(sq(1760, .06, .25), rel=2), .5),
+    "chip_type": lambda: norm(np.concatenate([chip_env(sq(2200 + (i % 3) * 300, .03, .5), rel=4) for i in range(10)]), .35),
+    "chip_over": lambda: norm(np.concatenate([chip_env(tri(f, .22), rel=1.2) for f in [392, 349, 311, 262]]), .65),
+})
+def chip_bed(d=12.0, bpm=132):
+    b = 60 / bpm; buf = np.zeros(N(d))
+    mel = [76, 79, 83, 79, 81, 79, 76, 74, 72, 74, 76, 79, 76, 74, 72, 71]
+    bass = [45, 45, 52, 52, 41, 41, 48, 48]
+    for i in range(int(d / (b / 2))):
+        n = mel[i % len(mel)]; place(buf, chip_env(sq(NOTE(n), b / 2 * .9, .25), rel=3) * .22, i * b / 2)
+        if i % 2 == 0: place(buf, chip_env(tri(NOTE(bass[(i // 2) % len(bass)]), b * .9), rel=1.5) * .35, i * b / 2)
+        if i % 4 == 0: place(buf, chip_env(nz8(.05), rel=8) * .25, i * b / 2)
+        if i % 4 == 2: place(buf, chip_env(nz8(.08), rel=5) * .2, i * b / 2)
+    return norm(buf, .8)
+BEDS["chip_bed"] = chip_bed
+
 if __name__ == "__main__":
     for k, f in SHOTS.items():
         save(k, f())

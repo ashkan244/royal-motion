@@ -1,0 +1,28 @@
+{
+ "id": "V3U",
+ "slug": "s3",
+ "title": "استوری نسل ۳ — رابط اپ",
+ "group": "stories3",
+ "theme": "rw",
+ "modes": {
+  "story": 7
+ },
+ "aspects": [
+  "9x16"
+ ],
+ "scene": [
+  "stories3/core.js",
+  "stories3/pixel.js",
+  "stories3/fx1.js",
+  "stories3/fx2.js",
+  "stories3/boot.js"
+ ],
+ "css": "stories3/core.css",
+ "variantsFrom": "data/stories3.json",
+ "variantsFilter": {
+  "grp": "U"
+ },
+ "params": {
+  "bpm": 128
+ }
+}

@@ -57,10 +57,12 @@ for (const d of dirs) {
   const meta = JSON.parse(read(path.join(base, "meta.json")));
   if (ONLY && !ONLY.has(meta.id.toUpperCase())) continue;
   // a model may borrow a shared scene (meta.scene / meta.css / meta.html are repo-relative paths)
+  // meta.scene / meta.css may be a list of files (concatenated in order)
   const pick = (key, file) => meta[key] ? meta[key] : path.join(base, file);
-  const html = fs.existsSync(path.join(ROOT, pick("html", "scene.html"))) ? read(pick("html", "scene.html")) : "";
-  const css = fs.existsSync(path.join(ROOT, pick("css", "scene.css"))) ? read(pick("css", "scene.css")) : "";
-  const js = read(pick("scene", "scene.js"));
+  const readAll = (v) => [].concat(v).filter((f) => fs.existsSync(path.join(ROOT, f))).map(read).join(String.fromCharCode(10));
+  const html = readAll(pick("html", "scene.html"));
+  const css = readAll(pick("css", "scene.css"));
+  const js = readAll(pick("scene", "scene.js"));
   const aspects = (meta.aspects || ["9x16", "4x5", "16x9"]).filter((a) => !ONLY_ASPECTS || ONLY_ASPECTS.has(a));
   let variants = meta.variants || [{}];
   if (meta.variantsFrom && fs.existsSync(path.join(ROOT, meta.variantsFrom))) {
@@ -73,8 +75,20 @@ for (const d of dirs) {
     for (const aspect of aspects) {
       for (const variant of variants) {
         const [W, H] = ASPECTS[aspect];
-        const duration = variant.duration ?? modeDur;
-        const vtag = variant.tag ? `-${variant.tag}` : "";
+        let duration = variant.duration ?? modeDur;
+        // voiced versions: stretch to fit the narration (assets/audio/vo_meta.json, written by scripts/tts.py)
+        let voAudio = null;
+        if (meta.voice && variant.vo) {
+          const vm = fs.existsSync(path.join(ROOT, "assets/audio/vo_meta.json")) ? JSON.parse(read("assets/audio/vo_meta.json")) : {};
+          const vd = vm[variant.tag];
+          if (vd) {
+            duration = Math.max(duration, Math.ceil((vd + 1.6) * 2) / 2);
+            const a0 = variant.audio || { bed: null, cues: [] };
+            voAudio = { bed: a0.bed ? [a0.bed[0], +(a0.bed[1] * 0.45).toFixed(2)] : null,
+              cues: (a0.cues || []).map((c) => [c[0], c[1], +(c[2] * 0.6).toFixed(2)]).concat([["vo_" + variant.tag, 0.45, 1.0]]) };
+          }
+        }
+        const vtag = variant.tag ? `-${variant.tag}${meta.tagSuffix || ""}` : "";
         const name = `${meta.id}-${meta.slug}${vtag}__${mode}__${aspect}`;
         const id = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
         const u = Math.min(W, H) / 100, L = Math.max(W, H) / 100;
@@ -118,7 +132,7 @@ ${js}
         fs.writeFileSync(path.join(OUT, "v", `${name}.html`), doc);
         manifest.push({
           name, model: meta.id, slug: meta.slug, title: meta.title, group: meta.group, mode, aspect, W, H, duration,
-          alpha: !!meta.alpha, audio: variant.audio !== undefined ? variant.audio : expandAudio(meta.audio, mode, duration),
+          alpha: !!meta.alpha, audio: voAudio || (variant.audio !== undefined ? variant.audio : expandAudio(meta.audio, mode, duration)), voiced: !!voAudio,
         });
       }
     }

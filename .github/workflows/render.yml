@@ -91,6 +91,16 @@ jobs:
           ls -la assets/private
       - name: Synthesise sound kit
         run: python3 scripts/synth.py assets/audio
+      - name: Persian voice-over (voiced story models only)
+        if: startsWith(matrix.model, 'V3V')
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVEN_VOICE_ID: ${{ vars.ELEVEN_VOICE_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          TTS_PROVIDER: ${{ vars.TTS_PROVIDER || 'auto' }}
+        run: |
+          python3 -m pip install --quiet --break-system-packages edge-tts
+          M="${{ matrix.model }}"; python3 scripts/tts.py --group "${M#V3}"
       - name: Build compositions
         run: node scripts/build.mjs --only "${{ matrix.model }}" --aspects "${{ inputs.aspects || '9x16,4x5,16x9' }}"
       - name: Render
@@ -150,6 +160,16 @@ jobs:
             ls -la Royal_Week_Stories_120.zip days
             gh release upload "${{ steps.rel.outputs.tag }}" Royal_Week_Stories_120.zip days/*.zip --clobber
           fi
+      - name: Stories v3 packs (100 + voiced 50)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p v3 v3v
+          find out -name '*-s3-*.mp4' ! -name '*-fa__*' | while read f; do g=$(basename "$(dirname "$f")"); mkdir -p "v3/$g"; cp "$f" "v3/$g/"; done
+          find out -name '*-fa__*.mp4' | while read f; do cp "$f" v3v/; done
+          if [ -n "$(ls -A v3)" ]; then (cd v3 && zip -q -r -0 ../Royal_Stories_v3_100.zip .); gh release upload "${{ steps.rel.outputs.tag }}" Royal_Stories_v3_100.zip --clobber; fi
+          if [ -n "$(ls -A v3v)" ]; then (cd v3v && zip -q -r -0 ../Royal_Stories_v3_Voice_FA_50.zip .); gh release upload "${{ steps.rel.outputs.tag }}" Royal_Stories_v3_Voice_FA_50.zip --clobber; fi
+          ls -la *.zip || true
       - name: Build gallery
         run: node scripts/gallery.mjs out site "${{ github.repository }}" "${{ steps.rel.outputs.tag }}"
       - uses: actions/configure-pages@v5

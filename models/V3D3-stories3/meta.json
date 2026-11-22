@@ -1,0 +1,28 @@
+{
+ "id": "V3D3",
+ "slug": "s3",
+ "title": "استوری نسل ۳ — سه‌بعدی",
+ "group": "stories3",
+ "theme": "rw",
+ "modes": {
+  "story": 7
+ },
+ "aspects": [
+  "9x16"
+ ],
+ "scene": [
+  "stories3/core.js",
+  "stories3/pixel.js",
+  "stories3/fx1.js",
+  "stories3/fx2.js",
+  "stories3/boot.js"
+ ],
+ "css": "stories3/core.css",
+ "variantsFrom": "data/stories3.json",
+ "variantsFilter": {
+  "grp": "D3"
+ },
+ "params": {
+  "bpm": 128
+ }
+}

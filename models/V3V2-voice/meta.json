@@ -1,0 +1,30 @@
+{
+ "id": "V3V2",
+ "slug": "s3",
+ "title": "استوری نسل ۳ با صدای فارسی — گروه 2",
+ "group": "stories3-voice",
+ "theme": "rw",
+ "modes": {
+  "story": 7
+ },
+ "aspects": [
+  "9x16"
+ ],
+ "scene": [
+  "stories3/core.js",
+  "stories3/pixel.js",
+  "stories3/fx1.js",
+  "stories3/fx2.js",
+  "stories3/boot.js"
+ ],
+ "css": "stories3/core.css",
+ "variantsFrom": "data/stories3.json",
+ "variantsFilter": {
+  "vg": "V2"
+ },
+ "voice": true,
+ "tagSuffix": "-fa",
+ "params": {
+  "bpm": 128
+ }
+}

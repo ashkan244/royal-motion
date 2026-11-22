@@ -1,0 +1,3538 @@
+[
+ {
+  "tag": "X01",
+  "grp": "X1",
+  "duration": 9,
+  "params": {
+   "id": "X01"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.3,
+     0.6
+    ],
+    [
+     "chip_type",
+     0.7,
+     0.4
+    ],
+    [
+     "chip_type",
+     1.5,
+     0.4
+    ],
+    [
+     "chip_type",
+     2.3,
+     0.4
+    ],
+    [
+     "chip_power",
+     5.1,
+     0.7
+    ],
+    [
+     "chip_coin",
+     6.3,
+     0.5
+    ]
+   ]
+  },
+  "vo": "سیستم رویالی روشن شد… رویال ویک، آماده‌ست!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X02",
+  "grp": "X1",
+  "duration": 7,
+  "params": {
+   "id": "X02"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_coin",
+     2.3,
+     0.8
+    ],
+    [
+     "chip_power",
+     2.5,
+     0.6
+    ],
+    [
+     "chip_blip",
+     3.6,
+     0.4
+    ]
+   ]
+  },
+  "vo": "یه سکه بنداز… بازی رویال ویک شروع می‌شه!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X03",
+  "grp": "X1",
+  "duration": 9,
+  "params": {
+   "id": "X03"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.6,
+     0.45
+    ],
+    [
+     "chip_blip",
+     1.22,
+     0.45
+    ],
+    [
+     "chip_blip",
+     1.84,
+     0.45
+    ],
+    [
+     "chip_blip",
+     2.46,
+     0.45
+    ],
+    [
+     "chip_blip",
+     3.08,
+     0.45
+    ],
+    [
+     "chip_blip",
+     3.7,
+     0.45
+    ],
+    [
+     "chip_blip",
+     4.32,
+     0.45
+    ],
+    [
+     "chip_power",
+     5.2,
+     0.6
+    ]
+   ]
+  },
+  "vo": "طبقه به طبقه بیا بالا… همه‌ی طبقه‌ها رویالیه!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X04",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X04"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_jump",
+     1.0,
+     0.6
+    ],
+    [
+     "chip_coin",
+     1.3,
+     0.5
+    ],
+    [
+     "chip_jump",
+     2.1,
+     0.6
+    ],
+    [
+     "chip_coin",
+     2.5,
+     0.5
+    ],
+    [
+     "chip_jump",
+     3.3,
+     0.6
+    ],
+    [
+     "chip_coin",
+     3.6,
+     0.5
+    ],
+    [
+     "chip_jump",
+     4.6,
+     0.6
+    ],
+    [
+     "chip_power",
+     4.95,
+     0.8
+    ]
+   ]
+  },
+  "vo": "بپر، سکه جمع کن… و پاور آپ پنجاه درصدی رو بگیر!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X05",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X05"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_explode",
+     1.0,
+     0.35
+    ],
+    [
+     "chip_explode",
+     1.28,
+     0.35
+    ],
+    [
+     "chip_explode",
+     1.56,
+     0.35
+    ],
+    [
+     "chip_explode",
+     1.84,
+     0.35
+    ],
+    [
+     "chip_explode",
+     2.12,
+     0.35
+    ],
+    [
+     "chip_explode",
+     2.4,
+     0.35
+    ],
+    [
+     "chip_explode",
+     2.68,
+     0.35
+    ],
+    [
+     "chip_explode",
+     2.96,
+     0.35
+    ],
+    [
+     "chip_explode",
+     3.24,
+     0.35
+    ],
+    [
+     "chip_explode",
+     3.52,
+     0.35
+    ],
+    [
+     "chip_explode",
+     3.8,
+     0.35
+    ],
+    [
+     "chip_explode",
+     4.08,
+     0.35
+    ],
+    [
+     "chip_explode",
+     4.36,
+     0.35
+    ],
+    [
+     "chip_explode",
+     4.64,
+     0.35
+    ],
+    [
+     "chip_explode",
+     4.92,
+     0.35
+    ],
+    [
+     "chip_power",
+     5.4,
+     0.6
+    ]
+   ]
+  },
+  "vo": "قیمت‌های بالا حمله کردن… ولی رویال ویک همه رو نابود کرد!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X06",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X06"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.3,
+     0.35
+    ],
+    [
+     "chip_blip",
+     0.74,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.18,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.62,
+     0.35
+    ],
+    [
+     "chip_blip",
+     2.06,
+     0.35
+    ],
+    [
+     "chip_blip",
+     2.5,
+     0.35
+    ],
+    [
+     "chip_blip",
+     2.94,
+     0.35
+    ],
+    [
+     "chip_blip",
+     3.38,
+     0.35
+    ],
+    [
+     "chip_blip",
+     3.82,
+     0.35
+    ],
+    [
+     "chip_blip",
+     4.26,
+     0.35
+    ],
+    [
+     "chip_power",
+     6.0,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X07",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X07"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.2,
+     0.4
+    ],
+    [
+     "chip_blip",
+     1.2,
+     0.4
+    ],
+    [
+     "chip_power",
+     2.2,
+     0.5
+    ],
+    [
+     "chip_coin",
+     4.6,
+     0.7
+    ]
+   ]
+  },
+  "vo": "چنگک رفت پایین… و یه هدیه گرفت! خریدت هدیه داره.",
+  "vg": "V1"
+ },
+ {
+  "tag": "X08",
+  "grp": "X1",
+  "duration": 7,
+  "params": {
+   "brand": "کالکشن",
+   "offer": "تا ۵۰٪",
+   "id": "X08"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_type",
+     0.2,
+     0.4
+    ],
+    [
+     "chip_blip",
+     1.8,
+     0.5
+    ],
+    [
+     "chip_power",
+     2.6,
+     0.7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X09",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X09"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_type",
+     0.6,
+     0.35
+    ],
+    [
+     "chip_type",
+     0.88,
+     0.35
+    ],
+    [
+     "chip_type",
+     1.16,
+     0.35
+    ],
+    [
+     "chip_type",
+     1.44,
+     0.35
+    ],
+    [
+     "chip_type",
+     1.72,
+     0.35
+    ],
+    [
+     "chip_type",
+     2.0,
+     0.35
+    ],
+    [
+     "chip_type",
+     2.28,
+     0.35
+    ],
+    [
+     "chip_type",
+     2.56,
+     0.35
+    ],
+    [
+     "chip_blip",
+     4.4,
+     0.4
+    ],
+    [
+     "chip_blip",
+     5.0,
+     0.4
+    ],
+    [
+     "chip_power",
+     5.6,
+     0.6
+    ]
+   ]
+  },
+  "vo": "سلام رویالی! امروز چی لازم داری؟ تخفیف؟ هدیه؟ یا بازی؟",
+  "vg": "V1"
+ },
+ {
+  "tag": "X10",
+  "grp": "X1",
+  "duration": 7,
+  "params": {
+   "today": 3,
+   "id": "X10"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.0,
+     0.35
+    ],
+    [
+     "chip_blip",
+     0.3,
+     0.35
+    ],
+    [
+     "chip_blip",
+     0.6,
+     0.35
+    ],
+    [
+     "chip_blip",
+     0.9,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.2,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.5,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.8,
+     0.35
+    ],
+    [
+     "chip_power",
+     3.0,
+     0.5
+    ]
+   ]
+  },
+  "vo": "مرحله‌ی سه از هفت… و جمعه، مرحله‌ی رئیسه!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X11",
+  "grp": "X1",
+  "duration": 9,
+  "params": {
+   "id": "X11"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_explode",
+     1.7,
+     0.6
+    ],
+    [
+     "chip_explode",
+     2.7,
+     0.6
+    ],
+    [
+     "chip_explode",
+     3.7,
+     0.7
+    ],
+    [
+     "chip_over",
+     4.6,
+     0.5
+    ],
+    [
+     "chip_power",
+     5.2,
+     0.8
+    ]
+   ]
+  },
+  "vo": "رئیس آخر: قیمت‌های گرون! با تخفیف، هدیه و امتیاز دوبرابر… ناک‌اوت! رویال فرایدی، جمعه شش آذر.",
+  "vg": "V1"
+ },
+ {
+  "tag": "X12",
+  "grp": "X1",
+  "duration": 8,
+  "params": {
+   "id": "X12"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.8,
+     0.4
+    ],
+    [
+     "chip_blip",
+     1.55,
+     0.4
+    ],
+    [
+     "chip_blip",
+     2.3,
+     0.4
+    ],
+    [
+     "chip_blip",
+     3.05,
+     0.4
+    ],
+    [
+     "chip_blip",
+     3.8,
+     0.4
+    ],
+    [
+     "chip_blip",
+     4.55,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X13",
+  "grp": "X1",
+  "duration": 7,
+  "params": {
+   "id": "X13"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_power",
+     0.4,
+     0.5
+    ],
+    [
+     "chip_power",
+     1.5,
+     0.5
+    ],
+    [
+     "chip_power",
+     2.6,
+     0.5
+    ],
+    [
+     "chip_power",
+     3.7,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X14",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X14"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.3,
+     0.6
+    ],
+    [
+     "chip_blip",
+     1.5,
+     0.6
+    ],
+    [
+     "chip_blip",
+     2.7,
+     0.7
+    ],
+    [
+     "chip_explode",
+     1.2,
+     0.4
+    ],
+    [
+     "chip_explode",
+     2.4,
+     0.4
+    ],
+    [
+     "chip_explode",
+     3.6,
+     0.5
+    ],
+    [
+     "chip_power",
+     3.9,
+     0.8
+    ]
+   ]
+  },
+  "vo": "سه… دو… یک… رویال ویک شروع شد!",
+  "vg": "V1"
+ },
+ {
+  "tag": "X15",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X15"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_over",
+     0.1,
+     0.7
+    ],
+    [
+     "chip_blip",
+     1.6,
+     0.3
+    ],
+    [
+     "chip_blip",
+     1.85,
+     0.3
+    ],
+    [
+     "chip_blip",
+     2.1,
+     0.3
+    ],
+    [
+     "chip_blip",
+     2.35,
+     0.3
+    ],
+    [
+     "chip_blip",
+     2.6,
+     0.3
+    ],
+    [
+     "chip_blip",
+     2.85,
+     0.3
+    ],
+    [
+     "chip_blip",
+     3.1,
+     0.3
+    ],
+    [
+     "chip_blip",
+     3.35,
+     0.3
+    ],
+    [
+     "chip_power",
+     3.8,
+     0.7
+    ]
+   ]
+  },
+  "vo": "گیم اور؟ نه! ادامه می‌دی… امروز آخرین روز رویال ویکه!",
+  "vg": "V2"
+ },
+ {
+  "tag": "X16",
+  "grp": "X2",
+  "duration": 6,
+  "params": {
+   "id": "X16"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_blip",
+     0.4,
+     0.35
+    ],
+    [
+     "chip_blip",
+     0.75,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.1,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.45,
+     0.35
+    ],
+    [
+     "chip_blip",
+     1.8,
+     0.35
+    ],
+    [
+     "chip_coin",
+     2.6,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X17",
+  "grp": "X2",
+  "duration": 8,
+  "params": {
+   "id": "X17"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "shimmer_low",
+     2.2,
+     0.4
+    ],
+    [
+     "chip_power",
+     4.0,
+     0.5
+    ]
+   ]
+  },
+  "vo": "اهواز که شب می‌شه… رویال پارس می‌درخشه. شب‌های رویالی!",
+  "vg": "V2"
+ },
+ {
+  "tag": "X18",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X18"
+  },
+  "audio": {
+   "bed": [
+    "rw_drums",
+    0.8
+   ],
+   "cues": []
+  },
+  "vo": "اجرای زنده‌ی درام… پنجشنبه، جمعه و شنبه شب!",
+  "vg": "V2"
+ },
+ {
+  "tag": "X19",
+  "grp": "X2",
+  "duration": 8,
+  "params": {
+   "id": "X19"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "engine",
+     0.2,
+     0.7
+    ],
+    [
+     "chip_power",
+     4.6,
+     0.7
+    ]
+   ]
+  },
+  "vo": "جایزه‌ی بزرگ: موتورسیکلت! قرعه‌کشی تا یلدا ادامه داره.",
+  "vg": "V2"
+ },
+ {
+  "tag": "X20",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "photo": "shops/s12",
+   "preload": [
+    "shops/s12"
+   ],
+   "id": "X20"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "glitch",
+     0.2,
+     0.3
+    ],
+    [
+     "glitch",
+     1.2,
+     0.3
+    ],
+    [
+     "glitch",
+     2.2,
+     0.3
+    ],
+    [
+     "impact_soft",
+     3.0,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X21",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X21"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_power",
+     0.2,
+     0.5
+    ],
+    [
+     "chip_blip",
+     2.0,
+     0.5
+    ],
+    [
+     "chip_blip",
+     3.2,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X22",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X22"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_type",
+     0.2,
+     0.3
+    ],
+    [
+     "chip_blip",
+     2.4,
+     0.4
+    ],
+    [
+     "chip_explode",
+     4.4,
+     0.8
+    ],
+    [
+     "chip_power",
+     4.7,
+     0.8
+    ]
+   ]
+  },
+  "vo": "در حال بارگذاری… نود و نه درصد… جمعه رسید!",
+  "vg": "V2"
+ },
+ {
+  "tag": "X23",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "id": "X23"
+  },
+  "audio": {
+   "bed": [
+    "chip_bed",
+    0.45
+   ],
+   "cues": [
+    [
+     "chip_coin",
+     0.88,
+     0.45
+    ],
+    [
+     "chip_coin",
+     1.76,
+     0.45
+    ],
+    [
+     "chip_coin",
+     2.64,
+     0.45
+    ],
+    [
+     "chip_coin",
+     3.63,
+     0.45
+    ],
+    [
+     "chip_coin",
+     4.62,
+     0.45
+    ],
+    [
+     "chip_power",
+     5.0,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X24",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "preload": [
+    "shops/s01",
+    "shops/s07",
+    "shops/s12",
+    "shops/s14",
+    "shops/s20",
+    "shops/s24",
+    "shops/s25",
+    "shops/s29",
+    "shops/s31",
+    "shops/s05"
+   ],
+   "id": "X24"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.5
+    ],
+    [
+     "impact_soft",
+     3.2,
+     0.6
+    ],
+    [
+     "shimmer",
+     3.3,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "X25",
+  "grp": "X2",
+  "duration": 7,
+  "params": {
+   "photo": "shops/s28",
+   "preload": [
+    "shops/s28"
+   ],
+   "id": "X25"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "glitch",
+     0.2,
+     0.4
+    ],
+    [
+     "chip_type",
+     1.0,
+     0.3
+    ],
+    [
+     "whoosh",
+     2.6,
+     0.5
+    ],
+    [
+     "impact",
+     4.2,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI1",
+  "grp": "CI",
+  "duration": 8,
+  "params": {
+   "id": "CI1"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.5
+   ],
+   "cues": [
+    [
+     "boom",
+     0,
+     0.6
+    ],
+    [
+     "impact",
+     1.05,
+     0.6
+    ],
+    [
+     "impact",
+     2.75,
+     0.6
+    ],
+    [
+     "impact",
+     4.45,
+     0.6
+    ],
+    [
+     "boom",
+     5.1,
+     0.8
+    ],
+    [
+     "shimmer",
+     5.2,
+     0.5
+    ]
+   ]
+  },
+  "vo": "در شهری که همه منتظرن… یک هفته… یک جمعه… این جمعه، رویالیه.",
+  "vg": "V2"
+ },
+ {
+  "tag": "CI2",
+  "grp": "CI",
+  "duration": 8,
+  "params": {
+   "photo": "p3",
+   "id": "CI2"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "shimmer",
+     1.3,
+     0.5
+    ]
+   ]
+  },
+  "vo": "رویال ویک؛ رویالی‌ترین هفته‌ی سال. با بازی هجده برند.",
+  "vg": "V2"
+ },
+ {
+  "tag": "CI3",
+  "grp": "CI",
+  "duration": 6,
+  "params": {
+   "id": "CI3"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.45
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.6
+    ],
+    [
+     "shimmer",
+     0.9,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI4",
+  "grp": "CI",
+  "duration": 7,
+  "params": {
+   "id": "CI4"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     1.6,
+     0.5
+    ],
+    [
+     "impact_soft",
+     2.6,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI5",
+  "grp": "CI",
+  "duration": 7,
+  "params": {
+   "id": "CI5"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.45
+   ],
+   "cues": [
+    [
+     "riser_long",
+     0.3,
+     0.5
+    ],
+    [
+     "impact",
+     3.3,
+     0.7
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI6",
+  "grp": "CI",
+  "duration": 7,
+  "params": {
+   "id": "CI6"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "printer",
+     0.1,
+     0.3
+    ],
+    [
+     "whoosh",
+     2.4,
+     0.5
+    ],
+    [
+     "impact_soft",
+     2.6,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI7",
+  "grp": "CI",
+  "duration": 6,
+  "params": {
+   "photo": "shops/s18",
+   "id": "CI7"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "thump",
+     1.36,
+     0.9
+    ],
+    [
+     "impact",
+     1.4,
+     0.6
+    ]
+   ]
+  },
+  "vo": "صحنه‌ی شش، برداشت یک: رویال فرایدی… اکشن! خرید!",
+  "vg": "V2"
+ },
+ {
+  "tag": "CI8",
+  "grp": "CI",
+  "duration": 7,
+  "params": {
+   "id": "CI8"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer_low",
+     0.3,
+     0.4
+    ],
+    [
+     "impact_soft",
+     3.2,
+     0.6
+    ]
+   ]
+  },
+  "vo": "مرکز خرید رویال پارس تقدیم می‌کند: رویال ویک. سه تا نه آذر.",
+  "vg": "V2"
+ },
+ {
+  "tag": "CI9",
+  "grp": "CI",
+  "duration": 7,
+  "params": {
+   "id": "CI9"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.0,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "CI10",
+  "grp": "CI",
+  "duration": 6,
+  "params": {
+   "id": "CI10"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.45
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     2.4,
+     0.6
+    ]
+   ]
+  },
+  "vo": "پایان؟ نه… شروع! این داستان تا یلدا ادامه داره.",
+  "vg": "V2"
+ },
+ {
+  "tag": "D3-1",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.3,
+     0.4
+    ],
+    [
+     "whoosh",
+     1.4,
+     0.4
+    ],
+    [
+     "whoosh",
+     2.5,
+     0.4
+    ],
+    [
+     "whoosh",
+     3.6,
+     0.4
+    ],
+    [
+     "impact_soft",
+     5.0,
+     0.6
+    ]
+   ]
+  },
+  "vo": "از هر طرف نگاهش کنی… رویالیه!",
+  "vg": "V3"
+ },
+ {
+  "tag": "D3-2",
+  "grp": "D3",
+  "duration": 8,
+  "params": {
+   "id": "D3-2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.2,
+     0.5
+    ],
+    [
+     "shimmer",
+     6.0,
+     0.4
+    ]
+   ]
+  },
+  "vo": "هجده برند، دور تا دور تو.",
+  "vg": "V3"
+ },
+ {
+  "tag": "D3-3",
+  "grp": "D3",
+  "duration": 8,
+  "params": {
+   "id": "D3-3"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_rev",
+     0.8,
+     0.6
+    ],
+    [
+     "impact_soft",
+     2.0,
+     0.5
+    ]
+   ]
+  },
+  "vo": "هر طبقه، یه تخفیف. از همکف تا طبقه‌ی پنج.",
+  "vg": "V3"
+ },
+ {
+  "tag": "D3-4",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-4"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.5
+    ],
+    [
+     "shimmer",
+     1.6,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "D3-5",
+  "grp": "D3",
+  "duration": 8,
+  "params": {
+   "id": "D3-5"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.45
+   ],
+   "cues": [
+    [
+     "riser_long",
+     0.2,
+     0.5
+    ],
+    [
+     "impact",
+     5.6,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "D3-6",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-6"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "swish",
+     0.5,
+     0.4
+    ],
+    [
+     "swish",
+     2.0,
+     0.4
+    ],
+    [
+     "swish",
+     3.5,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "D3-7",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-7"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.4,
+     0.6
+    ],
+    [
+     "pop",
+     1.5,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "D3-8",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-8"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "thump",
+     1.3,
+     0.6
+    ],
+    [
+     "whoosh_rev",
+     1.4,
+     0.5
+    ],
+    [
+     "shimmer",
+     1.8,
+     0.7
+    ]
+   ]
+  },
+  "vo": "جعبه رو باز کن… خریدت هدیه داره!",
+  "vg": "V3"
+ },
+ {
+  "tag": "D3-9",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-9"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "paper",
+     0.8,
+     0.6
+    ],
+    [
+     "paper",
+     1.85,
+     0.6
+    ],
+    [
+     "paper",
+     2.9,
+     0.6
+    ],
+    [
+     "paper",
+     3.95,
+     0.6
+    ]
+   ]
+  },
+  "vo": "کاتالوگ رویال: کومار، کالکشن، بارگلو، لیان… ورق بزن!",
+  "vg": "V3"
+ },
+ {
+  "tag": "D3-10",
+  "grp": "D3",
+  "duration": 7,
+  "params": {
+   "id": "D3-10"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.6
+   ],
+   "cues": [
+    [
+     "shimmer",
+     0.8,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "U1",
+  "grp": "U",
+  "duration": 7,
+  "params": {
+   "id": "U1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop_soft",
+     0.5,
+     0.5
+    ],
+    [
+     "pop_soft",
+     1.5,
+     0.4
+    ],
+    [
+     "pop_soft",
+     2.5,
+     0.5
+    ],
+    [
+     "pop_soft",
+     3.5,
+     0.5
+    ],
+    [
+     "pop",
+     4.6,
+     0.5
+    ]
+   ]
+  },
+  "vo": "بلک‌فرایدی کجا بریم؟ معلومه… رویال پارس!",
+  "vg": "V3"
+ },
+ {
+  "tag": "U2",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "id": "U2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "tick",
+     0.5,
+     0.5
+    ],
+    [
+     "tick",
+     0.95,
+     0.5
+    ],
+    [
+     "tick",
+     1.4,
+     0.5
+    ],
+    [
+     "pop",
+     3.0,
+     0.5
+    ]
+   ]
+  },
+  "vo": "بلک فرایدی اهواز… نتیجه‌ی اول: رویال پارس.",
+  "vg": "V3"
+ },
+ {
+  "tag": "U3",
+  "grp": "U",
+  "duration": 7,
+  "params": {
+   "id": "U3"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.4,
+     0.4
+    ],
+    [
+     "pop",
+     2.6,
+     0.6
+    ],
+    [
+     "shimmer",
+     3.2,
+     0.4
+    ]
+   ]
+  },
+  "vo": "مسیریابی تموم شد. رسیدی به رویال پارس!",
+  "vg": "V3"
+ },
+ {
+  "tag": "U4",
+  "grp": "U",
+  "duration": 7,
+  "params": {
+   "id": "U4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop_soft",
+     0.3,
+     0.4
+    ],
+    [
+     "pop_soft",
+     0.6,
+     0.4
+    ],
+    [
+     "pop_soft",
+     0.9,
+     0.4
+    ],
+    [
+     "cash",
+     1.8,
+     0.6
+    ],
+    [
+     "impact",
+     2.8,
+     0.6
+    ]
+   ]
+  },
+  "vo": "کد تخفیف زدیم… قیمت‌ها خط خورد. خرید رویالی!",
+  "vg": "V3"
+ },
+ {
+  "tag": "U5",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "id": "U5"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.5
+    ],
+    [
+     "pop",
+     2.4,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "U6",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "id": "U6"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.4,
+     0.5
+    ],
+    [
+     "shimmer",
+     1.2,
+     0.3
+    ]
+   ]
+  },
+  "vo": "پیش‌بینی هوای اهواز برای جمعه: بارش شدید تخفیف!",
+  "vg": "V3"
+ },
+ {
+  "tag": "U7",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "id": "U7"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0.3,
+     0.4
+    ],
+    [
+     "impact",
+     2.6,
+     0.6
+    ]
+   ]
+  },
+  "vo": "شاخص رویالی امروز: پنجاه درصد صعود!",
+  "vg": "V4"
+ },
+ {
+  "tag": "U8",
+  "grp": "U",
+  "duration": 7,
+  "params": {
+   "id": "U8"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.75
+   ],
+   "cues": []
+  }
+ },
+ {
+  "tag": "U9",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "photo": "shops/s12",
+   "id": "U9"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop_soft",
+     0.8,
+     0.5
+    ],
+    [
+     "pop_soft",
+     1.3,
+     0.5
+    ],
+    [
+     "pop_soft",
+     1.8,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "U10",
+  "grp": "U",
+  "duration": 6,
+  "params": {
+   "id": "U10"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.1,
+     0.5
+    ],
+    [
+     "pop",
+     2.0,
+     0.7
+    ],
+    [
+     "shimmer",
+     2.1,
+     0.5
+    ]
+   ]
+  },
+  "vo": "رویال پارس رو دنبال کن… تا هیچ تخفیفی رو از دست ندی.",
+  "vg": "V4"
+ },
+ {
+  "tag": "H1",
+  "grp": "H",
+  "duration": 7,
+  "params": {
+   "id": "H1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "paper",
+     0.3,
+     0.5
+    ],
+    [
+     "paper",
+     0.9,
+     0.5
+    ],
+    [
+     "paper",
+     1.5,
+     0.5
+    ],
+    [
+     "paper",
+     2.1,
+     0.5
+    ],
+    [
+     "pop",
+     3.0,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "H2",
+  "grp": "H",
+  "duration": 6,
+  "params": {
+   "id": "H2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "paper",
+     0.55,
+     0.9
+    ],
+    [
+     "whoosh",
+     0.6,
+     0.5
+    ],
+    [
+     "impact_soft",
+     1.1,
+     0.6
+    ]
+   ]
+  },
+  "vo": "پاره‌ش کن… این جمعه رویالیه!",
+  "vg": "V4"
+ },
+ {
+  "tag": "H3",
+  "grp": "H",
+  "duration": 6,
+  "params": {
+   "photo": "shops/s20",
+   "id": "H3"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "scratch",
+     0.5,
+     0.5
+    ],
+    [
+     "scratch",
+     1.3,
+     0.4
+    ],
+    [
+     "pop",
+     1.9,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "H4",
+  "grp": "H",
+  "duration": 7,
+  "params": {
+   "photo": "p6",
+   "id": "H4"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.3,
+     0.6
+    ],
+    [
+     "pop_soft",
+     0.9,
+     0.4
+    ],
+    [
+     "pop_soft",
+     1.2,
+     0.4
+    ],
+    [
+     "pop_soft",
+     1.5,
+     0.4
+    ]
+   ]
+  },
+  "vo": "رویال‌مگ این هفته: هجده برند، جمعه‌ی طلایی، و پادشاه هفته!",
+  "vg": "V4"
+ },
+ {
+  "tag": "H5",
+  "grp": "H",
+  "duration": 6,
+  "params": {
+   "id": "H5"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "thump",
+     0.4,
+     0.6
+    ],
+    [
+     "thump",
+     0.8,
+     0.6
+    ],
+    [
+     "thump",
+     1.2,
+     0.6
+    ],
+    [
+     "thump",
+     1.6,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "H6",
+  "grp": "H",
+  "duration": 7,
+  "params": {
+   "photo": "p2",
+   "id": "H6"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.4
+    ],
+    [
+     "scratch",
+     0.9,
+     0.3
+    ],
+    [
+     "scratch",
+     1.25,
+     0.3
+    ],
+    [
+     "scratch",
+     1.6,
+     0.3
+    ],
+    [
+     "scratch",
+     1.95,
+     0.3
+    ],
+    [
+     "pop",
+     1.4,
+     0.4
+    ]
+   ]
+  },
+  "vo": "لیست خرید جمعه: کفش، کیف، یه هدیه برای مامان… تیک، تیک، تیک!",
+  "vg": "V4"
+ },
+ {
+  "tag": "H7",
+  "grp": "H",
+  "duration": 7,
+  "params": {
+   "id": "H7"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "pop",
+     0.2,
+     0.4
+    ],
+    [
+     "pop",
+     0.48,
+     0.4
+    ],
+    [
+     "pop",
+     0.76,
+     0.4
+    ],
+    [
+     "pop",
+     1.04,
+     0.4
+    ],
+    [
+     "pop",
+     1.32,
+     0.4
+    ],
+    [
+     "pop",
+     1.6,
+     0.4
+    ],
+    [
+     "pop",
+     1.88,
+     0.4
+    ],
+    [
+     "pop",
+     2.16,
+     0.4
+    ],
+    [
+     "pop",
+     2.44,
+     0.4
+    ],
+    [
+     "pop",
+     2.72,
+     0.4
+    ],
+    [
+     "pop",
+     3.0,
+     0.4
+    ],
+    [
+     "pop",
+     3.28,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "H8",
+  "grp": "H",
+  "duration": 7,
+  "params": {
+   "id": "H8"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "scratch",
+     0.5,
+     0.4
+    ],
+    [
+     "scratch",
+     1.2,
+     0.4
+    ],
+    [
+     "scratch",
+     1.9,
+     0.4
+    ],
+    [
+     "scratch",
+     2.6,
+     0.4
+    ],
+    [
+     "scratch",
+     3.4,
+     0.5
+    ]
+   ]
+  },
+  "vo": "برنامه‌ی هفته: سه‌شنبه شروع، پنجشنبه شب اجرا، جمعه رویال فرایدی، دوشنبه روز آخر.",
+  "vg": "V4"
+ },
+ {
+  "tag": "H9",
+  "grp": "H",
+  "duration": 6,
+  "params": {
+   "id": "H9"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "paper",
+     0.4,
+     0.5
+    ],
+    [
+     "paper",
+     0.8,
+     0.5
+    ],
+    [
+     "paper",
+     1.2,
+     0.5
+    ],
+    [
+     "paper",
+     1.6,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "H10",
+  "grp": "H",
+  "duration": 6,
+  "params": {
+   "id": "H10"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "thump",
+     0.78,
+     0.9
+    ],
+    [
+     "impact_soft",
+     0.8,
+     0.5
+    ]
+   ]
+  },
+  "vo": "مهر شد: هفته‌ی رویالی، تأیید شد!",
+  "vg": "V4"
+ },
+ {
+  "tag": "T1",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "photo": "p3",
+   "id": "T1"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.2,
+     0.5
+    ],
+    [
+     "impact_soft",
+     1.8,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "T2",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "id": "T2"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer",
+     0.3,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "T3",
+  "grp": "T",
+  "duration": 7,
+  "params": {
+   "id": "T3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.1,
+     0.4
+    ],
+    [
+     "whoosh_rev",
+     2.0,
+     0.5
+    ],
+    [
+     "impact",
+     2.9,
+     0.6
+    ]
+   ]
+  },
+  "vo": "رویالی، رویالی، رویالی… این هفته رویالیه!",
+  "vg": "V4"
+ },
+ {
+  "tag": "T4",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "id": "T4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.3,
+     0.4
+    ],
+    [
+     "whoosh_soft",
+     1.6,
+     0.4
+    ],
+    [
+     "shimmer",
+     2.9,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "T5",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "id": "T5"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "reel",
+     0.2,
+     0.5
+    ],
+    [
+     "impact",
+     1.6,
+     0.6
+    ]
+   ]
+  },
+  "vo": "هر کلمه‌ای که بخوای… ولی آخرش: این جمعه رویالیه!",
+  "vg": "V4"
+ },
+ {
+  "tag": "T6",
+  "grp": "T",
+  "duration": 7,
+  "params": {
+   "id": "T6"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "kick",
+     0.2,
+     0.5
+    ],
+    [
+     "kick",
+     0.7,
+     0.5
+    ],
+    [
+     "kick",
+     1.2,
+     0.5
+    ],
+    [
+     "kick",
+     1.7,
+     0.5
+    ],
+    [
+     "kick",
+     2.2,
+     0.5
+    ],
+    [
+     "kick",
+     2.7,
+     0.5
+    ],
+    [
+     "kick",
+     3.2,
+     0.5
+    ],
+    [
+     "kick",
+     3.7,
+     0.5
+    ]
+   ]
+  },
+  "vo": "این هفته، همه‌چیز، توی رویال پارس، رویالیه!",
+  "vg": "V4"
+ },
+ {
+  "tag": "T7",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "id": "T7"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.8,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "T8",
+  "grp": "T",
+  "duration": 7,
+  "params": {
+   "id": "T8"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "swish",
+     0.5,
+     0.4
+    ],
+    [
+     "swish",
+     1.1,
+     0.4
+    ],
+    [
+     "swish",
+     1.7,
+     0.4
+    ],
+    [
+     "swish",
+     2.3,
+     0.4
+    ],
+    [
+     "swish",
+     2.9,
+     0.4
+    ]
+   ]
+  },
+  "vo": "این هفته تخفیف داره، هدیه داره، بازی داره… و یه جمعه‌ی طلایی!",
+  "vg": "V5"
+ },
+ {
+  "tag": "T9",
+  "grp": "T",
+  "duration": 7,
+  "params": {
+   "id": "T9"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "scratch",
+     0.65,
+     0.4
+    ],
+    [
+     "scratch",
+     1.65,
+     0.4
+    ],
+    [
+     "scratch",
+     2.65,
+     0.4
+    ],
+    [
+     "impact",
+     0.9,
+     0.5
+    ],
+    [
+     "impact",
+     1.9,
+     0.5
+    ],
+    [
+     "impact",
+     2.9,
+     0.5
+    ]
+   ]
+  },
+  "vo": "قیمت عادی؟ نه! قیمت رویالی. یه جمعه‌ی معمولی؟ نه! این جمعه رویالیه.",
+  "vg": "V5"
+ },
+ {
+  "tag": "T10",
+  "grp": "T",
+  "duration": 6,
+  "params": {
+   "id": "T10"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.1,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "DA1",
+  "grp": "DA",
+  "duration": 7,
+  "params": {
+   "id": "DA1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "tick",
+     0.5,
+     0.5
+    ],
+    [
+     "tick",
+     1.3,
+     0.5
+    ],
+    [
+     "tick",
+     2.1,
+     0.5
+    ],
+    [
+     "tick",
+     2.9,
+     0.5
+    ],
+    [
+     "tick",
+     3.7,
+     0.5
+    ]
+   ]
+  },
+  "vo": "رویال ویک به عدد: هجده برند، شش طبقه، هفت روز، سه شب اجرا، و یک موتورسیکلت!",
+  "vg": "V5"
+ },
+ {
+  "tag": "DA2",
+  "grp": "DA",
+  "duration": 7,
+  "params": {
+   "id": "DA2"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0.3,
+     0.4
+    ],
+    [
+     "impact",
+     1.8,
+     0.6
+    ]
+   ]
+  },
+  "vo": "مسابقه‌ی تخفیف‌ها… کالکشن تا پنجاه درصد، اوله!",
+  "vg": "V5"
+ },
+ {
+  "tag": "DA3",
+  "grp": "DA",
+  "duration": 6,
+  "params": {
+   "id": "DA3"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0.5,
+     0.5
+    ],
+    [
+     "impact",
+     2.4,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "DA4",
+  "grp": "DA",
+  "duration": 9,
+  "params": {
+   "id": "DA4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.6
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.0,
+     0.4
+    ],
+    [
+     "whoosh",
+     1.72,
+     0.4
+    ],
+    [
+     "whoosh",
+     3.44,
+     0.4
+    ],
+    [
+     "whoosh",
+     5.16,
+     0.4
+    ],
+    [
+     "whoosh",
+     6.88,
+     0.4
+    ]
+   ]
+  },
+  "vo": "رویال ویک تموم شد… ولی چه هفته‌ای! هفت روز، هجده برند، سه شب اجرا. ممنون که رویالی بودید.",
+  "vg": "V5"
+ },
+ {
+  "tag": "DA5",
+  "grp": "DA",
+  "duration": 7,
+  "params": {
+   "id": "DA5"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop_soft",
+     0.4,
+     0.4
+    ],
+    [
+     "pop_soft",
+     0.55,
+     0.4
+    ],
+    [
+     "pop_soft",
+     0.7,
+     0.4
+    ],
+    [
+     "pop_soft",
+     0.85,
+     0.4
+    ],
+    [
+     "pop_soft",
+     1.0,
+     0.4
+    ],
+    [
+     "pop_soft",
+     1.15,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH1",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH1"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer",
+     0.4,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH2",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH2"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer",
+     0.3,
+     0.5
+    ],
+    [
+     "shimmer",
+     2.0,
+     0.4
+    ]
+   ]
+  },
+  "vo": "کارت عضویت رویالی… تو رویالی هستی.",
+  "vg": "V5"
+ },
+ {
+  "tag": "SH3",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH3"
+  },
+  "audio": {
+   "bed": [
+    "rw_drums",
+    0.6
+   ],
+   "cues": []
+  }
+ },
+ {
+  "tag": "SH4",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "photo": [
+    "shops/s01",
+    "shops/s20",
+    "shops/s29"
+   ],
+   "id": "SH4"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "glitch",
+     1.25,
+     0.5
+    ],
+    [
+     "glitch",
+     2.75,
+     0.5
+    ],
+    [
+     "impact",
+     3.5,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH5",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "preload": [
+    "shops/s25"
+   ],
+   "id": "SH5"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.2,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH6",
+  "grp": "SH",
+  "duration": 7,
+  "params": {
+   "preload": [
+    "shops/s14",
+    "shops/s29"
+   ],
+   "id": "SH6"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh",
+     1.0,
+     0.5
+    ],
+    [
+     "shimmer",
+     2.4,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH7",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH7"
+  },
+  "audio": {
+   "bed": [
+    "tension",
+    0.5
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0.2,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH8",
+  "grp": "SH",
+  "duration": 7,
+  "params": {
+   "preload": [
+    "shops/s05",
+    "shops/s31"
+   ],
+   "id": "SH8"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     1.0,
+     0.5
+    ],
+    [
+     "shimmer",
+     2.6,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "SH9",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH9"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "riser_soft",
+     0,
+     0.4
+    ],
+    [
+     "shimmer",
+     0.6,
+     0.5
+    ]
+   ]
+  },
+  "vo": "مرکز خرید رویال پارس… یک خانواده، یک خانه.",
+  "vg": "V5"
+ },
+ {
+  "tag": "SH10",
+  "grp": "SH",
+  "duration": 6,
+  "params": {
+   "id": "SH10"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer",
+     1.4,
+     0.6
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH1",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "photo": "shops/s25",
+   "id": "PH1"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer_low",
+     0.6,
+     0.4
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH2",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "preload": [
+    "shops/s12",
+    "shops/s28"
+   ],
+   "id": "PH2"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.8,
+     0.6
+    ],
+    [
+     "impact_soft",
+     2.4,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH3",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "photo": "shops/s29",
+   "preload": [
+    "shops/s29"
+   ],
+   "id": "PH3"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "shimmer",
+     3.0,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH4",
+  "grp": "PH",
+  "duration": 6,
+  "params": {
+   "id": "PH4"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.6
+   ],
+   "cues": [
+    [
+     "impact",
+     0,
+     0.5
+    ],
+    [
+     "impact",
+     0.94,
+     0.5
+    ],
+    [
+     "impact",
+     1.88,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH5",
+  "grp": "PH",
+  "duration": 6,
+  "params": {
+   "photo": "shops/s31",
+   "id": "PH5"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.5
+   ],
+   "cues": [
+    [
+     "glitch",
+     0.8,
+     0.4
+    ],
+    [
+     "boom",
+     0.9,
+     0.8
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH6",
+  "grp": "PH",
+  "duration": 6,
+  "params": {
+   "photo": "p6",
+   "id": "PH6"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.1,
+     0.5
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "PH7",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "photo": "shops/s12",
+   "id": "PH7"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "swish",
+     0.6,
+     0.4
+    ],
+    [
+     "swish",
+     1.6,
+     0.4
+    ],
+    [
+     "impact_soft",
+     3.0,
+     0.5
+    ]
+   ]
+  },
+  "vo": "قبل… و بعدِ رویال ویک! فرقش رو ببین.",
+  "vg": "V5"
+ },
+ {
+  "tag": "PH8",
+  "grp": "PH",
+  "duration": 8,
+  "params": {
+   "id": "PH8"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.6
+   ],
+   "cues": [
+    [
+     "beep",
+     0.1,
+     0.4
+    ]
+   ]
+  },
+  "vo": "ضبط زنده از رویال پارس… شلوغه، خوش می‌گذره، بیا!",
+  "vg": "V5"
+ },
+ {
+  "tag": "PH9",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "photo": "p5",
+   "id": "PH9"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "printer",
+     0.1,
+     0.3
+    ],
+    [
+     "shimmer",
+     2.4,
+     0.4
+    ]
+   ]
+  },
+  "vo": "یه یادگاری رویالی… که آروم‌آروم ظاهر می‌شه.",
+  "vg": "V5"
+ },
+ {
+  "tag": "PH10",
+  "grp": "PH",
+  "duration": 7,
+  "params": {
+   "id": "PH10"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "whoosh_soft",
+     0.2,
+     0.4
+    ]
+   ]
+  }
+ }
+]

@@ -1,0 +1,26 @@
+/* Royal stories v3 — 1080x1920, story safe area y 250..1550 */
+#scene { background: #050505; }
+.s3-l { position: absolute; inset: 0; }
+.s3-c { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+.s3-px { image-rendering: pixelated; image-rendering: crisp-edges; }
+.s3-col { position: absolute; left: 90px; right: 90px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 26px; z-index: 30; }
+.s3-t { font-family: var(--fa); font-weight: 700; direction: rtl; white-space: nowrap; line-height: 1.22; }
+.s3-b { font-family: var(--fa-body); font-weight: 700; direction: rtl; line-height: 1.45; }
+.s3-en { font-family: var(--en); direction: ltr; white-space: nowrap; letter-spacing: .08em; }
+.s3-mono { font-family: "Courier New", monospace; font-weight: 700; direction: ltr; white-space: pre; }
+.s3-strip { display: inline-block; padding: 4px 32px 16px; font-family: var(--fa); font-weight: 700; direction: rtl; white-space: nowrap; box-shadow: 10px 12px 0 rgba(0,0,0,.25); }
+.ta { font-family: var(--fa-body) !important; }
+.s3-top { position: absolute; top: 236px; left: 90px; right: 90px; display: flex; justify-content: space-between; align-items: center; z-index: 80; }
+.s3-tag { font-family: var(--en); font-size: 30px; letter-spacing: .28em; }
+.s3-pill { font-family: var(--fa-body); font-weight: 700; font-size: 34px; padding: 6px 26px 12px; border-radius: 40px; direction: rtl; }
+.s3-foot { position: absolute; left: 90px; right: 90px; top: 1395px; display: flex; flex-direction: column; align-items: center; gap: 6px; z-index: 80; }
+.s3-foot .fa { font-family: var(--fa); font-weight: 700; font-size: 46px; direction: rtl; white-space: nowrap; }
+.s3-foot .lat { font-family: var(--fa-body); font-weight: 700; font-size: 40px; direction: ltr; }
+.s3-crt { position: absolute; inset: 0; z-index: 70; pointer-events: none;
+  background: repeating-linear-gradient(0deg, rgba(0,0,0,.28) 0 3px, rgba(0,0,0,0) 3px 6px);
+  box-shadow: inset 0 0 220px 40px rgba(0,0,0,.85); border-radius: 70px; }
+.s3-card { position: absolute; background: #fff; padding: 16px 16px 60px; box-shadow: 0 24px 50px rgba(0,0,0,.4); }
+.s3-card img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.s3-glass { background: linear-gradient(135deg, rgba(255,255,255,.22), rgba(255,255,255,.06)); border: 1.5px solid rgba(255,255,255,.35); box-shadow: 0 20px 50px rgba(0,0,0,.35); border-radius: 44px; }
+.w { display: inline-block; overflow: hidden; vertical-align: bottom; padding: .14em .04em .24em; margin: -.14em 0 -.24em; }
+.wi { display: inline-block; }
