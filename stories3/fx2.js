@@ -8,9 +8,10 @@
   /* ============ TYPOGRAPHY ============ */
   def("T1", (c) => {   // photo seen through giant letters (knockout type)
     c.layer({ background: "#0A0A0A" });
-    const e = c.el("div", "s3-t", null, c.S.big || "رویال", { position: "absolute", left: 0, right: 0, top: "520px", textAlign: "center", fontSize: "420px", lineHeight: 1.1, zIndex: 10,
-      backgroundImage: `url(${c.src(c.S.photo || "p3")})`, backgroundSize: "cover", backgroundPosition: "50% 30%", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent" });
-    c.fit(e, 1000, 700, 460);
+    const bgp = c.el("div", null, null, null, { position: "absolute", inset: 0, backgroundImage: `url(${c.src(c.S.photo || "p3")})`, backgroundSize: "cover", backgroundPosition: "50% 30%", opacity: 0.18, filter: "grayscale(1) blur(6px)" });
+    c.tl.fromTo(bgp, { opacity: 0 }, { opacity: 0.18, duration: 1.5 }, 0);
+    const e = c.el("div", "s3-t", null, c.S.big || "رویال", { position: "absolute", left: 0, right: 0, top: "560px", textAlign: "center", fontSize: "330px", lineHeight: 1.15, zIndex: 10, whiteSpace: "nowrap",
+      backgroundImage: `linear-gradient(rgba(255,210,31,.25),rgba(255,210,31,.25)), url(${c.src(c.S.photo || "p3")})`, backgroundSize: "cover", backgroundPosition: "50% 30%", WebkitBackgroundClip: "text", backgroundClip: "text", color: "transparent", WebkitTextStroke: "3px #FFD21F" });
     c.tl.fromTo(e, { backgroundPosition: "50% 0%", scale: 1.3, opacity: 0 }, { backgroundPosition: "50% 60%", scale: 1, opacity: 1, duration: 2.4, ease: "power2.out" }, 0.2);
     const ln = c.el("div", "s3-t", null, c.S.title || "تو رویالی هستی", { position: "absolute", left: 0, right: 0, top: "1130px", textAlign: "center", fontSize: "90px", color: c.Y, zIndex: 10 }); c.fadeUp(ln, 1.8);
     c.frame({ footT: 2.2 });
@@ -44,10 +45,10 @@
   def("T5", (c) => {   // word-level scramble locks into the slogan
     c.layer({ background: "#050505" }); c.grain(0.06);
     const target = (c.S.title || "این جمعه رویالیه").split(" "), pool = ["تخفیف", "هدیه", "بازی", "جایزه", "طلایی", "شب", "مد", "رویال", "خرید", "اهواز"];
-    const row = c.el("div", null, null, null, { position: "absolute", left: "60px", right: "60px", top: "760px", display: "flex", justifyContent: "center", gap: "40px", direction: "rtl", zIndex: 10 });
-    target.forEach((w, i) => { const slot = c.el("div", null, row, null, { position: "relative", height: "220px", minWidth: "260px" });
+    const row = c.el("div", null, null, null, { position: "absolute", left: "60px", right: "60px", top: "640px", display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "0 50px", direction: "rtl", zIndex: 10 });
+    target.forEach((w, i) => { const sw = Math.max(240, w.length * 82); const slot = c.el("div", null, row, null, { position: "relative", height: "230px", width: sw + "px" });
       const states = []; for (let k = 0; k < 6 + i * 3; k++) states.push(pool[(k * 3 + i * 5) % pool.length]); states.push(w);
-      states.forEach((s, k) => { const e = c.el("div", "s3-t", slot, s, { position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "150px", color: k === states.length - 1 ? c.Y : "#666", whiteSpace: "nowrap" });
+      states.forEach((s, k) => { const fin = k === states.length - 1; const e = c.el("div", "s3-t", slot, s, { position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", fontSize: (fin ? 160 : Math.min(150, Math.round(sw / s.length * 1.7))) + "px", color: fin ? c.Y : "#666", whiteSpace: "nowrap" });
         c.win(e, 0.2 + k * 0.09, k === states.length - 1 ? null : 0.2 + (k + 1) * 0.09); }); });
     const tEnd = 0.2 + (6 + (target.length - 1) * 3 + 1) * 0.09; c.flash(tEnd, "#FFD21F", 0.4);
     c.frame({ footT: tEnd + 0.3 });
