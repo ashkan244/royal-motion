@@ -1,0 +1,22 @@
+{
+ "id": "STA",
+ "slug": "story",
+ "title": "استوری‌ها — پیشواز و تیزر",
+ "group": "stories",
+ "theme": "rw",
+ "modes": {
+  "story": 8
+ },
+ "aspects": [
+  "9x16"
+ ],
+ "scene": "stories/engine.js",
+ "css": "stories/engine.css",
+ "variantsFrom": "data/stories.json",
+ "variantsFilter": {
+  "series": "A"
+ },
+ "params": {
+  "bpm": 128
+ }
+}

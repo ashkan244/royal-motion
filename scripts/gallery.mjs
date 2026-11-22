@@ -37,9 +37,9 @@ main{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:
 .card{background:var(--card);border-radius:12px;overflow:hidden}.card video{width:100%;aspect-ratio:9/16;background:#000;display:block}
 .card h3{margin:8px 12px 2px;font-size:14px;direction:ltr;text-align:left}.dl{display:flex;flex-wrap:wrap;gap:6px;padding:6px 12px 12px;direction:ltr}
 .dl a{font-size:12px;color:var(--gold);text-decoration:none;border:1px solid #3a417f;border-radius:6px;padding:2px 6px}
-.royalweek{background:#1d1a0a}.royalweek h3{color:#ffd21f}
+.royalweek{background:#1d1a0a}.stories{background:#14120a}.royalweek h3{color:#ffd21f}
 </style></head><body><header><h1>گالری موشن‌گرافیک رویال پارس</h1><div>${Object.keys(models).length} مدل · ${vids.length} ویدیو · ${TAG}</div>
-<nav><button data-f="all">همه</button><button data-f="brand">برند</button><button data-f="royalweek">رویال ویک</button></nav></header>
+<nav><button data-f="all">همه</button><button data-f="brand">برند</button><button data-f="royalweek">رویال ویک</button><button data-f="stories">۱۰۰ استوری</button></nav></header>
 <main>${cards}</main><script>document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>document.querySelectorAll('.card').forEach(c=>c.style.display=(b.dataset.f==='all'||c.classList.contains(b.dataset.f))?'':'none'))</script></body></html>`;
 fs.writeFileSync(path.join(SITE, "index.html"), html);
 console.log(`gallery: ${Object.keys(models).length} models, ${vids.length} videos`);

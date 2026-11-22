@@ -137,6 +137,16 @@ jobs:
           wc -l files.txt
           gh release create "$TAG" --title "Royal Motion — $TAG" --notes "Rendered by run ${{ github.run_id }} (${{ inputs.models }}, ${{ inputs.quality }})."
           xargs -a files.txt -n 20 gh release upload "$TAG" --clobber
+      - name: Stories pack (one ZIP for the page admin)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if find out -name '*-story-*.mp4' | grep -q .; then
+            python3 scripts/stories_pack.py out pack
+            (cd pack && zip -q -r -9 ../Royal_Week_Stories_120.zip .)
+            ls -la Royal_Week_Stories_120.zip
+            gh release upload "${{ steps.rel.outputs.tag }}" Royal_Week_Stories_120.zip --clobber
+          fi
       - name: Build gallery
         run: node scripts/gallery.mjs out site "${{ github.repository }}" "${{ steps.rel.outputs.tag }}"
       - uses: actions/configure-pages@v5

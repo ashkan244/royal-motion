@@ -56,20 +56,24 @@ for (const d of dirs) {
   const base = path.join("models", d);
   const meta = JSON.parse(read(path.join(base, "meta.json")));
   if (ONLY && !ONLY.has(meta.id.toUpperCase())) continue;
-  const html = fs.existsSync(path.join(ROOT, base, "scene.html")) ? read(path.join(base, "scene.html")) : "";
-  const css = fs.existsSync(path.join(ROOT, base, "scene.css")) ? read(path.join(base, "scene.css")) : "";
-  const js = read(path.join(base, "scene.js"));
+  // a model may borrow a shared scene (meta.scene / meta.css / meta.html are repo-relative paths)
+  const pick = (key, file) => meta[key] ? meta[key] : path.join(base, file);
+  const html = fs.existsSync(path.join(ROOT, pick("html", "scene.html"))) ? read(pick("html", "scene.html")) : "";
+  const css = fs.existsSync(path.join(ROOT, pick("css", "scene.css"))) ? read(pick("css", "scene.css")) : "";
+  const js = read(pick("scene", "scene.js"));
   const aspects = (meta.aspects || ["9x16", "4x5", "16x9"]).filter((a) => !ONLY_ASPECTS || ONLY_ASPECTS.has(a));
   let variants = meta.variants || [{}];
   if (meta.variantsFrom && fs.existsSync(path.join(ROOT, meta.variantsFrom))) {
     const rows = JSON.parse(read(meta.variantsFrom));
     if (Array.isArray(rows) && rows.length) variants = rows;
+    if (meta.variantsFilter) variants = variants.filter((v) => Object.entries(meta.variantsFilter).every(([k, x]) => v[k] === x));
   }
   const extraScripts = (meta.scripts || []).map((s) => `<script src="../assets/vendor/${s}"></script>`).join(" ");
-  for (const [mode, duration] of Object.entries(meta.modes)) {
+  for (const [mode, modeDur] of Object.entries(meta.modes)) {
     for (const aspect of aspects) {
       for (const variant of variants) {
         const [W, H] = ASPECTS[aspect];
+        const duration = variant.duration ?? modeDur;
         const vtag = variant.tag ? `-${variant.tag}` : "";
         const name = `${meta.id}-${meta.slug}${vtag}__${mode}__${aspect}`;
         const id = name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
@@ -114,7 +118,7 @@ ${js}
         fs.writeFileSync(path.join(OUT, "v", `${name}.html`), doc);
         manifest.push({
           name, model: meta.id, slug: meta.slug, title: meta.title, group: meta.group, mode, aspect, W, H, duration,
-          alpha: !!meta.alpha, audio: expandAudio(meta.audio, mode, duration),
+          alpha: !!meta.alpha, audio: variant.audio !== undefined ? variant.audio : expandAudio(meta.audio, mode, duration),
         });
       }
     }
