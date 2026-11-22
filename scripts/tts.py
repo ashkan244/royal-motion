@@ -63,7 +63,7 @@ with tempfile.TemporaryDirectory() as td:
                 raw = os.path.join(td, f"{sid}.{'wav' if prov == 'gemini' else 'mp3'}")
                 {"eleven": lambda: eleven(text, raw), "gemini": lambda: gemini(text, raw), "edge": lambda: edge(text, raw, gender)}[prov]()
                 meta[sid] = round(to_wav(raw, os.path.join(a.out, f"vo_{sid}.wav")), 2); used[sid] = prov
-                print(f"✓ {sid} [{prov}] {meta[sid]}s  {text}")
+                print(f"OK {sid} [{prov}] {meta[sid]}s  {text}")
                 break
             except Exception as e:
                 print(f"  {sid}: {prov} failed: {str(e)[:160]}", file=sys.stderr)
