@@ -17,8 +17,12 @@ def load(name):
     return x.reshape(-1, 2)
 
 
+# optional delivery re-encode (smaller files for social): REENCODE_CRF=22
+CRF = os.environ.get("REENCODE_CRF")
+VOPT = ["-c:v", "libx264", "-crf", CRF, "-preset", "slow", "-pix_fmt", "yuv420p", "-profile:v", "high"] if CRF else ["-c:v", "copy"]
+
 if not spec:
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", silent, "-c", "copy", "-movflags", "+faststart", out], check=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", silent] + VOPT + ["-movflags", "+faststart", out], check=True)
     sys.exit(0)
 
 n = int(round(dur * SR))
@@ -49,6 +53,6 @@ with tempfile.TemporaryDirectory() as td:
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR)
         w.writeframes((np.clip(mixbuf, -1, 1) * 32767).astype("<i2").tobytes())
     subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-i", silent, "-i", wav,
-                    "-map", "0:v:0", "-map", "1:a:0", "-c:v", "copy",
+                    "-map", "0:v:0", "-map", "1:a:0", *VOPT,
                     "-af", "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000",
                     "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)

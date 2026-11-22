@@ -12,16 +12,17 @@ RP.run(function (tl, RP) {
   const fixTa = (h) => (typeof h === "string" && h.indexOf("<") < 0 ? h.replace(/(^|\s)تا(?=\s|$)/g, '$1<span class="ta">تا</span>') : h);
   const el = (tag, cls, parent, html, style) => { const e = RP.el(tag, cls ? { class: cls } : {}, parent, fixTa(html)); if (style) Object.assign(e.style, style); return e; };
   const layer = (style) => el("div", "st-layer", sc, null, style || {});
-  const wordsOf = (line) => {            // supports [[keyword]] (may span words) and keeps «تا» in Vazirmatn
+  const wordsOf = (line) => {            // [[keyword]] may span words or sit inside a word / before punctuation
     const out = []; let key = false;
     line.split(" ").filter(Boolean).forEach((w) => {
-      let k = key;
-      if (w.startsWith("[[")) { k = true; w = w.slice(2); key = true; }
-      if (w.endsWith("]]")) { w = w.slice(0, -2); key = false; }
-      out.push({ w, k });
+      let k = key || w.includes("[[");
+      if (w.includes("[[")) key = true;
+      if (w.includes("]]")) key = false;
+      out.push({ w: w.replace(/\[\[|\]\]/g, ""), k });
     });
     return out;
   };
+  const ltrTok = (e, t) => { if (/^[+×\-]/.test(t)) { e.style.direction = "ltr"; e.style.unicodeBidi = "isolate"; } };
   /* multi-line title, each line fitted to maxW; uniform size = smallest fit (capped by maxPx) */
   function title(parent, text, o) {
     o = o || {};
@@ -31,6 +32,7 @@ RP.run(function (tl, RP) {
       const d = el("div", "st-ln", box, null, { color: o.color || "#fff" });
       wordsOf(ln).forEach((t, i, arr) => {
         const w = el("span", "w", d); const wi = el("span", "wi" + (t.w === "تا" ? " ta" : ""), w, t.w);
+        ltrTok(wi, t.w);
         if (t.k) { wi.style.color = o.key || ACC; keys.push(wi); }
         words.push(wi);
         if (i < arr.length - 1) d.appendChild(document.createTextNode(" "));
@@ -45,6 +47,7 @@ RP.run(function (tl, RP) {
   function big(parent, text, o) {
     o = o || {};
     const d = el("div", "st-big", parent, text, { color: o.color || ACC });
+    ltrTok(d, String(text));
     RP.fit(d, o.maxW || 900, o.maxH || 520, o.maxPx || 440);
     return d;
   }
