@@ -1,0 +1,509 @@
+{
+ "AF170": {
+  "model": "AF170",
+  "name_en": "Ninja Air Fryer MAX XL (EZView) — AF170",
+  "name_fa": "ایرفرایر نینجا مکس ایکس‌ال (تک‌سبد)",
+  "category": "airfryer",
+  "hero": "AF170/AF170_01.png",
+  "hero_alpha": true,
+  "images": [
+   "AF170/AF170_01.png",
+   "AF170/na/AF170_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/AF170EU",
+  "specs_verified": false
+ },
+ "AF180": {
+  "model": "AF180",
+  "name_en": "Ninja Air Fryer MAX PRO 6.2L — AF180",
+  "name_fa": "ایرفرایر نینجا مکس پرو (تک‌سبد ۶.۲ لیتر)",
+  "category": "airfryer",
+  "hero": "AF180/AF180_01.png",
+  "hero_alpha": true,
+  "images": [
+   "AF180/AF180_01.png",
+   "AF180/na/AF180_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/AF180EU",
+  "specs_verified": false
+ },
+ "AF300": {
+  "model": "AF300",
+  "name_en": "Ninja Foodi Dual Zone Air Fryer 7.6L — AF300",
+  "name_fa": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر",
+  "category": "airfryer",
+  "hero": "AF300/AF300_01.png",
+  "hero_alpha": true,
+  "images": [
+   "AF300/AF300_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/AF300EU",
+  "specs_verified": false
+ },
+ "AF400": {
+  "model": "AF400",
+  "name_en": "Ninja Foodi MAX Dual Zone XXXL Air Fryer — AF400",
+  "name_fa": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال",
+  "category": "airfryer",
+  "hero": "AF400/AF400_01.png",
+  "hero_alpha": true,
+  "images": [
+   "AF400/AF400_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/AF400EU",
+  "specs_verified": false
+ },
+ "AF500": {
+  "model": "AF500",
+  "name_en": "Ninja Foodi FlexDrawer Dual Air Fryer 10.4L — AF500",
+  "name_fa": "ایرفرایر نینجا فلکس‌دراور (کشوی تقسیم‌شونده ۱۰.۴ لیتر)",
+  "category": "airfryer",
+  "hero": "AF500/AF500_01.png",
+  "hero_alpha": true,
+  "images": [
+   "AF500/AF500_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/AF500EU",
+  "specs_verified": false
+ },
+ "DZ300": {
+  "model": "DZ300",
+  "name_en": "Ninja Foodi DualZone Air Fryer — DZ300",
+  "name_fa": "ایرفرایر دوسبد نینجا دوآل‌زون",
+  "category": "airfryer",
+  "hero": "DZ300/DZ300_01.png",
+  "hero_alpha": true,
+  "images": [
+   "DZ300/DZ300_01.png",
+   "DZ300/na/DZ300_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/DZ300EU",
+  "specs_verified": false
+ },
+ "SL400": {
+  "model": "SL400",
+  "name_en": "Ninja DoubleStack XL 10QT 2-Basket Air Fryer — SL400",
+  "name_fa": "ایرفرایر دوطبقه (دابل‌استک) نینجا ۱۰ کوارت",
+  "category": "airfryer",
+  "hero": "SL400/SL400_01.png",
+  "hero_alpha": true,
+  "images": [
+   "SL400/SL400_01.png",
+   "SL400/na/SL400_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/SL400EU",
+  "specs_verified": false
+ },
+ "FN101": {
+  "model": "FN101",
+  "name_en": "Ninja Crispi Portable Cooking System — FN101",
+  "name_fa": "نینجا کریسپی (ایرفرایر قابل‌حمل با ظرف شیشه‌ای)",
+  "category": "airfryer",
+  "hero": "FN101/FN101_01.png",
+  "hero_alpha": true,
+  "images": [
+   "FN101/FN101_01.png",
+   "FN101/FN101_02.jpg",
+   "FN101/FN101_03.jpg",
+   "FN101/FN101_04.jpg",
+   "FN101/FN101_05.jpg",
+   "FN101/FN101_06.jpg",
+   "FN101/FN101_07.jpg",
+   "FN101/FN101_08.jpg",
+   "FN101/na/FN101_na_01.png",
+   "FN101/na/FN101_na_02.jpg",
+   "FN101/na/FN101_na_03.jpg",
+   "FN101/na/FN101_na_04.jpg",
+   "FN101/na/FN101_na_05.jpg",
+   "FN101/na/FN101_na_06.jpg",
+   "FN101/na/FN101_na_07.jpg",
+   "FN101/na/FN101_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-NA/FN101GY",
+  "specs_verified": false
+ },
+ "SP101": {
+  "model": "SP101",
+  "name_en": "Ninja Foodi 8-in-1 Flip Toaster Oven — SP101",
+  "name_fa": "فر توستر برگردان نینجا فودی ۸ در ۱",
+  "category": "oven",
+  "hero": "SP101/SP101_01.png",
+  "hero_alpha": true,
+  "images": [
+   "SP101/SP101_01.png",
+   "SP101/na/SP101_na_01.jpg",
+   "SP101/na/SP101_na_02.jpg",
+   "SP101/na/SP101_na_03.jpg",
+   "SP101/na/SP101_na_04.jpg",
+   "SP101/na/SP101_na_05.jpg",
+   "SP101/na/SP101_na_06.jpg",
+   "SP101/na/SP101_na_07.jpg",
+   "SP101/na/SP101_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/SP101EU",
+  "specs_verified": false
+ },
+ "SFP700": {
+  "model": "SFP700",
+  "name_en": "Ninja Combi Multi-Cooker — SFP700",
+  "name_fa": "نینجا کومبی (مولتی‌کوکر و فر بخار)",
+  "category": "cooker",
+  "hero": "SFP700/SFP700_01.png",
+  "hero_alpha": true,
+  "images": [
+   "SFP700/SFP700_01.png",
+   "SFP700/na/SFP700_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/SFP700EU",
+  "specs_verified": false
+ },
+ "ON400": {
+  "model": "ON400",
+  "name_en": "Ninja Speedi Rapid Cooker & Air Fryer — ON400",
+  "name_fa": "نینجا اسپیدی (پخت سریع و ایرفرایر)",
+  "category": "cooker",
+  "hero": "ON400/ON400_01.png",
+  "hero_alpha": true,
+  "images": [
+   "ON400/ON400_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/ON400EU",
+  "specs_verified": false
+ },
+ "OL550": {
+  "model": "OL550",
+  "name_en": "Ninja Foodi SmartLid Multi-Cooker — OL550",
+  "name_fa": "مولتی‌کوکر اسمارت‌لید نینجا فودی (پرشرکوکر + ایرفرایر)",
+  "category": "cooker",
+  "hero": "OL550/OL550_01.png",
+  "hero_alpha": true,
+  "images": [
+   "OL550/OL550_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/OL550EU",
+  "specs_verified": false
+ },
+ "OL750": {
+  "model": "OL750",
+  "name_en": "Ninja Foodi SmartLid Multi-Cooker (large) — OL750",
+  "name_fa": "مولتی‌کوکر اسمارت‌لید نینجا فودی (ظرفیت بزرگ)",
+  "category": "cooker",
+  "hero": "OL750/OL750_01.png",
+  "hero_alpha": true,
+  "images": [
+   "OL750/OL750_01.png"
+  ],
+  "source_sku": "SharkNinja-EU/OL750EU",
+  "specs_verified": false
+ },
+ "DG551": {
+  "model": "DG551",
+  "name_en": "Ninja Foodi Grill & Air Fryer with probe — DG551",
+  "name_fa": "گریل و ایرفرایر نینجا فودی با پروب دما",
+  "category": "grill",
+  "hero": "DG551/DG551_01.png",
+  "hero_alpha": true,
+  "images": [
+   "DG551/DG551_01.png",
+   "DG551/na/DG551_na_01.jpg",
+   "DG551/na/DG551_na_02.jpg",
+   "DG551/na/DG551_na_03.jpg",
+   "DG551/na/DG551_na_04.jpg",
+   "DG551/na/DG551_na_05.jpg",
+   "DG551/na/DG551_na_06.jpg",
+   "DG551/na/DG551_na_07.jpg",
+   "DG551/na/DG551_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/DG551EU",
+  "specs_verified": false
+ },
+ "OG701": {
+  "model": "OG701",
+  "name_en": "Ninja Woodfire Electric BBQ Grill & Smoker 7-in-1 — OG701",
+  "name_fa": "گریل و دودی برقی نینجا وودفایر ۷ در ۱",
+  "category": "grill",
+  "hero": "OG701/OG701_01.png",
+  "hero_alpha": true,
+  "images": [
+   "OG701/OG701_01.png",
+   "OG701/na/OG701_na_01.jpg",
+   "OG701/na/OG701_na_02.jpg",
+   "OG701/na/OG701_na_03.jpg",
+   "OG701/na/OG701_na_04.jpg",
+   "OG701/na/OG701_na_05.jpg",
+   "OG701/na/OG701_na_06.jpg",
+   "OG701/na/OG701_na_07.jpg",
+   "OG701/na/OG701_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/OG701EU",
+  "specs_verified": false
+ },
+ "OG850": {
+  "model": "OG850",
+  "name_en": "Ninja Woodfire XL Electric BBQ Grill & Smoker — OG850",
+  "name_fa": "گریل و دودی برقی نینجا وودفایر ایکس‌ال",
+  "category": "grill",
+  "hero": "OG850/OG850_01.png",
+  "hero_alpha": true,
+  "images": [
+   "OG850/OG850_01.png",
+   "OG850/na/OG850_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/OG850EU",
+  "specs_verified": false
+ },
+ "OG901": {
+  "model": "OG901",
+  "name_en": "Ninja Woodfire Pro Connect XL — OG901",
+  "name_fa": "نینجا وودفایر پرو کانکت ایکس‌ال (متصل به اپ)",
+  "category": "grill",
+  "hero": "OG901/OG901_01.png",
+  "hero_alpha": true,
+  "images": [
+   "OG901/OG901_01.png",
+   "OG901/na/OG901_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/OG901EU",
+  "specs_verified": false
+ },
+ "BN750": {
+  "model": "BN750",
+  "name_en": "Ninja Professional Plus Blender — BN750",
+  "name_fa": "مخلوط‌کن نینجا پروفشنال پلاس",
+  "category": "blender",
+  "hero": "BN750/BN750_01.png",
+  "hero_alpha": true,
+  "images": [
+   "BN750/BN750_01.png",
+   "BN750/na/BN750_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/BN750EU",
+  "specs_verified": false
+ },
+ "BN800": {
+  "model": "BN800",
+  "name_en": "Ninja Professional Plus Kitchen System — BN800",
+  "name_fa": "سیستم آشپزخانه نینجا پروفشنال پلاس (مخلوط‌کن + غذاساز)",
+  "category": "blender",
+  "hero": "BN800/BN800_01.png",
+  "hero_alpha": true,
+  "images": [
+   "BN800/BN800_01.png",
+   "BN800/na/BN800_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/BN800EU",
+  "specs_verified": false
+ },
+ "BN801": {
+  "model": "BN801",
+  "name_en": "Ninja Professional Plus Kitchen System with Auto-iQ — BN801",
+  "name_fa": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ",
+  "category": "blender",
+  "hero": "BN801/BN801_01.jpg",
+  "hero_alpha": false,
+  "images": [
+   "BN801/BN801_01.jpg",
+   "BN801/BN801_02.jpg",
+   "BN801/BN801_03.jpg",
+   "BN801/BN801_04.jpg",
+   "BN801/BN801_05.jpg",
+   "BN801/BN801_06.jpg",
+   "BN801/BN801_07.jpg",
+   "BN801/BN801_08.jpg",
+   "BN801/na/BN801_na_01.jpg",
+   "BN801/na/BN801_na_02.jpg",
+   "BN801/na/BN801_na_03.jpg",
+   "BN801/na/BN801_na_04.jpg",
+   "BN801/na/BN801_na_05.jpg",
+   "BN801/na/BN801_na_06.jpg",
+   "BN801/na/BN801_na_07.jpg",
+   "BN801/na/BN801_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-NA/BN801",
+  "specs_verified": false
+ },
+ "TB301": {
+  "model": "TB301",
+  "name_en": "Ninja Detect Duo Power Blender Pro + Single Serve — TB301",
+  "name_fa": "مخلوط‌کن نینجا دیتکت دوئو + لیوان شخصی",
+  "category": "blender",
+  "hero": "TB301/TB301_01.png",
+  "hero_alpha": true,
+  "images": [
+   "TB301/TB301_01.png",
+   "TB301/na/TB301_na_01.jpg",
+   "TB301/na/TB301_na_02.jpg",
+   "TB301/na/TB301_na_03.jpg",
+   "TB301/na/TB301_na_04.jpg",
+   "TB301/na/TB301_na_05.jpg",
+   "TB301/na/TB301_na_06.jpg",
+   "TB301/na/TB301_na_07.jpg",
+   "TB301/na/TB301_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/TB301EU",
+  "specs_verified": false
+ },
+ "TB401": {
+  "model": "TB401",
+  "name_en": "Ninja Detect Kitchen System Power Blender + Processor Pro — TB401",
+  "name_fa": "سیستم آشپزخانه نینجا دیتکت (مخلوط‌کن + غذاساز)",
+  "category": "blender",
+  "hero": "TB401/TB401_01.png",
+  "hero_alpha": true,
+  "images": [
+   "TB401/TB401_01.png",
+   "TB401/na/TB401_na_01.jpg",
+   "TB401/na/TB401_na_02.jpg",
+   "TB401/na/TB401_na_03.jpg",
+   "TB401/na/TB401_na_04.jpg",
+   "TB401/na/TB401_na_05.jpg",
+   "TB401/na/TB401_na_06.jpg",
+   "TB401/na/TB401_na_07.jpg",
+   "TB401/na/TB401_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/TB401EU",
+  "specs_verified": false
+ },
+ "BC151": {
+  "model": "BC151",
+  "name_en": "Ninja Blast Portable Blender — BC151",
+  "name_fa": "مخلوط‌کن شخصی قابل‌حمل نینجا بلست",
+  "category": "blender",
+  "hero": "BC151/BC151_01.jpg",
+  "hero_alpha": false,
+  "images": [
+   "BC151/BC151_01.jpg",
+   "BC151/na/BC151_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-NA/BC151",
+  "specs_verified": false
+ },
+ "BC251": {
+  "model": "BC251",
+  "name_en": "Ninja Blast Max Cordless Portable Blender — BC251",
+  "name_fa": "مخلوط‌کن بی‌سیم قابل‌حمل نینجا بلست مکس",
+  "category": "blender",
+  "hero": "BC251/BC251_01.png",
+  "hero_alpha": true,
+  "images": [
+   "BC251/BC251_01.png",
+   "BC251/BC251_02.jpg",
+   "BC251/BC251_03.jpg",
+   "BC251/BC251_04.jpg",
+   "BC251/BC251_05.jpg",
+   "BC251/BC251_06.jpg",
+   "BC251/BC251_07.jpg",
+   "BC251/BC251_08.jpg",
+   "BC251/na/BC251_na_01.png",
+   "BC251/na/BC251_na_02.jpg",
+   "BC251/na/BC251_na_03.jpg",
+   "BC251/na/BC251_na_04.jpg",
+   "BC251/na/BC251_na_05.jpg",
+   "BC251/na/BC251_na_06.jpg",
+   "BC251/na/BC251_na_07.jpg",
+   "BC251/na/BC251_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-NA/BC251SL",
+  "specs_verified": false
+ },
+ "JC151": {
+  "model": "JC151",
+  "name_en": "Ninja NeverClog Cold Press Juicer — JC151",
+  "name_fa": "آبمیوه‌گیری پرس سرد نینجا نِوِرکلاگ",
+  "category": "juicer",
+  "hero": "JC151/JC151_01.png",
+  "hero_alpha": true,
+  "images": [
+   "JC151/JC151_01.png",
+   "JC151/JC151_02.jpg",
+   "JC151/na/JC151_na_01.jpg",
+   "JC151/na/JC151_na_02.jpg",
+   "JC151/na/JC151_na_03.jpg",
+   "JC151/na/JC151_na_04.jpg",
+   "JC151/na/JC151_na_05.jpg",
+   "JC151/na/JC151_na_06.jpg",
+   "JC151/na/JC151_na_07.jpg",
+   "JC151/na/JC151_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/JC151EU",
+  "specs_verified": false
+ },
+ "NC701": {
+  "model": "NC701",
+  "name_en": "Ninja CREAMi Swirl (soft-serve) — NC701",
+  "name_fa": "نینجا کریمی سویرل (بستنی نرم و سافت‌سرو)",
+  "category": "frozen",
+  "hero": "NC701/NC701_01.png",
+  "hero_alpha": true,
+  "images": [
+   "NC701/NC701_01.png",
+   "NC701/na/NC701_na_01.png",
+   "NC701/na/NC701_na_02.png",
+   "NC701/na/NC701_na_03.png",
+   "NC701/na/NC701_na_04.jpg",
+   "NC701/na/NC701_na_05.jpg",
+   "NC701/na/NC701_na_06.jpg",
+   "NC701/na/NC701_na_07.jpg",
+   "NC701/na/NC701_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/NC701EU",
+  "specs_verified": false
+ },
+ "FS301": {
+  "model": "FS301",
+  "name_en": "Ninja Slushi Frozen Drink Maker — FS301",
+  "name_fa": "نینجا اسلاشی (ماشین نوشیدنی یخی و اسلاش)",
+  "category": "frozen",
+  "hero": "FS301/FS301_01.png",
+  "hero_alpha": true,
+  "images": [
+   "FS301/FS301_01.png",
+   "FS301/na/FS301_na_01.png",
+   "FS301/na/FS301_na_02.jpg",
+   "FS301/na/FS301_na_03.jpg",
+   "FS301/na/FS301_na_04.jpg",
+   "FS301/na/FS301_na_05.jpg",
+   "FS301/na/FS301_na_06.jpg",
+   "FS301/na/FS301_na_07.jpg",
+   "FS301/na/FS301_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/FS301EU",
+  "specs_verified": false
+ },
+ "ES501": {
+  "model": "ES501",
+  "name_en": "Ninja Luxe Café Essential — ES501",
+  "name_fa": "اسپرسوساز نینجا لوکس کافه اسنشال",
+  "category": "coffee",
+  "hero": "ES501/ES501_01.jpg",
+  "hero_alpha": false,
+  "images": [
+   "ES501/ES501_01.jpg",
+   "ES501/ES501_02.jpg",
+   "ES501/na/ES501_na_01.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/ES501EU",
+  "specs_verified": false
+ },
+ "ES601": {
+  "model": "ES601",
+  "name_en": "Ninja Luxe Café Premier 3-in-1 — ES601",
+  "name_fa": "اسپرسوساز نینجا لوکس کافه پریمیر (اسپرسو، دریپ، کلدبرو)",
+  "category": "coffee",
+  "hero": "ES601/ES601_01.png",
+  "hero_alpha": true,
+  "images": [
+   "ES601/ES601_01.png",
+   "ES601/na/ES601_na_01.png",
+   "ES601/na/ES601_na_02.jpg",
+   "ES601/na/ES601_na_03.jpg",
+   "ES601/na/ES601_na_04.jpg",
+   "ES601/na/ES601_na_05.jpg",
+   "ES601/na/ES601_na_06.jpg",
+   "ES601/na/ES601_na_07.jpg",
+   "ES601/na/ES601_na_08.jpg"
+  ],
+  "source_sku": "SharkNinja-EU/ES601EU",
+  "specs_verified": false
+ }
+}

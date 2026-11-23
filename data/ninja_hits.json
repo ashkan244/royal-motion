@@ -1,0 +1,157 @@
+{
+ "AF500": [
+  "SharkNinja-EU/AF500UK",
+  "SharkNinja-EU/AF500EU"
+ ],
+ "AF170": [
+  "SharkNinja-NA/AF170",
+  "SharkNinja-EU/AF170UK",
+  "SharkNinja-EU/AF170EU"
+ ],
+ "AF180": [
+  "SharkNinja-NA/AF180",
+  "SharkNinja-EU/AF180UK",
+  "SharkNinja-EU/AF180EU"
+ ],
+ "AF300": [
+  "SharkNinja-EU/AF300UK",
+  "SharkNinja-EU/AF300EU"
+ ],
+ "AF400": [
+  "SharkNinja-EU/AF400UK",
+  "SharkNinja-EU/AF400EU"
+ ],
+ "SL400": [
+  "SharkNinja-NA/SL400",
+  "SharkNinja-EU/SL400UK",
+  "SharkNinja-EU/SL400EU"
+ ],
+ "SFP700": [
+  "SharkNinja-NA/SFP700",
+  "SharkNinja-EU/SFP700UK",
+  "SharkNinja-EU/SFP700EU"
+ ],
+ "DG551": [
+  "SharkNinja-NA/DG551",
+  "SharkNinja-EU/DG551UK",
+  "SharkNinja-EU/DG551EU"
+ ],
+ "OL750": [
+  "SharkNinja-EU/OL750UK",
+  "SharkNinja-EU/OL750EU"
+ ],
+ "OL550": [
+  "SharkNinja-EU/OL550UK",
+  "SharkNinja-EU/OL550EU"
+ ],
+ "TB401": [
+  "SharkNinja-NA/TB401",
+  "SharkNinja-EU/TB401UK",
+  "SharkNinja-EU/TB401EU"
+ ],
+ "TB301": [
+  "SharkNinja-NA/TB301",
+  "SharkNinja-EU/TB301UK",
+  "SharkNinja-EU/TB301EU"
+ ],
+ "OG901": [
+  "SharkNinja-NA/OG901",
+  "SharkNinja-EU/OG901UK",
+  "SharkNinja-EU/OG901EU"
+ ],
+ "OG850": [
+  "SharkNinja-NA/OG850",
+  "SharkNinja-EU/OG850UK",
+  "SharkNinja-EU/OG850EU"
+ ],
+ "OG701": [
+  "SharkNinja-NA/OG701",
+  "SharkNinja-NA/OG701BK",
+  "SharkNinja-NA/OG701BL",
+  "SharkNinja-EU/OG701UK",
+  "SharkNinja-EU/OG701EU"
+ ],
+ "JC151": [
+  "SharkNinja-NA/JC151",
+  "SharkNinja-NA/JC151C",
+  "SharkNinja-EU/JC151UK",
+  "SharkNinja-EU/JC151EU"
+ ],
+ "NC701": [
+  "SharkNinja-NA/NC701",
+  "SharkNinja-NA/NC701BL",
+  "SharkNinja-NA/NC701C",
+  "SharkNinja-EU/NC701UK",
+  "SharkNinja-EU/NC701EU"
+ ],
+ "FS301": [
+  "SharkNinja-NA/FS301",
+  "SharkNinja-NA/FS301C",
+  "SharkNinja-EU/FS301UK",
+  "SharkNinja-EU/FS301EU"
+ ],
+ "FN101": [
+  "SharkNinja-NA/FN101GY"
+ ],
+ "BN801": [
+  "SharkNinja-NA/BN801",
+  "SharkNinja-NA/BN801C"
+ ],
+ "BN800": [
+  "SharkNinja-NA/BN800",
+  "SharkNinja-NA/BN800C",
+  "SharkNinja-EU/BN800UK",
+  "SharkNinja-EU/BN800EU"
+ ],
+ "BN750": [
+  "SharkNinja-NA/BN750",
+  "SharkNinja-NA/BN750C",
+  "SharkNinja-EU/BN750UK",
+  "SharkNinja-EU/BN750EU"
+ ],
+ "ES601": [
+  "SharkNinja-NA/ES601",
+  "SharkNinja-NA/ES601BK",
+  "SharkNinja-NA/ES601CY",
+  "SharkNinja-NA/ES601GY",
+  "SharkNinja-NA/ES601BL",
+  "SharkNinja-NA/ES601WH",
+  "SharkNinja-NA/ES601C",
+  "SharkNinja-EU/ES601UK",
+  "SharkNinja-EU/ES601EU",
+  "SharkNinja-EU/ES601UKBK",
+  "SharkNinja-EU/ES601EUBK"
+ ],
+ "ES501": [
+  "SharkNinja-NA/ES501",
+  "SharkNinja-NA/ES501C",
+  "SharkNinja-EU/ES501EU"
+ ],
+ "SP101": [
+  "SharkNinja-NA/SP101",
+  "SharkNinja-NA/SP101C",
+  "SharkNinja-EU/SP101UK",
+  "SharkNinja-EU/SP101EU"
+ ],
+ "DZ300": [
+  "SharkNinja-NA/DZ300",
+  "SharkNinja-NA/DZ300C",
+  "SharkNinja-EU/DZ300UK",
+  "SharkNinja-EU/DZ300EU"
+ ],
+ "BC251": [
+  "SharkNinja-NA/BC251SL",
+  "SharkNinja-NA/BC251GY"
+ ],
+ "BC151": [
+  "SharkNinja-NA/BC151",
+  "SharkNinja-NA/BC151BK",
+  "SharkNinja-NA/BC151WH",
+  "SharkNinja-EU/BC151UKBK",
+  "SharkNinja-EU/BC151EUBK"
+ ],
+ "ON400": [
+  "SharkNinja-EU/ON400UK",
+  "SharkNinja-EU/ON400EU"
+ ]
+}

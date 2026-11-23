@@ -1,0 +1,1312 @@
+{
+ "AF170": {
+  "source": "SharkNinja-EU/AF170EU",
+  "images": [
+   {
+    "file": "AF170/AF170_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 145
+   }
+  ],
+  "extra": [
+   {
+    "file": "AF170/na/AF170_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 41
+   }
+  ]
+ },
+ "AF180": {
+  "source": "SharkNinja-EU/AF180EU",
+  "images": [
+   {
+    "file": "AF180/AF180_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 348
+   }
+  ],
+  "extra": [
+   {
+    "file": "AF180/na/AF180_na_01.jpg",
+    "w": 1200,
+    "h": 1205,
+    "alpha": false,
+    "kb": 27
+   }
+  ]
+ },
+ "AF300": {
+  "source": "SharkNinja-EU/AF300EU",
+  "images": [
+   {
+    "file": "AF300/AF300_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 185
+   }
+  ],
+  "extra": []
+ },
+ "AF400": {
+  "source": "SharkNinja-EU/AF400EU",
+  "images": [
+   {
+    "file": "AF400/AF400_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 444
+   }
+  ],
+  "extra": []
+ },
+ "AF500": {
+  "source": "SharkNinja-EU/AF500EU",
+  "images": [
+   {
+    "file": "AF500/AF500_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 157
+   }
+  ],
+  "extra": []
+ },
+ "BC151": {
+  "source": "SharkNinja-NA/BC151",
+  "images": [
+   {
+    "file": "BC151/BC151_01.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 45
+   }
+  ],
+  "extra": [
+   {
+    "file": "BC151/na/BC151_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 35
+   }
+  ]
+ },
+ "BC251": {
+  "source": "SharkNinja-NA/BC251SL",
+  "images": [
+   {
+    "file": "BC251/BC251_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 200
+   },
+   {
+    "file": "BC251/BC251_02.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 118
+   },
+   {
+    "file": "BC251/BC251_03.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 112
+   },
+   {
+    "file": "BC251/BC251_04.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 173
+   },
+   {
+    "file": "BC251/BC251_05.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 148
+   },
+   {
+    "file": "BC251/BC251_06.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 133
+   },
+   {
+    "file": "BC251/BC251_07.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 69
+   },
+   {
+    "file": "BC251/BC251_08.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 253
+   }
+  ],
+  "extra": [
+   {
+    "file": "BC251/na/BC251_na_01.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 145
+   },
+   {
+    "file": "BC251/na/BC251_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 94
+   },
+   {
+    "file": "BC251/na/BC251_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 91
+   },
+   {
+    "file": "BC251/na/BC251_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 133
+   },
+   {
+    "file": "BC251/na/BC251_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 111
+   },
+   {
+    "file": "BC251/na/BC251_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 106
+   },
+   {
+    "file": "BC251/na/BC251_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 55
+   },
+   {
+    "file": "BC251/na/BC251_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 191
+   }
+  ]
+ },
+ "BN750": {
+  "source": "SharkNinja-EU/BN750EU",
+  "images": [
+   {
+    "file": "BN750/BN750_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 229
+   }
+  ],
+  "extra": [
+   {
+    "file": "BN750/na/BN750_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 46
+   }
+  ]
+ },
+ "BN800": {
+  "source": "SharkNinja-EU/BN800EU",
+  "images": [
+   {
+    "file": "BN800/BN800_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 412
+   }
+  ],
+  "extra": [
+   {
+    "file": "BN800/na/BN800_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 42
+   }
+  ]
+ },
+ "BN801": {
+  "source": "SharkNinja-NA/BN801",
+  "images": [
+   {
+    "file": "BN801/BN801_01.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 64
+   },
+   {
+    "file": "BN801/BN801_02.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 106
+   },
+   {
+    "file": "BN801/BN801_03.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 141
+   },
+   {
+    "file": "BN801/BN801_04.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 99
+   },
+   {
+    "file": "BN801/BN801_05.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 78
+   },
+   {
+    "file": "BN801/BN801_06.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 117
+   },
+   {
+    "file": "BN801/BN801_07.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 176
+   },
+   {
+    "file": "BN801/BN801_08.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 117
+   }
+  ],
+  "extra": [
+   {
+    "file": "BN801/na/BN801_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 52
+   },
+   {
+    "file": "BN801/na/BN801_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 89
+   },
+   {
+    "file": "BN801/na/BN801_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 108
+   },
+   {
+    "file": "BN801/na/BN801_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 77
+   },
+   {
+    "file": "BN801/na/BN801_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 64
+   },
+   {
+    "file": "BN801/na/BN801_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 98
+   },
+   {
+    "file": "BN801/na/BN801_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 136
+   },
+   {
+    "file": "BN801/na/BN801_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 87
+   }
+  ]
+ },
+ "DG551": {
+  "source": "SharkNinja-EU/DG551EU",
+  "images": [
+   {
+    "file": "DG551/DG551_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 187
+   }
+  ],
+  "extra": [
+   {
+    "file": "DG551/na/DG551_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 37
+   },
+   {
+    "file": "DG551/na/DG551_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 96
+   },
+   {
+    "file": "DG551/na/DG551_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 112
+   },
+   {
+    "file": "DG551/na/DG551_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 97
+   },
+   {
+    "file": "DG551/na/DG551_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 62
+   },
+   {
+    "file": "DG551/na/DG551_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 87
+   },
+   {
+    "file": "DG551/na/DG551_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 97
+   },
+   {
+    "file": "DG551/na/DG551_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 125
+   }
+  ]
+ },
+ "DZ300": {
+  "source": "SharkNinja-EU/DZ300EU",
+  "images": [
+   {
+    "file": "DZ300/DZ300_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 257
+   }
+  ],
+  "extra": [
+   {
+    "file": "DZ300/na/DZ300_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 28
+   }
+  ]
+ },
+ "ES501": {
+  "source": "SharkNinja-EU/ES501EU",
+  "images": [
+   {
+    "file": "ES501/ES501_01.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 107
+   },
+   {
+    "file": "ES501/ES501_02.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 117
+   }
+  ],
+  "extra": [
+   {
+    "file": "ES501/na/ES501_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 54
+   }
+  ]
+ },
+ "ES601": {
+  "source": "SharkNinja-EU/ES601EU",
+  "images": [
+   {
+    "file": "ES601/ES601_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 335
+   }
+  ],
+  "extra": [
+   {
+    "file": "ES601/na/ES601_na_01.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 339
+   },
+   {
+    "file": "ES601/na/ES601_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 109
+   },
+   {
+    "file": "ES601/na/ES601_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 97
+   },
+   {
+    "file": "ES601/na/ES601_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 76
+   },
+   {
+    "file": "ES601/na/ES601_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 96
+   },
+   {
+    "file": "ES601/na/ES601_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 78
+   },
+   {
+    "file": "ES601/na/ES601_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 86
+   },
+   {
+    "file": "ES601/na/ES601_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 120
+   }
+  ]
+ },
+ "FN101": {
+  "source": "SharkNinja-NA/FN101GY",
+  "images": [
+   {
+    "file": "FN101/FN101_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 1260
+   },
+   {
+    "file": "FN101/FN101_02.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 113
+   },
+   {
+    "file": "FN101/FN101_03.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 120
+   },
+   {
+    "file": "FN101/FN101_04.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 91
+   },
+   {
+    "file": "FN101/FN101_05.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 149
+   },
+   {
+    "file": "FN101/FN101_06.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 136
+   },
+   {
+    "file": "FN101/FN101_07.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 167
+   },
+   {
+    "file": "FN101/FN101_08.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 183
+   }
+  ],
+  "extra": [
+   {
+    "file": "FN101/na/FN101_na_01.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": true,
+    "kb": 660
+   },
+   {
+    "file": "FN101/na/FN101_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 95
+   },
+   {
+    "file": "FN101/na/FN101_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 103
+   },
+   {
+    "file": "FN101/na/FN101_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 80
+   },
+   {
+    "file": "FN101/na/FN101_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 121
+   },
+   {
+    "file": "FN101/na/FN101_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 109
+   },
+   {
+    "file": "FN101/na/FN101_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 130
+   },
+   {
+    "file": "FN101/na/FN101_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 151
+   }
+  ]
+ },
+ "FS301": {
+  "source": "SharkNinja-EU/FS301EU",
+  "images": [
+   {
+    "file": "FS301/FS301_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 186
+   }
+  ],
+  "extra": [
+   {
+    "file": "FS301/na/FS301_na_01.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 262
+   },
+   {
+    "file": "FS301/na/FS301_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 99
+   },
+   {
+    "file": "FS301/na/FS301_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 70
+   },
+   {
+    "file": "FS301/na/FS301_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 94
+   },
+   {
+    "file": "FS301/na/FS301_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 78
+   },
+   {
+    "file": "FS301/na/FS301_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 99
+   },
+   {
+    "file": "FS301/na/FS301_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 89
+   },
+   {
+    "file": "FS301/na/FS301_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 77
+   }
+  ]
+ },
+ "JC151": {
+  "source": "SharkNinja-EU/JC151EU",
+  "images": [
+   {
+    "file": "JC151/JC151_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 271
+   },
+   {
+    "file": "JC151/JC151_02.jpg",
+    "w": 1400,
+    "h": 1400,
+    "alpha": false,
+    "kb": 43
+   }
+  ],
+  "extra": [
+   {
+    "file": "JC151/na/JC151_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 40
+   },
+   {
+    "file": "JC151/na/JC151_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 84
+   },
+   {
+    "file": "JC151/na/JC151_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 99
+   },
+   {
+    "file": "JC151/na/JC151_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 90
+   },
+   {
+    "file": "JC151/na/JC151_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 83
+   },
+   {
+    "file": "JC151/na/JC151_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 94
+   },
+   {
+    "file": "JC151/na/JC151_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 118
+   },
+   {
+    "file": "JC151/na/JC151_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 81
+   }
+  ]
+ },
+ "NC701": {
+  "source": "SharkNinja-EU/NC701EU",
+  "images": [
+   {
+    "file": "NC701/NC701_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 277
+   }
+  ],
+  "extra": [
+   {
+    "file": "NC701/na/NC701_na_01.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 204
+   },
+   {
+    "file": "NC701/na/NC701_na_02.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 225
+   },
+   {
+    "file": "NC701/na/NC701_na_03.png",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 303
+   },
+   {
+    "file": "NC701/na/NC701_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 113
+   },
+   {
+    "file": "NC701/na/NC701_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 86
+   },
+   {
+    "file": "NC701/na/NC701_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 124
+   },
+   {
+    "file": "NC701/na/NC701_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 144
+   },
+   {
+    "file": "NC701/na/NC701_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 60
+   }
+  ]
+ },
+ "OG701": {
+  "source": "SharkNinja-EU/OG701EU",
+  "images": [
+   {
+    "file": "OG701/OG701_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 222
+   }
+  ],
+  "extra": [
+   {
+    "file": "OG701/na/OG701_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 44
+   },
+   {
+    "file": "OG701/na/OG701_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 162
+   },
+   {
+    "file": "OG701/na/OG701_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 191
+   },
+   {
+    "file": "OG701/na/OG701_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 117
+   },
+   {
+    "file": "OG701/na/OG701_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 103
+   },
+   {
+    "file": "OG701/na/OG701_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 153
+   },
+   {
+    "file": "OG701/na/OG701_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 226
+   },
+   {
+    "file": "OG701/na/OG701_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 106
+   }
+  ]
+ },
+ "OG850": {
+  "source": "SharkNinja-EU/OG850EU",
+  "images": [
+   {
+    "file": "OG850/OG850_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 186
+   }
+  ],
+  "extra": [
+   {
+    "file": "OG850/na/OG850_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 74
+   }
+  ]
+ },
+ "OG901": {
+  "source": "SharkNinja-EU/OG901EU",
+  "images": [
+   {
+    "file": "OG901/OG901_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 217
+   }
+  ],
+  "extra": [
+   {
+    "file": "OG901/na/OG901_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 81
+   }
+  ]
+ },
+ "OL550": {
+  "source": "SharkNinja-EU/OL550EU",
+  "images": [
+   {
+    "file": "OL550/OL550_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 279
+   }
+  ],
+  "extra": []
+ },
+ "OL750": {
+  "source": "SharkNinja-EU/OL750EU",
+  "images": [
+   {
+    "file": "OL750/OL750_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 214
+   }
+  ],
+  "extra": []
+ },
+ "ON400": {
+  "source": "SharkNinja-EU/ON400EU",
+  "images": [
+   {
+    "file": "ON400/ON400_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 334
+   }
+  ],
+  "extra": []
+ },
+ "SFP700": {
+  "source": "SharkNinja-EU/SFP700EU",
+  "images": [
+   {
+    "file": "SFP700/SFP700_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 264
+   }
+  ],
+  "extra": [
+   {
+    "file": "SFP700/na/SFP700_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 36
+   }
+  ]
+ },
+ "SL400": {
+  "source": "SharkNinja-EU/SL400EU",
+  "images": [
+   {
+    "file": "SL400/SL400_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 239
+   }
+  ],
+  "extra": [
+   {
+    "file": "SL400/na/SL400_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 26
+   }
+  ]
+ },
+ "SP101": {
+  "source": "SharkNinja-EU/SP101EU",
+  "images": [
+   {
+    "file": "SP101/SP101_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 148
+   }
+  ],
+  "extra": [
+   {
+    "file": "SP101/na/SP101_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 103
+   },
+   {
+    "file": "SP101/na/SP101_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 76
+   },
+   {
+    "file": "SP101/na/SP101_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 111
+   },
+   {
+    "file": "SP101/na/SP101_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 82
+   },
+   {
+    "file": "SP101/na/SP101_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 159
+   },
+   {
+    "file": "SP101/na/SP101_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 103
+   },
+   {
+    "file": "SP101/na/SP101_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 98
+   },
+   {
+    "file": "SP101/na/SP101_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 98
+   }
+  ]
+ },
+ "TB301": {
+  "source": "SharkNinja-EU/TB301EU",
+  "images": [
+   {
+    "file": "TB301/TB301_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 271
+   }
+  ],
+  "extra": [
+   {
+    "file": "TB301/na/TB301_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 68
+   },
+   {
+    "file": "TB301/na/TB301_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 129
+   },
+   {
+    "file": "TB301/na/TB301_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 110
+   },
+   {
+    "file": "TB301/na/TB301_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 87
+   },
+   {
+    "file": "TB301/na/TB301_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 90
+   },
+   {
+    "file": "TB301/na/TB301_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 93
+   },
+   {
+    "file": "TB301/na/TB301_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 126
+   },
+   {
+    "file": "TB301/na/TB301_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 64
+   }
+  ]
+ },
+ "TB401": {
+  "source": "SharkNinja-EU/TB401EU",
+  "images": [
+   {
+    "file": "TB401/TB401_01.png",
+    "w": 1400,
+    "h": 1400,
+    "alpha": true,
+    "kb": 271
+   }
+  ],
+  "extra": [
+   {
+    "file": "TB401/na/TB401_na_01.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 64
+   },
+   {
+    "file": "TB401/na/TB401_na_02.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 129
+   },
+   {
+    "file": "TB401/na/TB401_na_03.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 111
+   },
+   {
+    "file": "TB401/na/TB401_na_04.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 86
+   },
+   {
+    "file": "TB401/na/TB401_na_05.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 99
+   },
+   {
+    "file": "TB401/na/TB401_na_06.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 106
+   },
+   {
+    "file": "TB401/na/TB401_na_07.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 68
+   },
+   {
+    "file": "TB401/na/TB401_na_08.jpg",
+    "w": 1200,
+    "h": 1200,
+    "alpha": false,
+    "kb": 95
+   }
+  ]
+ }
+}

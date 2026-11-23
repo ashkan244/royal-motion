@@ -7,3 +7,7 @@ assets/private/
 assets/audio/
 .fonts_key
 *.log
+
+# Ninja product images are the brand's own: fetched in CI, not committed
+assets/img/ninja/*
+!assets/img/ninja/logo/
