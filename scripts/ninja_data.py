@@ -85,5 +85,8 @@ add("K", 7, theme="ry", k=3, l1="نینجا هوم در رویال ویک", l2="
 add("J4", 8, theme="dark", title="هدیه‌ی آشپزخانه", items=items(["AF300", "ES601", "BN801", "NC701", "FS301", "OG701"]))
 add("J6", 20, grp="tv", theme="white", title="نینجا هوم — رویال پارس", items=items(ORDER[:12]))
 assert len(rows) == 100, len(rows)
+# split the 99 vertical videos into 6 render jobs (GitHub renders ~45 s per video, jobs run in parallel)
+vi = [r for r in rows if r["grp"] == "v"]
+for k, r in enumerate(vi): r["grp"] = "v%d" % (k // 17 + 1)
 json.dump(rows, open("data/ninja.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(len(rows), "motions ->", "data/ninja.json", "| v:", sum(r["grp"] == "v" for r in rows), "tv:", sum(r["grp"] == "tv" for r in rows))

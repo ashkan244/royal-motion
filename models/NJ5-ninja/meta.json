@@ -1,0 +1,20 @@
+{
+ "id": "NJ5",
+ "slug": "ninja",
+ "title": "نینجا هوم کیچن — بخش 5 از ۶",
+ "group": "ninja",
+ "theme": "rw",
+ "modes": {
+  "story": 8
+ },
+ "aspects": [
+  "9x16"
+ ],
+ "scene": "ninja/engine.js",
+ "css": "ninja/engine.css",
+ "variantsFrom": "data/ninja.json",
+ "variantsFilter": {
+  "grp": "v5"
+ },
+ "params": {}
+}
