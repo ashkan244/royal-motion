@@ -1,0 +1,13 @@
+{
+ "id": "NT",
+ "slug": "notice",
+ "title": "اطلاعیه ساعت کاری — رویال ویک",
+ "group": "notices",
+ "theme": "rw",
+ "modes": { "story": 8 },
+ "aspects": ["9x16"],
+ "scene": "stories/engine.js",
+ "css": "stories/engine.css",
+ "variantsFrom": "data/notices.json",
+ "params": { "bpm": 128 }
+}

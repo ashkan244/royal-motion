@@ -18,6 +18,10 @@ on:
         description: "Publish a GitHub Release + gallery when done"
         type: boolean
         default: false
+      pages:
+        description: "Also rebuild the GitHub Pages gallery (turn off for partial releases so the full gallery is kept)"
+        type: boolean
+        default: true
   push:
     branches: [main]
     paths: ["models/**", "lib/**", "brand/**", "scripts/**"]
@@ -171,9 +175,13 @@ jobs:
           if [ -n "$(ls -A v3v)" ]; then (cd v3v && zip -q -r -0 ../Royal_Stories_v3_Voice_FA_50.zip .); gh release upload "${{ steps.rel.outputs.tag }}" Royal_Stories_v3_Voice_FA_50.zip --clobber; fi
           ls -la *.zip || true
       - name: Build gallery
+        if: inputs.pages
         run: node scripts/gallery.mjs out site "${{ github.repository }}" "${{ steps.rel.outputs.tag }}"
       - uses: actions/configure-pages@v5
+        if: inputs.pages
       - uses: actions/upload-pages-artifact@v3
+        if: inputs.pages
         with: { path: site }
       - id: deploy
+        if: inputs.pages
         uses: actions/deploy-pages@v4

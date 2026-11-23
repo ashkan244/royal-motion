@@ -33,6 +33,7 @@ RP.run(function (tl, RP) {
       wordsOf(ln).forEach((t, i, arr) => {
         const w = el("span", "w", d); const wi = el("span", "wi" + (t.w === "تا" ? " ta" : ""), w, t.w);
         ltrTok(wi, t.w);
+        if (/[۰-۹]+:[۰-۹]+/.test(t.w)) wi.className += " st-timefont";
         if (t.k) { wi.style.color = o.key || ACC; keys.push(wi); }
         words.push(wi);
         if (i < arr.length - 1) d.appendChild(document.createTextNode(" "));
@@ -48,6 +49,7 @@ RP.run(function (tl, RP) {
     o = o || {};
     const d = el("div", "st-big", parent, text, { color: o.color || ACC });
     ltrTok(d, String(text));
+    if (/[۰-۹]+:[۰-۹]+/.test(String(text))) d.className += " st-timefont";
     RP.fit(d, o.maxW || 900, o.maxH || 520, o.maxPx || 440);
     return d;
   }
@@ -115,6 +117,23 @@ RP.run(function (tl, RP) {
   }
 
   /* ---------- the 12 styles ---------- */
+  /* ---------- notice (working-hours) helpers ---------- */
+  const faN = (x) => String(x).replace(/\d/g, (d) => "۰۱۲۳۴۵۶۷۸۹"[d]);
+  const hhmm = (h) => { const m = Math.round(h * 60); return faN(String(Math.floor(m / 60) % 24).padStart(2, "0") + ":" + String(m % 60).padStart(2, "0")); };
+  const PAL = {
+    dark: { dark: true, bg: "radial-gradient(ellipse at 50% 38%, #1d1a0c 0%, #070707 62%)", fg: "#fff", key: Y, kick: Y, ring: Y, face: "#0e0e0e", tick: "rgba(255,255,255,.55)", sub: "rgba(255,255,255,.85)", chip: { background: "transparent", color: Y, border: `3px solid ${Y}` } },
+    yellow: { dark: false, bg: Y, fg: BK, key: "#fff", kick: BK, ring: BK, face: "#fff7d6", tick: "rgba(0,0,0,.5)", sub: "rgba(0,0,0,.85)", keyShadow: true, chip: { background: BK, color: Y } },
+    red: { dark: true, bg: "radial-gradient(ellipse at 50% 38%, #f23a3f 0%, #b5151a 70%)", fg: "#fff", key: Y, kick: "#fff", ring: "#fff", face: "#7e0b10", tick: "rgba(255,255,255,.6)", sub: "rgba(255,255,255,.92)", chip: { background: "#fff", color: "#b5151a" } },
+  };
+  function noticeHead(P, o) {
+    layer({ background: P.bg });
+    if (P.dark) dustIn(16, "#FFE9A8", { x0: 100, x1: 980, y0: 300, y1: 1400 });
+    const R = stack({ top: o.top, bot: o.bot, gap: 18, titleColor: P.fg, keyColor: P.key, kickerColor: P.kick, subColor: P.sub, titlePx: 105 });
+    if (P.keyShadow && R.title) R.title.keys.forEach((k) => (k.style.textShadow = `6px 6px 0 ${BK}`));
+    enter(R, 0.15);
+    return R;
+  }
+
   const STYLES = {
     /* S1 dark spotlight */
     S1() {
@@ -509,6 +528,118 @@ RP.run(function (tl, RP) {
       if (S.sub) { const sb = el("div", "st-strip", sc, S.sub, { position: "absolute", top: "1180px", left: "90px", background: "#fff", color: BK, fontSize: "48px", zIndex: 21 });
         tl.fromTo(sb, { xPercent: -120 }, { xPercent: 0, duration: 0.4 }, 1.2); }
       frame(true);
+    },
+    /* ================= NOTICE styles (working-hours announcement): N1 clock, N3 day bar, N4 door sign, N5 week list ================= */
+    N1() {
+      const P = PAL[S.theme || "dark"];
+      noticeHead(P, { top: 300, bot: 760 });
+      const cx = W / 2, cy = 1030, d = 500, inner = d - 24;
+      const face = el("div", null, sc, null, { position: "absolute", left: cx - d / 2 + "px", top: cy - d / 2 + "px", width: d + "px", height: d + "px", borderRadius: "50%",
+        background: P.face, border: `12px solid ${P.ring}`, zIndex: 20, boxShadow: "0 26px 60px rgba(0,0,0,.45)" });
+      for (let i = 0; i < 60; i++) {
+        const b = i % 5 === 0;
+        el("i", null, face, null, { position: "absolute", left: "50%", top: "8px", width: (b ? 9 : 3) + "px", height: (b ? 36 : 16) + "px", marginLeft: (b ? -4.5 : -1.5) + "px",
+          background: b ? P.ring : P.tick, borderRadius: "3px", transformOrigin: `50% ${inner / 2 - 8}px`, transform: `rotate(${i * 6}deg)` });
+      }
+      const hand = (w, h, col) => el("i", null, face, null, { position: "absolute", left: "50%", bottom: "50%", width: w + "px", height: h + "px", marginLeft: -w / 2 + "px",
+        background: col, borderRadius: w + "px", transformOrigin: "50% 100%", zIndex: 3 });
+      const hr = hand(18, inner * 0.27, P.fg), mn = hand(11, inner * 0.4, P.ring);
+      el("i", null, face, null, { position: "absolute", left: "50%", top: "50%", width: "34px", height: "34px", margin: "-17px 0 0 -17px", borderRadius: "50%", background: P.ring, zIndex: 4 });
+      const ro = el("div", null, face, null, { position: "absolute", left: 0, right: 0, top: inner * 0.64 + "px", textAlign: "center", fontFamily: "var(--fa-body)", fontWeight: 700,
+        fontSize: "78px", color: P.fg, direction: "ltr", zIndex: 2 });
+      const px = { h: S.from != null ? S.from : 10.5 };
+      const set = () => { hr.style.transform = `rotate(${(px.h % 12) * 30}deg)`; mn.style.transform = `rotate(${((px.h * 60) % 60) * 6}deg)`; ro.textContent = hhmm(px.h); };
+      set();
+      tl.fromTo(face, { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.7, ease: "back.out(1.6)" }, 0.2);
+      tl.to(px, { h: S.to != null ? S.to : 23, duration: D - 3.4, ease: "power2.inOut", onUpdate: set }, 0.9);
+      const chips = el("div", "st-chips", sc, null, { position: "absolute", left: "60px", right: "60px", top: "1305px", zIndex: 30, flexWrap: "nowrap", gap: "12px" });
+      const ce = (S.items || []).map((t) => el("div", "st-chip", chips, t, Object.assign({ fontSize: "38px", padding: "8px 22px 14px" }, P.chip)));
+      tl.fromTo(ce, { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(2)", stagger: 0.12 }, D - 3.2);
+      grain(0.05);
+      frame(P.dark);
+    },
+    N3() {
+      const P = PAL[S.theme || "dark"];
+      noticeHead(P, { top: 300, bot: 760 });
+      const x0 = 130, x1 = 950, y = 1100, from = S.from != null ? S.from : 10.5, to = S.to != null ? S.to : 23;
+      const xs = (h) => x1 - ((h - from) / (to - from)) * (x1 - x0);       // right (10:30) -> left (23:00)
+      const track = el("div", null, sc, null, { position: "absolute", left: x0 + "px", top: y - 28 + "px", width: x1 - x0 + "px", height: "56px", borderRadius: "28px", overflow: "hidden",
+        background: P.dark ? "rgba(255,255,255,.14)" : "rgba(0,0,0,.18)", zIndex: 20 });
+      const fill = el("div", null, track, null, { position: "absolute", inset: 0, transformOrigin: "100% 50%",
+        background: "linear-gradient(270deg, #FFD21F 0%, #ff9d2e 38%, #d9476a 62%, #5b4bd0 82%, #1b1f5e 100%)" });
+      for (let h = Math.ceil(from); h <= to; h++) {
+        const x = xs(h);
+        el("i", null, sc, null, { position: "absolute", left: x - 1.5 + "px", top: y + 40 + "px", width: "3px", height: "20px", background: P.tick, zIndex: 20 });
+        el("div", null, sc, faN(h), { position: "absolute", left: x - 30 + "px", width: "60px", textAlign: "center", top: y + 66 + "px", fontFamily: "var(--fa-body)", fontWeight: 700,
+          fontSize: "30px", color: P.fg, opacity: 0.85, zIndex: 20 });
+      }
+      const mk = el("div", null, sc, null, { position: "absolute", top: y - 62 + "px", width: "124px", height: "124px", marginLeft: "-62px", borderRadius: "50%", zIndex: 25,
+        border: `8px solid ${P.dark ? "#fff" : BK}`, boxShadow: "0 0 50px rgba(255,210,31,.7)" });
+      const ro = el("div", null, sc, null, { position: "absolute", left: 0, right: 0, top: "800px", textAlign: "center", fontFamily: "var(--fa-body)", fontWeight: 700, fontSize: "160px",
+        color: P.fg, direction: "ltr", zIndex: 25 });
+      const px = { h: from };
+      const set = () => {
+        const f = (px.h - from) / (to - from);
+        mk.style.left = xs(px.h) + "px";
+        mk.style.background = f < 0.55 ? "radial-gradient(circle, #fff6b0, #FFD21F)" : "radial-gradient(circle, #ffffff, #c9d0ff)";
+        fill.style.transform = `scaleX(${Math.max(0.001, f)})`;
+        ro.textContent = hhmm(px.h);
+      };
+      set();
+      tl.to(px, { h: to, duration: D - 3.2, ease: "power1.inOut", onUpdate: set }, 0.8);
+      tl.fromTo([track, mk, ro], { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.1 }, 0.2);
+      const lab = (txt, side) => el("div", null, sc, txt, { position: "absolute", top: y + 120 + "px", [side]: "100px", fontFamily: "var(--fa)", fontWeight: 700, fontSize: "44px", color: P.fg, direction: "rtl", zIndex: 25 });
+      const la = lab(S.startLabel || "شروع: ۱۰:۳۰ صبح", "right"), lb = lab(S.endLabel || "پایان: ۲۳:۰۰", "left");
+      tl.fromTo([la, lb], { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.15 }, 1.0);
+      const chips = el("div", "st-chips", sc, null, { position: "absolute", left: "60px", right: "60px", top: "1305px", zIndex: 30, flexWrap: "nowrap", gap: "12px" });
+      const ce = (S.items || []).map((t) => el("div", "st-chip", chips, t, Object.assign({ fontSize: "38px", padding: "8px 22px 14px" }, P.chip)));
+      tl.fromTo(ce, { scale: 0.4, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.4, ease: "back.out(2)", stagger: 0.12 }, D - 3.0);
+      grain(0.05);
+      frame(P.dark);
+    },
+    N4() {
+      const P = PAL[S.theme || "dark"];
+      layer({ background: P.bg });
+      if (P.dark) dustIn(16, "#FFE9A8", { x0: 100, x1: 980, y0: 300, y1: 1400 });
+      const [bd, fg] = P === PAL.dark ? [Y, BK] : P === PAL.yellow ? [BK, Y] : ["#fff", "#b5151a"];
+      const bw = 820, bh = 890, bx = (W - bw) / 2, by = 440;
+      const sign = el("div", null, sc, null, { position: "absolute", left: bx + "px", top: by + "px", width: bw + "px", height: bh + "px", zIndex: 20, transformOrigin: "50% -150px" });
+      sign.innerHTML = `<svg width="${bw}" height="170" style="position:absolute;left:0;top:-160px;overflow:visible"><g stroke="${P.dark ? "#fff" : BK}" stroke-width="8" stroke-linecap="round" fill="none"><path d="M${bw * 0.2} 160 L${bw / 2} 10"/><path d="M${bw * 0.8} 160 L${bw / 2} 10"/></g><circle cx="${bw / 2}" cy="10" r="16" fill="${P.dark ? "#fff" : BK}"/></svg>`;
+      const board = el("div", null, sign, null, { position: "absolute", inset: 0, borderRadius: "56px", background: bd, boxShadow: "0 40px 80px rgba(0,0,0,.5)", border: `10px solid ${fg}` });
+      el("div", null, board, null, { position: "absolute", inset: "26px", borderRadius: "38px", border: `5px solid ${fg}`, opacity: 0.55 });
+      [bw * 0.2, bw * 0.8].forEach((x) => el("i", null, board, null, { position: "absolute", left: x - 18 + "px", top: "26px", width: "36px", height: "36px", borderRadius: "50%", background: P.bg === Y ? "#fff7d6" : "#0a0a0a" }));
+      const t1 = el("div", null, board, S.open || "OPEN", { position: "absolute", left: 0, right: 0, top: "90px", textAlign: "center", fontFamily: "var(--en)", color: fg, letterSpacing: ".06em", whiteSpace: "nowrap" });
+      RP.fit(t1, 700, 230, 260);
+      const t2 = el("div", "st-ln", board, S.head || "یکسره باز است", { position: "absolute", left: 0, right: 0, top: "370px", textAlign: "center", color: fg });
+      RP.fit(t2, 700, 150, 130);
+      el("div", null, board, null, { position: "absolute", left: "90px", right: "90px", top: "560px", height: "8px", background: fg, opacity: 0.8, borderRadius: "4px" });
+      const t3 = el("div", "st-ln", board, S.hours || "۱۰:۳۰ صبح تا ۲۳:۰۰", { position: "absolute", left: 0, right: 0, top: "610px", textAlign: "center", color: fg });
+      RP.fit(t3, 700, 130, 110);
+      const t4 = el("div", "st-sub", board, S.note || "۳ تا ۹ آذر", { position: "absolute", left: "40px", right: "40px", top: "760px", textAlign: "center", color: fg, fontSize: "46px", maxWidth: "none" });
+      RP.fit(t4, 700, 110, 52);
+      tl.fromTo(sign, { y: -1000 }, { y: 0, duration: 0.8, ease: "bounce.out" }, 0.1);
+      tl.fromTo(sign, { rotation: 9 }, { rotation: 0, duration: 2.6, ease: "elastic.out(1,.28)" }, 0.55);
+      tl.fromTo([t3, t4], { opacity: 0, y: 24 }, { opacity: 1, y: 0, duration: 0.5, stagger: 0.15 }, 1.3);
+      grain(0.05);
+      frame(P.dark);
+    },
+    N5() {
+      const P = PAL[S.theme || "dark"];
+      noticeHead(P, { top: 300, bot: 570 });
+      const DAYS = ["سه‌شنبه ۳ آذر", "چهارشنبه ۴ آذر", "پنجشنبه ۵ آذر", "جمعه ۶ آذر", "شنبه ۷ آذر", "یکشنبه ۸ آذر", "دوشنبه ۹ آذر"];
+      const hours = S.hours || "۱۰:۳۰ تا ۲۳:۰۰", rowH = 100, gap = 13, top0 = 590;
+      const hi = P.dark ? Y : BK, hiFg = P.dark ? BK : Y;
+      DAYS.forEach((dn, i) => {
+        const fri = i === 3;
+        const row = el("div", null, sc, null, { position: "absolute", left: "90px", right: "90px", top: top0 + i * (rowH + gap) + "px", height: rowH + "px", borderRadius: "26px", zIndex: 20,
+          display: "flex", alignItems: "center", justifyContent: "space-between", direction: "rtl", padding: "0 34px",
+          background: fri ? hi : (P.dark ? "rgba(255,255,255,.1)" : "rgba(0,0,0,.1)"), border: fri ? "none" : `2px solid ${P.dark ? "rgba(255,255,255,.16)" : "rgba(0,0,0,.18)"}` });
+        el("div", null, row, dn + (fri ? " — جمعه رویالی" : ""), { fontFamily: "var(--fa)", fontWeight: 700, fontSize: "44px", color: fri ? hiFg : P.fg, whiteSpace: "nowrap" });
+        el("div", null, row, hours, { fontFamily: "var(--fa-body)", fontWeight: 700, fontSize: "42px", color: fri ? hiFg : P.fg, whiteSpace: "nowrap" });
+        tl.fromTo(row, { xPercent: i % 2 ? -110 : 110, opacity: 0 }, { xPercent: 0, opacity: 1, duration: 0.4, ease: "power3.out" }, 0.9 + i * 0.2);
+      });
+      grain(0.05);
+      frame(P.dark);
     },
   };
 
