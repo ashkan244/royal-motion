@@ -1,0 +1,14 @@
+{
+ "id": "NJL",
+ "slug": "ninjatv",
+ "title": "نینجا هوم — لوپ تلویزیون غرفه (۱۶:۹، بی‌صدا)",
+ "group": "ninja",
+ "theme": "rw",
+ "modes": { "loop": 20 },
+ "aspects": ["16x9"],
+ "scene": "ninja/engine.js",
+ "css": "ninja/engine.css",
+ "variantsFrom": "data/ninja.json",
+ "variantsFilter": { "grp": "tv" },
+ "params": {}
+}

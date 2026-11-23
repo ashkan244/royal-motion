@@ -1,0 +1,5773 @@
+[
+ {
+  "tag": "NJ001",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF500",
+   "hero": "AF500/AF500_01.png",
+   "title": "ایرفرایر نینجا فلکس‌دراور",
+   "feat": [
+    "۱۰.۴ لیتر ظرفیت",
+    "کشوی قابل‌تقسیم",
+    "دو سبد مستقل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ001",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ002",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "AF500",
+   "hero": "AF500/AF500_01.png",
+   "title": "ایرفرایر نینجا فلکس‌دراور",
+   "feat": [
+    "۱۰.۴ لیتر ظرفیت",
+    "کشوی قابل‌تقسیم",
+    "دو سبد مستقل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ002",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ003",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF500",
+   "hero": "AF500/AF500_01.png",
+   "title": "ایرفرایر نینجا فلکس‌دراور",
+   "feat": [
+    "۱۰.۴ لیتر ظرفیت",
+    "کشوی قابل‌تقسیم",
+    "دو سبد مستقل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ003",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ004",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF400",
+   "hero": "AF400/AF400_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال",
+   "feat": [
+    "دو سبد بزرگ",
+    "ظرفیت ایکس‌ایکس‌ایکس‌ال",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ004",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ005",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "AF400",
+   "hero": "AF400/AF400_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال",
+   "feat": [
+    "دو سبد بزرگ",
+    "ظرفیت ایکس‌ایکس‌ایکس‌ال",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ005",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ006",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF400",
+   "hero": "AF400/AF400_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال",
+   "feat": [
+    "دو سبد بزرگ",
+    "ظرفیت ایکس‌ایکس‌ایکس‌ال",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ006",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ007",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF300",
+   "hero": "AF300/AF300_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر",
+   "feat": [
+    "۷.۶ لیتر ظرفیت",
+    "دو سبد مستقل",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ007",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ008",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "AF300",
+   "hero": "AF300/AF300_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر",
+   "feat": [
+    "۷.۶ لیتر ظرفیت",
+    "دو سبد مستقل",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ008",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ009",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF300",
+   "hero": "AF300/AF300_01.png",
+   "title": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر",
+   "feat": [
+    "۷.۶ لیتر ظرفیت",
+    "دو سبد مستقل",
+    "فناوری Dual Zone"
+   ],
+   "cat": "airfryer",
+   "id": "NJ009",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ010",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF180",
+   "hero": "AF180/AF180_01.png",
+   "title": "ایرفرایر نینجا مکس پرو",
+   "feat": [
+    "ظرفیت ۶.۲ لیتر",
+    "سری مکس پرو",
+    "تک‌سبد"
+   ],
+   "cat": "airfryer",
+   "id": "NJ010",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ011",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "AF180",
+   "hero": "AF180/AF180_01.png",
+   "title": "ایرفرایر نینجا مکس پرو",
+   "feat": [
+    "ظرفیت ۶.۲ لیتر",
+    "سری مکس پرو",
+    "تک‌سبد"
+   ],
+   "cat": "airfryer",
+   "id": "NJ011",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ012",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF180",
+   "hero": "AF180/AF180_01.png",
+   "title": "ایرفرایر نینجا مکس پرو",
+   "feat": [
+    "ظرفیت ۶.۲ لیتر",
+    "سری مکس پرو",
+    "تک‌سبد"
+   ],
+   "cat": "airfryer",
+   "id": "NJ012",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ013",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF170",
+   "hero": "AF170/AF170_01.png",
+   "title": "ایرفرایر نینجا مکس ایکس‌ال",
+   "feat": [
+    "ایرفرایر تک‌سبد",
+    "سری مکس ایکس‌ال",
+    "پنجره‌ی EZView"
+   ],
+   "cat": "airfryer",
+   "id": "NJ013",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ014",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "AF170",
+   "hero": "AF170/AF170_01.png",
+   "title": "ایرفرایر نینجا مکس ایکس‌ال",
+   "feat": [
+    "ایرفرایر تک‌سبد",
+    "سری مکس ایکس‌ال",
+    "پنجره‌ی EZView"
+   ],
+   "cat": "airfryer",
+   "id": "NJ014",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ015",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "AF170",
+   "hero": "AF170/AF170_01.png",
+   "title": "ایرفرایر نینجا مکس ایکس‌ال",
+   "feat": [
+    "ایرفرایر تک‌سبد",
+    "سری مکس ایکس‌ال",
+    "پنجره‌ی EZView"
+   ],
+   "cat": "airfryer",
+   "id": "NJ015",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ016",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "DZ300",
+   "hero": "DZ300/DZ300_01.png",
+   "title": "ایرفرایر دوسبد نینجا دوآل‌زون",
+   "feat": [
+    "دو سبد مستقل",
+    "فناوری DualZone",
+    "پخت دو غذا با هم"
+   ],
+   "cat": "airfryer",
+   "id": "NJ016",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ017",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "DZ300",
+   "hero": "DZ300/DZ300_01.png",
+   "title": "ایرفرایر دوسبد نینجا دوآل‌زون",
+   "feat": [
+    "دو سبد مستقل",
+    "فناوری DualZone",
+    "پخت دو غذا با هم"
+   ],
+   "cat": "airfryer",
+   "id": "NJ017",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ018",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "DZ300",
+   "hero": "DZ300/DZ300_01.png",
+   "title": "ایرفرایر دوسبد نینجا دوآل‌زون",
+   "feat": [
+    "دو سبد مستقل",
+    "فناوری DualZone",
+    "پخت دو غذا با هم"
+   ],
+   "cat": "airfryer",
+   "id": "NJ018",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ019",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SL400",
+   "hero": "SL400/SL400_01.png",
+   "title": "ایرفرایر دوطبقه نینجا ۱۰ کوارت",
+   "feat": [
+    "۱۰ کوارت ظرفیت",
+    "دو سبد روی هم",
+    "شش حالت پخت"
+   ],
+   "cat": "airfryer",
+   "id": "NJ019",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ020",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "SL400",
+   "hero": "SL400/SL400_01.png",
+   "title": "ایرفرایر دوطبقه نینجا ۱۰ کوارت",
+   "feat": [
+    "۱۰ کوارت ظرفیت",
+    "دو سبد روی هم",
+    "شش حالت پخت"
+   ],
+   "cat": "airfryer",
+   "id": "NJ020",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ021",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SL400",
+   "hero": "SL400/SL400_01.png",
+   "title": "ایرفرایر دوطبقه نینجا ۱۰ کوارت",
+   "feat": [
+    "۱۰ کوارت ظرفیت",
+    "دو سبد روی هم",
+    "شش حالت پخت"
+   ],
+   "cat": "airfryer",
+   "id": "NJ021",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ022",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "FN101",
+   "hero": "FN101/FN101_01.png",
+   "title": "نینجا کریسپی",
+   "feat": [
+    "نینجا کریسپی",
+    "ظرف شیشه‌ای",
+    "پخت قابل‌حمل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ022",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ023",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "FN101",
+   "hero": "FN101/FN101_01.png",
+   "title": "نینجا کریسپی",
+   "feat": [
+    "نینجا کریسپی",
+    "ظرف شیشه‌ای",
+    "پخت قابل‌حمل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ023",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ024",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "FN101",
+   "hero": "FN101/FN101_01.png",
+   "title": "نینجا کریسپی",
+   "feat": [
+    "نینجا کریسپی",
+    "ظرف شیشه‌ای",
+    "پخت قابل‌حمل"
+   ],
+   "cat": "airfryer",
+   "id": "NJ024",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ025",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN801",
+   "hero": "BN801/BN801_01.jpg",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ",
+   "feat": [
+    "۴ مدل تیغه",
+    "برنامه‌های Auto-iQ",
+    "۱۴۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ025",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ026",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "white",
+   "code": "BN801",
+   "hero": "BN801/BN801_01.jpg",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ",
+   "feat": [
+    "۴ مدل تیغه",
+    "برنامه‌های Auto-iQ",
+    "۱۴۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ026",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ027",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN801",
+   "hero": "BN801/BN801_01.jpg",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ",
+   "feat": [
+    "۴ مدل تیغه",
+    "برنامه‌های Auto-iQ",
+    "۱۴۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ027",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ028",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN800",
+   "hero": "BN800/BN800_01.png",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "پروفشنال پلاس",
+    "چند تیغه"
+   ],
+   "cat": "blender",
+   "id": "NJ028",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ029",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "BN800",
+   "hero": "BN800/BN800_01.png",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "پروفشنال پلاس",
+    "چند تیغه"
+   ],
+   "cat": "blender",
+   "id": "NJ029",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ030",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN800",
+   "hero": "BN800/BN800_01.png",
+   "title": "سیستم آشپزخانه نینجا پروفشنال پلاس",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "پروفشنال پلاس",
+    "چند تیغه"
+   ],
+   "cat": "blender",
+   "id": "NJ030",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ031",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN750",
+   "hero": "BN750/BN750_01.png",
+   "title": "مخلوط‌کن نینجا پروفشنال پلاس",
+   "feat": [
+    "پروفشنال پلاس",
+    "تیغه‌ی Total Crushing",
+    "پارچ بزرگ"
+   ],
+   "cat": "blender",
+   "id": "NJ031",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ032",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "BN750",
+   "hero": "BN750/BN750_01.png",
+   "title": "مخلوط‌کن نینجا پروفشنال پلاس",
+   "feat": [
+    "پروفشنال پلاس",
+    "تیغه‌ی Total Crushing",
+    "پارچ بزرگ"
+   ],
+   "cat": "blender",
+   "id": "NJ032",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ033",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BN750",
+   "hero": "BN750/BN750_01.png",
+   "title": "مخلوط‌کن نینجا پروفشنال پلاس",
+   "feat": [
+    "پروفشنال پلاس",
+    "تیغه‌ی Total Crushing",
+    "پارچ بزرگ"
+   ],
+   "cat": "blender",
+   "id": "NJ033",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ034",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "TB401",
+   "hero": "TB401/TB401_01.png",
+   "title": "سیستم آشپزخانه نینجا دیتکت",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "فناوری BlendSense",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ034",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ035",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "TB401",
+   "hero": "TB401/TB401_01.png",
+   "title": "سیستم آشپزخانه نینجا دیتکت",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "فناوری BlendSense",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ035",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ036",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "TB401",
+   "hero": "TB401/TB401_01.png",
+   "title": "سیستم آشپزخانه نینجا دیتکت",
+   "feat": [
+    "مخلوط‌کن + غذاساز",
+    "فناوری BlendSense",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ036",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ037",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "TB301",
+   "hero": "TB301/TB301_01.png",
+   "title": "مخلوط‌کن نینجا دیتکت دوئو + لیوان شخصی",
+   "feat": [
+    "فناوری BlendSense",
+    "پارچ ۷۲ اونس",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ037",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ038",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "TB301",
+   "hero": "TB301/TB301_01.png",
+   "title": "مخلوط‌کن نینجا دیتکت دوئو + لیوان شخصی",
+   "feat": [
+    "فناوری BlendSense",
+    "پارچ ۷۲ اونس",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ038",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ039",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "TB301",
+   "hero": "TB301/TB301_01.png",
+   "title": "مخلوط‌کن نینجا دیتکت دوئو + لیوان شخصی",
+   "feat": [
+    "فناوری BlendSense",
+    "پارچ ۷۲ اونس",
+    "۱۸۰۰ وات پیک"
+   ],
+   "cat": "blender",
+   "id": "NJ039",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ040",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BC251",
+   "hero": "BC251/BC251_01.png",
+   "title": "مخلوط‌کن بی‌سیم قابل‌حمل نینجا بلست مکس",
+   "feat": [
+    "مخلوط‌کن بی‌سیم",
+    "قابل‌حمل",
+    "بلست مکس"
+   ],
+   "cat": "blender",
+   "id": "NJ040",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ041",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "BC251",
+   "hero": "BC251/BC251_01.png",
+   "title": "مخلوط‌کن بی‌سیم قابل‌حمل نینجا بلست مکس",
+   "feat": [
+    "مخلوط‌کن بی‌سیم",
+    "قابل‌حمل",
+    "بلست مکس"
+   ],
+   "cat": "blender",
+   "id": "NJ041",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ042",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BC251",
+   "hero": "BC251/BC251_01.png",
+   "title": "مخلوط‌کن بی‌سیم قابل‌حمل نینجا بلست مکس",
+   "feat": [
+    "مخلوط‌کن بی‌سیم",
+    "قابل‌حمل",
+    "بلست مکس"
+   ],
+   "cat": "blender",
+   "id": "NJ042",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ043",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BC151",
+   "hero": "BC151/BC151_01.jpg",
+   "title": "مخلوط‌کن شخصی قابل‌حمل نینجا بلست",
+   "feat": [
+    "مخلوط‌کن شخصی",
+    "۱۸ اونس",
+    "قابل‌حمل"
+   ],
+   "cat": "blender",
+   "id": "NJ043",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ044",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "white",
+   "code": "BC151",
+   "hero": "BC151/BC151_01.jpg",
+   "title": "مخلوط‌کن شخصی قابل‌حمل نینجا بلست",
+   "feat": [
+    "مخلوط‌کن شخصی",
+    "۱۸ اونس",
+    "قابل‌حمل"
+   ],
+   "cat": "blender",
+   "id": "NJ044",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ045",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "BC151",
+   "hero": "BC151/BC151_01.jpg",
+   "title": "مخلوط‌کن شخصی قابل‌حمل نینجا بلست",
+   "feat": [
+    "مخلوط‌کن شخصی",
+    "۱۸ اونس",
+    "قابل‌حمل"
+   ],
+   "cat": "blender",
+   "id": "NJ045",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ046",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG901",
+   "hero": "OG901/OG901_01.png",
+   "title": "نینجا وودفایر پرو کانکت ایکس‌ال",
+   "feat": [
+    "Pro Connect",
+    "هفت حالت پخت",
+    "اتصال به اپلیکیشن"
+   ],
+   "cat": "grill",
+   "id": "NJ046",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ047",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "OG901",
+   "hero": "OG901/OG901_01.png",
+   "title": "نینجا وودفایر پرو کانکت ایکس‌ال",
+   "feat": [
+    "Pro Connect",
+    "هفت حالت پخت",
+    "اتصال به اپلیکیشن"
+   ],
+   "cat": "grill",
+   "id": "NJ047",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ048",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG901",
+   "hero": "OG901/OG901_01.png",
+   "title": "نینجا وودفایر پرو کانکت ایکس‌ال",
+   "feat": [
+    "Pro Connect",
+    "هفت حالت پخت",
+    "اتصال به اپلیکیشن"
+   ],
+   "cat": "grill",
+   "id": "NJ048",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ049",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG850",
+   "hero": "OG850/OG850_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ایکس‌ال",
+   "feat": [
+    "وودفایر ایکس‌ال",
+    "پروب دمای داخلی",
+    "گریل و دودی برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ049",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ050",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "OG850",
+   "hero": "OG850/OG850_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ایکس‌ال",
+   "feat": [
+    "وودفایر ایکس‌ال",
+    "پروب دمای داخلی",
+    "گریل و دودی برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ050",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ051",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG850",
+   "hero": "OG850/OG850_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ایکس‌ال",
+   "feat": [
+    "وودفایر ایکس‌ال",
+    "پروب دمای داخلی",
+    "گریل و دودی برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ051",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ052",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG701",
+   "hero": "OG701/OG701_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ۷ در ۱",
+   "feat": [
+    "هفت حالت پخت",
+    "دودی وودفایر",
+    "گریل برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ052",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ053",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "OG701",
+   "hero": "OG701/OG701_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ۷ در ۱",
+   "feat": [
+    "هفت حالت پخت",
+    "دودی وودفایر",
+    "گریل برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ053",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ054",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OG701",
+   "hero": "OG701/OG701_01.png",
+   "title": "گریل و دودی برقی نینجا وودفایر ۷ در ۱",
+   "feat": [
+    "هفت حالت پخت",
+    "دودی وودفایر",
+    "گریل برقی"
+   ],
+   "cat": "grill",
+   "id": "NJ054",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ055",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "DG551",
+   "hero": "DG551/DG551_01.png",
+   "title": "گریل و ایرفرایر نینجا فودی با پروب دما",
+   "feat": [
+    "گریل داخلی",
+    "ایرفرایر داخلش",
+    "پروب دمای غذا"
+   ],
+   "cat": "grill",
+   "id": "NJ055",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ056",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "DG551",
+   "hero": "DG551/DG551_01.png",
+   "title": "گریل و ایرفرایر نینجا فودی با پروب دما",
+   "feat": [
+    "گریل داخلی",
+    "ایرفرایر داخلش",
+    "پروب دمای غذا"
+   ],
+   "cat": "grill",
+   "id": "NJ056",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ057",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "DG551",
+   "hero": "DG551/DG551_01.png",
+   "title": "گریل و ایرفرایر نینجا فودی با پروب دما",
+   "feat": [
+    "گریل داخلی",
+    "ایرفرایر داخلش",
+    "پروب دمای غذا"
+   ],
+   "cat": "grill",
+   "id": "NJ057",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ058",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SFP700",
+   "hero": "SFP700/SFP700_01.png",
+   "title": "نینجا کومبی",
+   "feat": [
+    "نینجا کومبی",
+    "مولتی‌کوکر",
+    "چند حالت پخت"
+   ],
+   "cat": "cooker",
+   "id": "NJ058",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ059",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "SFP700",
+   "hero": "SFP700/SFP700_01.png",
+   "title": "نینجا کومبی",
+   "feat": [
+    "نینجا کومبی",
+    "مولتی‌کوکر",
+    "چند حالت پخت"
+   ],
+   "cat": "cooker",
+   "id": "NJ059",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ060",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SFP700",
+   "hero": "SFP700/SFP700_01.png",
+   "title": "نینجا کومبی",
+   "feat": [
+    "نینجا کومبی",
+    "مولتی‌کوکر",
+    "چند حالت پخت"
+   ],
+   "cat": "cooker",
+   "id": "NJ060",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ061",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ON400",
+   "hero": "ON400/ON400_01.png",
+   "title": "نینجا اسپیدی",
+   "feat": [
+    "نینجا اسپیدی",
+    "پخت سریع",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ061",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ062",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "ON400",
+   "hero": "ON400/ON400_01.png",
+   "title": "نینجا اسپیدی",
+   "feat": [
+    "نینجا اسپیدی",
+    "پخت سریع",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ062",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ063",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ON400",
+   "hero": "ON400/ON400_01.png",
+   "title": "نینجا اسپیدی",
+   "feat": [
+    "نینجا اسپیدی",
+    "پخت سریع",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ063",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ064",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OL750",
+   "hero": "OL750/OL750_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "ظرفیت بزرگ",
+    "پرشرکوکر و ایرفرایر"
+   ],
+   "cat": "cooker",
+   "id": "NJ064",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ065",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "OL750",
+   "hero": "OL750/OL750_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "ظرفیت بزرگ",
+    "پرشرکوکر و ایرفرایر"
+   ],
+   "cat": "cooker",
+   "id": "NJ065",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ066",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OL750",
+   "hero": "OL750/OL750_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "ظرفیت بزرگ",
+    "پرشرکوکر و ایرفرایر"
+   ],
+   "cat": "cooker",
+   "id": "NJ066",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ067",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OL550",
+   "hero": "OL550/OL550_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "پرشرکوکر",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ067",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ068",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "OL550",
+   "hero": "OL550/OL550_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "پرشرکوکر",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ068",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ069",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "OL550",
+   "hero": "OL550/OL550_01.png",
+   "title": "مولتی‌کوکر اسمارت‌لید نینجا فودی",
+   "feat": [
+    "درب اسمارت‌لید",
+    "پرشرکوکر",
+    "ایرفرایر داخلش"
+   ],
+   "cat": "cooker",
+   "id": "NJ069",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ070",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SP101",
+   "hero": "SP101/SP101_01.png",
+   "title": "فر توستر برگردان نینجا فودی ۸ در ۱",
+   "feat": [
+    "فر توستر برگردان",
+    "سری فودی",
+    "هشت حالت پخت"
+   ],
+   "cat": "oven",
+   "id": "NJ070",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ071",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "SP101",
+   "hero": "SP101/SP101_01.png",
+   "title": "فر توستر برگردان نینجا فودی ۸ در ۱",
+   "feat": [
+    "فر توستر برگردان",
+    "سری فودی",
+    "هشت حالت پخت"
+   ],
+   "cat": "oven",
+   "id": "NJ071",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ072",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "SP101",
+   "hero": "SP101/SP101_01.png",
+   "title": "فر توستر برگردان نینجا فودی ۸ در ۱",
+   "feat": [
+    "فر توستر برگردان",
+    "سری فودی",
+    "هشت حالت پخت"
+   ],
+   "cat": "oven",
+   "id": "NJ072",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ073",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "NC701",
+   "hero": "NC701/NC701_01.png",
+   "title": "نینجا کریمی سویرل",
+   "feat": [
+    "بستنی نرم",
+    "کریمی سویرل",
+    "سافت‌سرو در خانه"
+   ],
+   "cat": "frozen",
+   "id": "NJ073",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ074",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "NC701",
+   "hero": "NC701/NC701_01.png",
+   "title": "نینجا کریمی سویرل",
+   "feat": [
+    "بستنی نرم",
+    "کریمی سویرل",
+    "سافت‌سرو در خانه"
+   ],
+   "cat": "frozen",
+   "id": "NJ074",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ075",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "NC701",
+   "hero": "NC701/NC701_01.png",
+   "title": "نینجا کریمی سویرل",
+   "feat": [
+    "بستنی نرم",
+    "کریمی سویرل",
+    "سافت‌سرو در خانه"
+   ],
+   "cat": "frozen",
+   "id": "NJ075",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ076",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "FS301",
+   "hero": "FS301/FS301_01.png",
+   "title": "نینجا اسلاشی",
+   "feat": [
+    "نوشیدنی یخی",
+    "اسلاش خانگی",
+    "نینجا اسلاشی"
+   ],
+   "cat": "frozen",
+   "id": "NJ076",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ077",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "FS301",
+   "hero": "FS301/FS301_01.png",
+   "title": "نینجا اسلاشی",
+   "feat": [
+    "نوشیدنی یخی",
+    "اسلاش خانگی",
+    "نینجا اسلاشی"
+   ],
+   "cat": "frozen",
+   "id": "NJ077",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ078",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "FS301",
+   "hero": "FS301/FS301_01.png",
+   "title": "نینجا اسلاشی",
+   "feat": [
+    "نوشیدنی یخی",
+    "اسلاش خانگی",
+    "نینجا اسلاشی"
+   ],
+   "cat": "frozen",
+   "id": "NJ078",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ079",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ES601",
+   "hero": "ES601/ES601_01.png",
+   "title": "اسپرسوساز نینجا لوکس کافه پریمیر",
+   "feat": [
+    "۳ در ۱: اسپرسو، دریپ، کلدبرو",
+    "آسیاب ۲۵ درجه",
+    "فادر هندزفری"
+   ],
+   "cat": "coffee",
+   "id": "NJ079",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ080",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "ES601",
+   "hero": "ES601/ES601_01.png",
+   "title": "اسپرسوساز نینجا لوکس کافه پریمیر",
+   "feat": [
+    "۳ در ۱: اسپرسو، دریپ، کلدبرو",
+    "آسیاب ۲۵ درجه",
+    "فادر هندزفری"
+   ],
+   "cat": "coffee",
+   "id": "NJ080",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ081",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ES601",
+   "hero": "ES601/ES601_01.png",
+   "title": "اسپرسوساز نینجا لوکس کافه پریمیر",
+   "feat": [
+    "۳ در ۱: اسپرسو، دریپ، کلدبرو",
+    "آسیاب ۲۵ درجه",
+    "فادر هندزفری"
+   ],
+   "cat": "coffee",
+   "id": "NJ081",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ082",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ES501",
+   "hero": "ES501/ES501_01.jpg",
+   "title": "اسپرسوساز نینجا لوکس کافه اسنشال",
+   "feat": [
+    "لوکس کافه اسنشال",
+    "اسپرسوساز",
+    "بخار دستی"
+   ],
+   "cat": "coffee",
+   "id": "NJ082",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ083",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "white",
+   "code": "ES501",
+   "hero": "ES501/ES501_01.jpg",
+   "title": "اسپرسوساز نینجا لوکس کافه اسنشال",
+   "feat": [
+    "لوکس کافه اسنشال",
+    "اسپرسوساز",
+    "بخار دستی"
+   ],
+   "cat": "coffee",
+   "id": "NJ083",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ084",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "ES501",
+   "hero": "ES501/ES501_01.jpg",
+   "title": "اسپرسوساز نینجا لوکس کافه اسنشال",
+   "feat": [
+    "لوکس کافه اسنشال",
+    "اسپرسوساز",
+    "بخار دستی"
+   ],
+   "cat": "coffee",
+   "id": "NJ084",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ085",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "JC151",
+   "hero": "JC151/JC151_01.png",
+   "title": "آبمیوه‌گیری پرس سرد نینجا نِوِرکلاگ",
+   "feat": [
+    "پرس سرد",
+    "فناوری NeverClog",
+    "آبمیوه‌ی طبیعی"
+   ],
+   "cat": "juicer",
+   "id": "NJ085",
+   "style": "J1"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.15,
+     0.45
+    ],
+    [
+     "thump",
+     0.58,
+     0.65
+    ],
+    [
+     "pop_soft",
+     1.1,
+     0.4
+    ],
+    [
+     "shimmer",
+     1.25,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ086",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "code": "JC151",
+   "hero": "JC151/JC151_01.png",
+   "title": "آبمیوه‌گیری پرس سرد نینجا نِوِرکلاگ",
+   "feat": [
+    "پرس سرد",
+    "فناوری NeverClog",
+    "آبمیوه‌ی طبیعی"
+   ],
+   "cat": "juicer",
+   "id": "NJ086",
+   "style": "J2"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.3,
+     0.5
+    ],
+    [
+     "pop",
+     1.15,
+     0.5
+    ],
+    [
+     "pop",
+     2.05,
+     0.5
+    ],
+    [
+     "pop",
+     2.95,
+     0.5
+    ],
+    [
+     "shimmer",
+     3.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ087",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "code": "JC151",
+   "hero": "JC151/JC151_01.png",
+   "title": "آبمیوه‌گیری پرس سرد نینجا نِوِرکلاگ",
+   "feat": [
+    "پرس سرد",
+    "فناوری NeverClog",
+    "آبمیوه‌ی طبیعی"
+   ],
+   "cat": "juicer",
+   "id": "NJ087",
+   "style": "J3"
+  },
+  "audio": {
+   "bed": [
+    "rw_beat",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact",
+     0.15,
+     0.6
+    ],
+    [
+     "impact",
+     0.35,
+     0.55
+    ],
+    [
+     "thump",
+     0.75,
+     0.5
+    ],
+    [
+     "swish",
+     1.0,
+     0.5
+    ],
+    [
+     "pop",
+     1.3,
+     0.45
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ088",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "همه‌ی ایرفرایرهای نینجا",
+   "items": [
+    {
+     "code": "AF500",
+     "hero": "AF500/AF500_01.png",
+     "name": "ایرفرایر نینجا فلکس‌دراور"
+    },
+    {
+     "code": "AF400",
+     "hero": "AF400/AF400_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال"
+    },
+    {
+     "code": "AF300",
+     "hero": "AF300/AF300_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر"
+    },
+    {
+     "code": "AF180",
+     "hero": "AF180/AF180_01.png",
+     "name": "ایرفرایر نینجا مکس پرو"
+    },
+    {
+     "code": "AF170",
+     "hero": "AF170/AF170_01.png",
+     "name": "ایرفرایر نینجا مکس ایکس‌ال"
+    },
+    {
+     "code": "DZ300",
+     "hero": "DZ300/DZ300_01.png",
+     "name": "ایرفرایر دوسبد نینجا دوآل‌زون"
+    },
+    {
+     "code": "SL400",
+     "hero": "SL400/SL400_01.png",
+     "name": "ایرفرایر دوطبقه نینجا ۱۰ کوارت"
+    },
+    {
+     "code": "FN101",
+     "hero": "FN101/FN101_01.png",
+     "name": "نینجا کریسپی"
+    }
+   ],
+   "id": "NJ088",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "pop",
+     1.65,
+     0.45
+    ],
+    [
+     "pop",
+     1.87,
+     0.45
+    ],
+    [
+     "pop",
+     2.09,
+     0.45
+    ],
+    [
+     "shimmer",
+     2.56,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ089",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "مخلوط‌کن‌های نینجا",
+   "items": [
+    {
+     "code": "BN801",
+     "hero": "BN801/BN801_01.jpg",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ"
+    },
+    {
+     "code": "BN800",
+     "hero": "BN800/BN800_01.png",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس"
+    },
+    {
+     "code": "BN750",
+     "hero": "BN750/BN750_01.png",
+     "name": "مخلوط‌کن نینجا پروفشنال پلاس"
+    },
+    {
+     "code": "TB401",
+     "hero": "TB401/TB401_01.png",
+     "name": "سیستم آشپزخانه نینجا دیتکت"
+    },
+    {
+     "code": "TB301",
+     "hero": "TB301/TB301_01.png",
+     "name": "مخلوط‌کن نینجا دیتکت دوئو + لیوان شخصی"
+    },
+    {
+     "code": "BC251",
+     "hero": "BC251/BC251_01.png",
+     "name": "مخلوط‌کن بی‌سیم قابل‌حمل نینجا بلست مکس"
+    },
+    {
+     "code": "BC151",
+     "hero": "BC151/BC151_01.jpg",
+     "name": "مخلوط‌کن شخصی قابل‌حمل نینجا بلست"
+    }
+   ],
+   "id": "NJ089",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "pop",
+     1.65,
+     0.45
+    ],
+    [
+     "pop",
+     1.87,
+     0.45
+    ],
+    [
+     "shimmer",
+     2.34,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ090",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "پخت و پز هوشمند نینجا",
+   "items": [
+    {
+     "code": "SFP700",
+     "hero": "SFP700/SFP700_01.png",
+     "name": "نینجا کومبی"
+    },
+    {
+     "code": "ON400",
+     "hero": "ON400/ON400_01.png",
+     "name": "نینجا اسپیدی"
+    },
+    {
+     "code": "OL750",
+     "hero": "OL750/OL750_01.png",
+     "name": "مولتی‌کوکر اسمارت‌لید نینجا فودی"
+    },
+    {
+     "code": "OL550",
+     "hero": "OL550/OL550_01.png",
+     "name": "مولتی‌کوکر اسمارت‌لید نینجا فودی"
+    },
+    {
+     "code": "SP101",
+     "hero": "SP101/SP101_01.png",
+     "name": "فر توستر برگردان نینجا فودی ۸ در ۱"
+    }
+   ],
+   "id": "NJ090",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "shimmer",
+     1.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ091",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "گریل‌های نینجا",
+   "items": [
+    {
+     "code": "OG901",
+     "hero": "OG901/OG901_01.png",
+     "name": "نینجا وودفایر پرو کانکت ایکس‌ال"
+    },
+    {
+     "code": "OG850",
+     "hero": "OG850/OG850_01.png",
+     "name": "گریل و دودی برقی نینجا وودفایر ایکس‌ال"
+    },
+    {
+     "code": "OG701",
+     "hero": "OG701/OG701_01.png",
+     "name": "گریل و دودی برقی نینجا وودفایر ۷ در ۱"
+    },
+    {
+     "code": "DG551",
+     "hero": "DG551/DG551_01.png",
+     "name": "گریل و ایرفرایر نینجا فودی با پروب دما"
+    }
+   ],
+   "id": "NJ091",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "shimmer",
+     1.68,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ092",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "نوشیدنی، بستنی و قهوه",
+   "items": [
+    {
+     "code": "NC701",
+     "hero": "NC701/NC701_01.png",
+     "name": "نینجا کریمی سویرل"
+    },
+    {
+     "code": "FS301",
+     "hero": "FS301/FS301_01.png",
+     "name": "نینجا اسلاشی"
+    },
+    {
+     "code": "ES601",
+     "hero": "ES601/ES601_01.png",
+     "name": "اسپرسوساز نینجا لوکس کافه پریمیر"
+    },
+    {
+     "code": "ES501",
+     "hero": "ES501/ES501_01.jpg",
+     "name": "اسپرسوساز نینجا لوکس کافه اسنشال"
+    },
+    {
+     "code": "JC151",
+     "hero": "JC151/JC151_01.png",
+     "name": "آبمیوه‌گیری پرس سرد نینجا نِوِرکلاگ"
+    }
+   ],
+   "id": "NJ092",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "shimmer",
+     1.9,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ093",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "title": "نینجا هوم در رویال پارس",
+   "items": [
+    {
+     "code": "AF500",
+     "hero": "AF500/AF500_01.png",
+     "name": "ایرفرایر نینجا فلکس‌دراور"
+    },
+    {
+     "code": "BN801",
+     "hero": "BN801/BN801_01.jpg",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ"
+    },
+    {
+     "code": "OG701",
+     "hero": "OG701/OG701_01.png",
+     "name": "گریل و دودی برقی نینجا وودفایر ۷ در ۱"
+    },
+    {
+     "code": "ES601",
+     "hero": "ES601/ES601_01.png",
+     "name": "اسپرسوساز نینجا لوکس کافه پریمیر"
+    },
+    {
+     "code": "NC701",
+     "hero": "NC701/NC701_01.png",
+     "name": "نینجا کریمی سویرل"
+    },
+    {
+     "code": "FS301",
+     "hero": "FS301/FS301_01.png",
+     "name": "نینجا اسلاشی"
+    },
+    {
+     "code": "SFP700",
+     "hero": "SFP700/SFP700_01.png",
+     "name": "نینجا کومبی"
+    },
+    {
+     "code": "AF300",
+     "hero": "AF300/AF300_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر"
+    },
+    {
+     "code": "DG551",
+     "hero": "DG551/DG551_01.png",
+     "name": "گریل و ایرفرایر نینجا فودی با پروب دما"
+    }
+   ],
+   "id": "NJ093",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "pop",
+     1.65,
+     0.45
+    ],
+    [
+     "pop",
+     1.87,
+     0.45
+    ],
+    [
+     "pop",
+     2.09,
+     0.45
+    ],
+    [
+     "pop",
+     2.31,
+     0.45
+    ],
+    [
+     "shimmer",
+     2.78,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ094",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "red",
+   "k": 1,
+   "l1": "غرفه‌ی نینجا هوم",
+   "l2": "همکف، واحد ۴ — مرکز خرید رویال پارس",
+   "id": "NJ094",
+   "style": "K"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.35,
+     0.6
+    ],
+    [
+     "shimmer",
+     0.7,
+     0.5
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ095",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "white",
+   "k": 2,
+   "l1": "غرفه‌ی نینجا هوم",
+   "l2": "همکف، واحد ۴ — مرکز خرید رویال پارس",
+   "id": "NJ095",
+   "style": "K"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.35,
+     0.6
+    ],
+    [
+     "shimmer",
+     0.7,
+     0.5
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ096",
+  "grp": "v",
+  "duration": 6,
+  "params": {
+   "theme": "dark",
+   "k": 3,
+   "l1": "غرفه‌ی نینجا هوم",
+   "l2": "همکف، واحد ۴ — مرکز خرید رویال پارس",
+   "id": "NJ096",
+   "style": "K"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.35,
+     0.6
+    ],
+    [
+     "shimmer",
+     0.7,
+     0.5
+    ],
+    [
+     "whoosh_soft",
+     4.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ097",
+  "grp": "v",
+  "duration": 9,
+  "params": {
+   "theme": "white",
+   "box": "پیش‌خرید رویالی",
+   "items": [
+    {
+     "code": "AF500",
+     "hero": "AF500/AF500_01.png",
+     "name": "ایرفرایر نینجا فلکس‌دراور"
+    },
+    {
+     "code": "ES601",
+     "hero": "ES601/ES601_01.png",
+     "name": "اسپرسوساز نینجا لوکس کافه پریمیر"
+    },
+    {
+     "code": "BN801",
+     "hero": "BN801/BN801_01.jpg",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ"
+    },
+    {
+     "code": "OG701",
+     "hero": "OG701/OG701_01.png",
+     "name": "گریل و دودی برقی نینجا وودفایر ۷ در ۱"
+    },
+    {
+     "code": "NC701",
+     "hero": "NC701/NC701_01.png",
+     "name": "نینجا کریمی سویرل"
+    }
+   ],
+   "id": "NJ097",
+   "style": "J5"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "whoosh",
+     0.6,
+     0.4
+    ],
+    [
+     "whoosh",
+     1.8,
+     0.4
+    ],
+    [
+     "whoosh",
+     3.0,
+     0.4
+    ],
+    [
+     "whoosh",
+     4.2,
+     0.4
+    ],
+    [
+     "whoosh",
+     5.4,
+     0.4
+    ],
+    [
+     "pop",
+     0.85,
+     0.5
+    ],
+    [
+     "whoosh_soft",
+     7.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ098",
+  "grp": "v",
+  "duration": 7,
+  "params": {
+   "theme": "ry",
+   "k": 3,
+   "l1": "نینجا هوم در رویال ویک",
+   "l2": "۳ تا ۹ آذر — همکف، واحد ۴",
+   "pill": "رویال ویک",
+   "id": "NJ098",
+   "style": "K"
+  },
+  "audio": {
+   "bed": [
+    "lux_pad",
+    0.55
+   ],
+   "cues": [
+    [
+     "impact_soft",
+     0.35,
+     0.6
+    ],
+    [
+     "shimmer",
+     0.7,
+     0.5
+    ],
+    [
+     "whoosh_soft",
+     5.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ099",
+  "grp": "v",
+  "duration": 8,
+  "params": {
+   "theme": "dark",
+   "title": "هدیه‌ی آشپزخانه",
+   "items": [
+    {
+     "code": "AF300",
+     "hero": "AF300/AF300_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر"
+    },
+    {
+     "code": "ES601",
+     "hero": "ES601/ES601_01.png",
+     "name": "اسپرسوساز نینجا لوکس کافه پریمیر"
+    },
+    {
+     "code": "BN801",
+     "hero": "BN801/BN801_01.jpg",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ"
+    },
+    {
+     "code": "NC701",
+     "hero": "NC701/NC701_01.png",
+     "name": "نینجا کریمی سویرل"
+    },
+    {
+     "code": "FS301",
+     "hero": "FS301/FS301_01.png",
+     "name": "نینجا اسلاشی"
+    },
+    {
+     "code": "OG701",
+     "hero": "OG701/OG701_01.png",
+     "name": "گریل و دودی برقی نینجا وودفایر ۷ در ۱"
+    }
+   ],
+   "id": "NJ099",
+   "style": "J4"
+  },
+  "audio": {
+   "bed": [
+    "bright_pad",
+    0.5
+   ],
+   "cues": [
+    [
+     "pop",
+     0.55,
+     0.45
+    ],
+    [
+     "pop",
+     0.77,
+     0.45
+    ],
+    [
+     "pop",
+     0.99,
+     0.45
+    ],
+    [
+     "pop",
+     1.21,
+     0.45
+    ],
+    [
+     "pop",
+     1.43,
+     0.45
+    ],
+    [
+     "pop",
+     1.65,
+     0.45
+    ],
+    [
+     "shimmer",
+     2.12,
+     0.35
+    ],
+    [
+     "whoosh_soft",
+     6.0,
+     0.3
+    ]
+   ]
+  }
+ },
+ {
+  "tag": "NJ100",
+  "grp": "tv",
+  "duration": 20,
+  "params": {
+   "theme": "white",
+   "title": "نینجا هوم — رویال پارس",
+   "items": [
+    {
+     "code": "AF500",
+     "hero": "AF500/AF500_01.png",
+     "name": "ایرفرایر نینجا فلکس‌دراور"
+    },
+    {
+     "code": "AF400",
+     "hero": "AF400/AF400_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی مکس ایکس‌ایکس‌ایکس‌ال"
+    },
+    {
+     "code": "AF300",
+     "hero": "AF300/AF300_01.png",
+     "name": "ایرفرایر دوسبد نینجا فودی دوآل‌زون ۷.۶ لیتر"
+    },
+    {
+     "code": "AF180",
+     "hero": "AF180/AF180_01.png",
+     "name": "ایرفرایر نینجا مکس پرو"
+    },
+    {
+     "code": "AF170",
+     "hero": "AF170/AF170_01.png",
+     "name": "ایرفرایر نینجا مکس ایکس‌ال"
+    },
+    {
+     "code": "DZ300",
+     "hero": "DZ300/DZ300_01.png",
+     "name": "ایرفرایر دوسبد نینجا دوآل‌زون"
+    },
+    {
+     "code": "SL400",
+     "hero": "SL400/SL400_01.png",
+     "name": "ایرفرایر دوطبقه نینجا ۱۰ کوارت"
+    },
+    {
+     "code": "FN101",
+     "hero": "FN101/FN101_01.png",
+     "name": "نینجا کریسپی"
+    },
+    {
+     "code": "BN801",
+     "hero": "BN801/BN801_01.jpg",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس با Auto-iQ"
+    },
+    {
+     "code": "BN800",
+     "hero": "BN800/BN800_01.png",
+     "name": "سیستم آشپزخانه نینجا پروفشنال پلاس"
+    },
+    {
+     "code": "BN750",
+     "hero": "BN750/BN750_01.png",
+     "name": "مخلوط‌کن نینجا پروفشنال پلاس"
+    },
+    {
+     "code": "TB401",
+     "hero": "TB401/TB401_01.png",
+     "name": "سیستم آشپزخانه نینجا دیتکت"
+    }
+   ],
+   "id": "NJ100",
+   "style": "J6"
+  },
+  "audio": null
+ }
+]

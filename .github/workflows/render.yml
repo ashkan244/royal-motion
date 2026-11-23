@@ -105,6 +105,12 @@ jobs:
         run: |
           python3 -m pip install --quiet --break-system-packages edge-tts
           M="${{ matrix.model }}"; python3 scripts/tts.py --group "${M#V3}"
+      - name: Ninja product images (brand CDN, not stored in git)
+        if: startsWith(matrix.model, 'NJ')
+        run: |
+          python3 -m pip install --quiet --break-system-packages pillow
+          python3 scripts/ninja_fetch.py
+          du -sh assets/img/ninja
       - name: Build compositions
         run: node scripts/build.mjs --only "${{ matrix.model }}" --aspects "${{ inputs.aspects || '9x16,4x5,16x9' }}"
       - name: Render
@@ -164,6 +170,13 @@ jobs:
             ls -la Royal_Week_Stories_120.zip days
             gh release upload "${{ steps.rel.outputs.tag }}" Royal_Week_Stories_120.zip days/*.zip --clobber
           fi
+      - name: Ninja Home pack (100 motions)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p nj
+          find out -name 'NJ*.mp4' -exec cp {} nj/ \;
+          if [ -n "$(ls -A nj)" ]; then (cd nj && zip -q -r -0 ../Ninja_Home_100.zip .); gh release upload "${{ steps.rel.outputs.tag }}" Ninja_Home_100.zip --clobber; ls -la Ninja_Home_100.zip; fi
       - name: Stories v3 packs (100 + voiced 50)
         env:
           GH_TOKEN: ${{ github.token }}
